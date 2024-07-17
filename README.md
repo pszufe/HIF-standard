@@ -18,6 +18,16 @@ Initial assumptions about the core of the HIF data format:
 
 
 
+### Hypergraph tools and packages represented
+
+The authors and co-authors of the following software libraries are represented:
+- [HypergraphX](https://github.com/HGX-Team/hypergraphx) (Python)
+- [HyperNetX](https://github.com/pnnl/HyperNetX) (Python)
+- [NetworkX](https://networkx.org/) (Python)
+- [XGI](https://github.com/xgi-org/xgi) (Python)
+- [SimpleHypergraphs.jl](https://github.com/pszufe/SimpleHypergraphs.jl) (Julia)
+
+### Contributors
 This project is an ongoing colaborative work of the following people (alphabetical order):
 - [Audun Myers](https://www.audunmyers.com/) (Pacific Northwest National Laboratory) 
 - [Brenda Praggastis](https://www.pnnl.gov/people/brenda-praggastis)  (Pacific Northwest National Laboratory)
@@ -27,9 +37,3 @@ This project is an ongoing colaborative work of the following people (alphabetic
 - [Martín Coll](https://about.me/mcoll)  (University of Buenos Aires)
 - [Przemyslaw Szufel](https://szufel.pl/) (SGH Warsaw School of Economics)
 
-The authors and co-authors of the following software libraries are represented:
-- [HypergraphX](https://github.com/HGX-Team/hypergraphx) (Python)
-- [HyperNetX](https://github.com/pnnl/HyperNetX) (Python)
-- [NetworkX](https://networkx.org/) (Python)
-- [XGI](https://github.com/xgi-org/xgi) (Python)
-- [SimpleHypergraphs.jl](https://github.com/pszufe/SimpleHypergraphs.jl) (Julia)
