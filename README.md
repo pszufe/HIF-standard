@@ -27,8 +27,8 @@ This project is an ongoing colaborative work of the following people (alphabetic
 - [Przemyslaw Szufel](https://szufel.pl/) (SGH Warsaw School of Economics)
 
 The authors and co-authors of the following software libraries are represented:
-- Julia: [SimpleHypergraphs.jl](https://github.com/pszufe/SimpleHypergraphs.jl)
-- Python: [HypergraphX](https://github.com/HGX-Team/hypergraphx)
-- Python: [HyperNetX](https://github.com/pnnl/HyperNetX)
-- Python: [NetworkX](https://networkx.org/)
-- Python: [XGI](https://github.com/xgi-org/xgi)
+- [HypergraphX](https://github.com/HGX-Team/hypergraphx) (Python)
+- [HyperNetX](https://github.com/pnnl/HyperNetX) (Python)
+- [NetworkX](https://networkx.org/) (Python)
+- [XGI](https://github.com/xgi-org/xgi) (Python)
+- [SimpleHypergraphs.jl](https://github.com/pszufe/SimpleHypergraphs.jl) (Julia)
