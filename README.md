@@ -1,8 +1,9 @@
-# A set of Hypergraph Exchange Format (HIF) specs & validators
+## A set of Hypergraph Exchange Format (HIF) specification & validators
+(Work-in-progress)
 
 Hypergraph Exchange Format (HIF) is a forthcoming standardard for data exchange of the existing hypergaph libraries. 
 
-Initial guess about the planned data format:
+Initial assumptions about the core of the HIF data format:
 ```
  "network-type": "hypergraph",
 "metadata": {"name": "test"},
