@@ -5,7 +5,7 @@ Hypergraph Exchange Format (HIF) is a forthcoming standardard for data exchange 
 
 Initial assumptions about the core of the HIF data format:
 ```
- "network-type": "hypergraph",
+"network-type": "hypergraph",
 "metadata": {"name": "test"},
 "incidences":[[2, 1, {"weight": "test", etc.}]],
 "nodes":[[1, {"name": "test"}]],
