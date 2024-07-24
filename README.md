@@ -20,7 +20,7 @@ Initial assumptions about the core of the HIF data format:
 
 ### Hypergraph tools and packages represented
 
-The authors and co-authors of the following software libraries are represented:
+The authors, co-authors or contributors of the following software libraries are represented:
 - [HypergraphX](https://github.com/HGX-Team/hypergraphx) (Python)
 - [HyperNetX](https://github.com/pnnl/HyperNetX) (Python)
 - [NetworkX](https://networkx.org/) (Python)
@@ -35,5 +35,6 @@ This project is an ongoing colaborative work of the following people (alphabetic
 - [Cliff Joslyn](https://www.pnnl.gov/people/cliff-joslyn) (Pacific Northwest National Laboratory)
 - [Francesco Lotito](https://scholar.google.it/citations?user=_r_zQAwAAAAJ&hl=en) (University of Trento)
 - [Martín Coll](https://about.me/mcoll)  (University of Buenos Aires)
+- [Nicholas Landry](https://nwlandry.com/) (University of Virginia) 
 - [Przemyslaw Szufel](https://szufel.pl/) (SGH Warsaw School of Economics)
 
