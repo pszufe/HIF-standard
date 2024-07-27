@@ -51,7 +51,7 @@ if "edges" in data:
         if not isinstance(record[1], dict):
             raise Exception(f"The edge attributes must be dict-like.")
 
-for i, record in enumerate(data["edges"]):
+for i, record in enumerate(data["incidences"]):
     if len(record) != 3:
         raise Exception(
             f"Each incidence record must have three entries: an edge ID, a node ID, and the dictionary of corresponding attributes."
