@@ -39,8 +39,10 @@ fields = {"network-type", "metadata", "nodes", "edges", "incidences"}
 if not set(data).issubset(fields):
     status = 1
     if verbose:
+        field_names = ", ".join(fields)
+        new_field_names = ", ".join(set(data))
         print(
-            f"Acceptable field names are: {", ".join(fields)}\nand the field names are {", ".join(set(data))}"
+            f"Acceptable field names are: {field_names}\nand the field names are {new_field_names}"
         )
 
 # incidences are required
@@ -56,8 +58,9 @@ if "network-type" in data:
         status = 1
 
         if verbose:
+            network_types = ", ".join(network_types)
             print(
-                f"Unsupported network type. Valid types are: {", ".join(network_types)}"
+                f"Unsupported network type. Valid types are: {network_types}"
             )
 
 # check network metadata
