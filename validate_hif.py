@@ -1,22 +1,29 @@
-import json
 import sys
+import json
 from collections import defaultdict
+
+import fastjsonschema
 
 # 0 - OK, 1 - bad JSON
 status = 0
 
-# network parameters
-filename = sys.argv[1]
 
 if len(sys.argv) > 2 and sys.argv[2] == "--silent":
     verbose = False
 else:
     verbose = True
 
+# network parameters
+filename = "lesmis-hif.json"
+schema_filename = "hif_schema.json"
 
-with open(filename) as file:
+
+
+with open(filename) as file, open(schema_filename) as schema_file:
     # load JSON file
-    data = json.loads(file.read())
+    validate_schema = fastjsonschema.compile(json.load(schema_file))
+    data = json.load(file)
+    validate_schema(data)
 
 # check that keys do not deviate from the standard field names
 # DESCRIPTIONS OF THE FIELDS
