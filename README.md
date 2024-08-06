@@ -16,6 +16,15 @@ Initial assumptions about the core of the HIF data format:
 - If a hypergraph is, for instance, directed, the edge direction will be contained in the attribute dictionary.
 - Isolated nodes and empty edges by entries in "nodes" and "edges" which are not present in the incidences.
 
+### Table of contents for this folder
+
+- *HIF_schemas.ipynb* - 
+- *hif_schema.json* - Initial JSONSchema
+- *hif_schema1.json*
+- *hif_schema2.json*
+- *lesmis-hif.json* - Reduced Les Miserables example
+	
+
 ### Validate files against the HIF standard
 
 To check if a file follows the HIF standard, run the following command:
