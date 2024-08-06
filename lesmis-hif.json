@@ -1,0 +1,33 @@
+{
+    "edges": [
+        [
+            "5.1.8.0.338",
+            {
+                "uid": "5.1.8.0.338",
+                "weight": 1,
+                "misc_properties": {}
+            }
+        ]
+    ],
+    "nodes": [
+        [
+            "MY",
+            {
+                "uid": "MY",
+                "weight": 1,
+                "FullName": "Monsieur Charles Fran\\c{c}ois Bienvenu Myriel",
+                "Description": " Bishop of D--",
+                "misc_properties": {}
+            }
+        ]
+    ],
+    "incidences": [
+        [
+            "1.1.1.0.0",
+            "MY",
+            {}
+        ]
+    ],
+    "network-type": "asc",
+    "metadata": {}
+}
