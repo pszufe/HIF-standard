@@ -18,27 +18,27 @@ Initial assumptions about the core of the HIF data format:
 
 ### Table of contents for this folder
 
-- *HIF_schemas.ipynb* - 
-- *hif_schema.json* - Initial JSONSchema
-- *hif_schema1.json*
-- *hif_schema2.json*
-- *lesmis-hif.json* - Reduced Les Miserables example
+This repository is organized into three folders:
+* `examples`: This folder contains examples of higher-order datasets in the HIF standard. For details of its contents, see the [README](/examples/EXAMPLES.md).
+* `schemas`: This folder contains all schemas used for specifying the HIF standard. For details of its contents, see the [README](/schemas/SCHEMAS.md).
+* `scripts`: This folder contains scripts for checking that datasets match the HIF standard. For details of its contents, see the [README](/scripts/SCRIPTS.md).
+
+- *HIF_schemas.ipynb*:
+- *validate_hif.py*: This Python command line executable checks whether a JSON file matches the HIF standard. All errors print to the command line. More details on running this are in the [next section](#validate-files-against-the-hif-standard).
 	
 
 ### Validate files against the HIF standard
-
-To check if a file follows the HIF standard, run the following command:
-
+*validate_hif.py* is an executable that checks whether a file follows the HIF standard. It can be run as follows:
 ```python
-python validate_hif.py filepath.json
+python validate_hif.py <filename> [OPTIONS]
 ```
+The only option is `--silent`, which suppresses all detailed warnings. Regardless, the script prints a 0 if the JSON file passes the HIF standard and 1 otherwise.
 
 ### Hypergraph tools and packages represented
 
 The authors, co-authors or contributors of the following software libraries are represented:
 - [HypergraphX](https://github.com/HGX-Team/hypergraphx) (Python)
 - [HyperNetX](https://github.com/pnnl/HyperNetX) (Python)
-- [NetworkX](https://networkx.org/) (Python)
 - [XGI](https://github.com/xgi-org/xgi) (Python)
 - [SimpleHypergraphs.jl](https://github.com/pszufe/SimpleHypergraphs.jl) (Julia)
 
