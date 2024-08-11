@@ -1,5 +1,5 @@
-import sys
 import json
+import sys
 from collections import defaultdict
 
 import fastjsonschema
@@ -16,7 +16,6 @@ else:
 # network parameters
 filename = "lesmis-hif.json"
 schema_filename = "hif_schema.json"
-
 
 
 with open(filename) as file, open(schema_filename) as schema_file:
@@ -66,9 +65,7 @@ if "network-type" in data:
 
         if verbose:
             network_types = ", ".join(network_types)
-            print(
-                f"Unsupported network type. Valid types are: {network_types}"
-            )
+            print(f"Unsupported network type. Valid types are: {network_types}")
 
 # check network metadata
 if "metadata" in data:

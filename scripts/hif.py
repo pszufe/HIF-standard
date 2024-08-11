@@ -1,6 +1,6 @@
 import json
-from warnings import warn
 from collections import defaultdict
+from warnings import warn
 
 
 def validate_hif(path):
