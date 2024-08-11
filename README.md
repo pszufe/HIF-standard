@@ -24,6 +24,7 @@ This repository is organized into three folders:
 * `scripts`: This folder contains scripts for checking that datasets match the HIF standard. For details of its contents, see the [README](/scripts/SCRIPTS.md).
 
 - *HIF_schemas.ipynb*:
+- *validate_hif.py*: This Python command line executable checks whether a JSON file matches the HIF standard. All errors print to the command line. More details on running this are in the [next section](#validate-files-against-the-hif-standard).
 	
 
 ### Validate files against the HIF standard
