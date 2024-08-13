@@ -1,20 +1,30 @@
 ## A set of Hypergraph Exchange Format (HIF) specification & validators
 (Work-in-progress)
 
-Hypergraph Exchange Format (HIF) is a forthcoming standardard for data exchange of the existing hypergaph libraries. 
+Hypergraph Exchange Format (HIF) is a forthcoming standard for data exchange between the existing hypergaph libraries. 
 
 Initial assumptions about the core of the HIF data format:
 ```
-"network-type": "hypergraph",
-"metadata": {"name": "test"},
-"incidences":[[2, 1, {"weight": "test", etc.}]],
-"nodes":[[1, {"name": "test"}]],
-"edges":[[2, {"timestamp": "2024-06-16"}]],
+{
+"network-type": "undirected", # will indicate if directed or an asc
+"metadata": {"name": "test"}, # library specific metadata to store with object
+"incidences":[{"edge":edge_id, "node":node_id,...},...], # incidences are lists of records of edge node pairs along with the edge dependent node properties
+"nodes":[{"node":node_id,...},...] # nodes and edges are lists of records
+"edges":[{"edge":edge_id,...},...],
+}
 ```
-- All fields are optional except for "incidences". If there are no attributes associated with each incidence, it is an empty dictionary.
-- The first two fields of each incidence record are edge, node IDs.
-- If a hypergraph is, for instance, directed, the edge direction will be contained in the attribute dictionary.
-- Isolated nodes and empty edges by entries in "nodes" and "edges" which are not present in the incidences.
+- All fields are optional except for "incidences". 
+- Keywords are indicated in the schema, these include:
+    - incidences
+    - nodes
+    - edges
+    - weight
+    - network-type
+    - **network types** : undirected, directed, asc
+    - direction
+    - **direction keywords** : head, tail
+- If a hypergraph is, for instance, directed, the edge direction will be contained in the incidences record with keyword "direction".
+- Isolated nodes and empty edges are entries in "nodes" and "edges" which are not present in the incidences.
 
 ### Table of contents for this folder
 
@@ -23,7 +33,6 @@ This repository is organized into three folders:
 * `schemas`: This folder contains all schemas used for specifying the HIF standard. For details of its contents, see the [README](/schemas/SCHEMAS.md).
 * `scripts`: This folder contains scripts for checking that datasets match the HIF standard. For details of its contents, see the [README](/scripts/SCRIPTS.md).
 
-- *HIF_schemas.ipynb*:
 - *validate_hif.py*: This Python command line executable checks whether a JSON file matches the HIF standard. All errors print to the command line. More details on running this are in the [next section](#validate-files-against-the-hif-standard).
 	
 
