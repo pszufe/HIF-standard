@@ -24,6 +24,9 @@
                         "weight": {
                             "type":"number"
                         },
+                        "direction": {
+                            "enum": ["head","tail"]
+                        },
                         "unevaluatedProperties": {
                             "type": "object"
                         }
