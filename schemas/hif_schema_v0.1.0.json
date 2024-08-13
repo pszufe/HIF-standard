@@ -3,40 +3,77 @@
     "$id": "https://raw.githubusercontent.com/pszufe/HIF_validators/main/schemas/hif_schema_v0.1.0.json",
     "title": "Schema for Hypergraph Interchange Format - HIF",
     "type": "object",
-    "properties": {
+    "properties":{
         "network-type": {
-            "type": "string"
+            "enum": ["undirected","directed","asc"]           
         },
         "metadata": {
-            "type": "object"
+            "type":"object"
         },
-        "incidences": {
-            "type": "array",
-            "items": {
-                "type": "array",
-                "items": [
-                    { "type": [ "string", "integer" ] },
-                    { "type": [ "string", "integer" ] },
-                    { "type": "object" }
-                ]
-            }
+        "incidences":{
+            "type":"array",
+                "items": {
+                    "type":"object",
+                    "properties":{
+                        "edge": {
+                            "type": ["string","integer"]
+                        },
+                        "node":{
+                            "type": ["string","integer"]
+                        },
+                        "weight": {
+                            "type":"number"
+                        },
+                        "direction": {
+                            "enum": ["head","tail"]
+                        },
+                        "attr": {
+                            "type": "object"
+                        },
+                        "unevaluatedProperties": false
+                    },
+                    "required" : ["edge","node"]            
+                }
         },
         "nodes": {
-            "type": "array",
-            "prefixItems": [
-                { "type": [ "string", "integer" ] },
-                { "type": "object" }
-            ]
-        },
+            "type":"array",
+            "items":{
+                "type":"object",
+                "properties":{
+                    "node":{
+                        "type": ["string","integer"]
+                    },
+                    "weight": {
+                        "type":"number"
+                    },
+                    "attr": {
+                        "type": "object"
+                    } ,                    
+                    "unevaluatedProperties": false              
+                },
+                "required":["node"]
+            }
+        },              
         "edges": {
-            "type": "array",
-            "prefixItems": [
-                { "type": [ "string", "integer" ] },
-                { "type": "object" }
-            ]
-        }
+            "type":"array",
+            "items":{
+                "type":"object",
+                "properties":{
+                    "edge":{
+                        "type": ["string","integer"]
+                    },
+                    "weight": {
+                        "type":"number"
+                    },
+                    "attr": {
+                        "type": "object"
+                    } ,                    
+                    "unevaluatedProperties": false              
+                },
+                "required":["edge"]
+            }
+        },
+        "unevaluatedProperties": false
     },
-    "required": [
-        "incidences"
-    ]
+    "required": ["incidences"]
 }
