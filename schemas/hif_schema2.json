@@ -27,9 +27,10 @@
                         "direction": {
                             "enum": ["head","tail"]
                         },
-                        "unevaluatedProperties": {
+                        "attr": {
                             "type": "object"
-                        }
+                        },
+                        "unevaluatedProperties": false
                     },
                     "required" : ["edge","node"]            
                 }
@@ -45,9 +46,10 @@
                     "weight": {
                         "type":"number"
                     },
-                    "unevaluatedProperties": {
+                    "attr": {
                         "type": "object"
-                    }                
+                    } ,                    
+                    "unevaluatedProperties": false              
                 },
                 "required":["node"]
             }
@@ -63,9 +65,10 @@
                     "weight": {
                         "type":"number"
                     },
-                    "unevaluatedProperties": {
+                    "attr": {
                         "type": "object"
-                    }                
+                    } ,                    
+                    "unevaluatedProperties": false              
                 },
                 "required":["edge"]
             }
