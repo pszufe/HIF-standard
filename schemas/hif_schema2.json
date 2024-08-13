@@ -5,8 +5,7 @@
     "type": "object",
     "properties":{
         "network-type": {
-            "type":"string",
-            "oneOf": ["undirected","directed","asc"]           
+            "enum": ["undirected","directed","asc"]           
         },
         "metadata": {
             "type":"object"
@@ -70,6 +69,5 @@
         },
         "unevaluatedProperties": false
     },
-    ""
-    "required": ["incidences"] ,
+    "required": ["incidences"]
 }
