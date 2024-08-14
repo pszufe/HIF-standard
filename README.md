@@ -43,6 +43,17 @@ python validate_hif.py <filename> [OPTIONS]
 ```
 The only option is `--silent`, which suppresses all detailed warnings. Regardless, the script prints a 0 if the JSON file passes the HIF standard and 1 otherwise.
 
+### Validate files using HIF standard with fastjsonschema in python module
+```python
+import fastjsonschema
+import json
+
+schema = json.load(open("hif_schema_v0.1.0.json","r"))
+validator = fastjsonschema.compile(schema)
+hiftext = json.load(open(filename,'r'))
+validator(hiftext)
+```
+
 ### Hypergraph tools and packages represented
 
 The authors, co-authors or contributors of the following software libraries are represented:
