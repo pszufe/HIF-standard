@@ -10,5 +10,5 @@ Jupyter `%%timeit ` returns for generating hif format from various libraries usi
 
 | library.method    | HGX-data/contacts-high-school.json |                    
 |-------------------|------------------------------------|
-| hnx.to_hif        |  16.5 ms ± 229 μs                  |  
-| hnx.from_hif      |  22.9 ms ± 554 µs                  |  
+| hnx.to_hif        |  0.01768 ns                        |  
+| hnx.from_hif      |  0.02658 ns                        |  

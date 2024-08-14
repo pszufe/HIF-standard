@@ -1,0 +1,6 @@
+13/08/24 17:22:10 :  Begin Run
+hnx_high_school  0.15066 ns
+hnx_to_hif high_school  0.01768 ns
+hnx_from_hif high_school  0.02658 ns
+13/08/24 17:22:11 :  Run Complete 
+
