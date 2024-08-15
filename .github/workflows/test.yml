@@ -1,4 +1,4 @@
-name: Test Schema
+name: Test schema
 
 on:
   push:
@@ -28,5 +28,4 @@ jobs:
     - name: Test schema
       run: |
         # run test suite
-        cd tests/
         pytest --color=yes
