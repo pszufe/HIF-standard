@@ -1,13 +1,17 @@
 import json
 
 import pytest
+import requests
 
-schema_location = "schemas/hif_schema_v0.1.0.json"
+schema_location = "https://raw.githubusercontent.com/pszufe/HIF_validators/main/schemas/hif_schema_v0.1.0.json"
 
 
 @pytest.fixture
 def schema():
-    return json.load(open(schema_location, "r"))
+    r = requests.get(schema_location)
+
+    if r.ok:
+        return r.json()
 
 
 @pytest.fixture
