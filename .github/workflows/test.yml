@@ -1,0 +1,31 @@
+name: Test schema
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.12"
+
+    - name: Install packages
+      run: |
+        python -m pip install --upgrade pip wheel setuptools
+        python -m pip install -r requirements.txt
+        python -m pip list
+
+    - name: Test schema
+      run: |
+        # run test suite
+        pytest --color=yes
