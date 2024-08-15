@@ -16,4 +16,4 @@ def schema():
 
 @pytest.fixture
 def empty_file():
-    return json.load(open("tests/test_files/empty.json", "r"))
+    return json.load(open("test_files/empty.json", "r"))
