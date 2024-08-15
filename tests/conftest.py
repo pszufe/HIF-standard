@@ -16,5 +16,20 @@ def schema():
 
 
 @pytest.fixture
-def empty_file():
+def empty():
     return json.load(open(f"{json_dir}/empty.json", "r"))
+
+
+@pytest.fixture
+def bad_top_level_field():
+    return json.load(open(f"{json_dir}/bad_top_level_field.json", "r"))
+
+
+@pytest.fixture
+def metadata_as_list():
+    return json.load(open(f"{json_dir}/metadata_as_list.json", "r"))
+
+
+@pytest.fixture
+def empty_hypergraph():
+    return json.load(open(f"{json_dir}/empty_hypergraph.json", "r"))
