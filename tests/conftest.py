@@ -2,18 +2,15 @@ import json
 
 import pytest
 import requests
+import fastjsonschema
 
-schema_location = "https://raw.githubusercontent.com/pszufe/HIF_validators/main/schemas/hif_schema_v0.1.0.json"
+schema = "schemas/hif_schema_v0.1.0.json"
 json_dir = "tests/test_files"
 
 
 @pytest.fixture
-def schema():
-    r = requests.get(schema_location)
-
-    if r.ok:
-        return r.json()
-
+def validator():
+    return fastjsonschema.compile(json.load(open(schema)))
 
 @pytest.fixture
 def empty():
