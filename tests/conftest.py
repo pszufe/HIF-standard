@@ -21,6 +21,10 @@ def single_node():
     return json.load(open(f"{json_dir}/single_node.json", "r"))
 
 @pytest.fixture
+def single_edge():
+    return json.load(open(f"{json_dir}/single_edge.json", "r"))
+
+@pytest.fixture
 def bad_top_level_field():
     return json.load(open(f"{json_dir}/bad_top_level_field.json", "r"))
 

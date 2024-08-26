@@ -25,6 +25,10 @@ def test_single_node(validator, single_node):
     validator(single_node)
 
 
+def test_single_edge(validator, single_edge):
+    validator(single_edge)
+
+
 def test_metadata_as_list(validator, metadata_as_list):
     with pytest.raises(ValueError):
         validator(metadata_as_list)
