@@ -16,6 +16,9 @@ def validator():
 def empty():
     return json.load(open(f"{json_dir}/empty.json", "r"))
 
+@pytest.fixture
+def single_node():
+    return json.load(open(f"{json_dir}/single_node.json", "r"))
 
 @pytest.fixture
 def bad_top_level_field():
@@ -25,6 +28,11 @@ def bad_top_level_field():
 @pytest.fixture
 def bad_network_type():
     return json.load(open(f"{json_dir}/bad_network_type.json", "r"))
+
+
+@pytest.fixture
+def bad_node_without_id():
+    return json.load(open(f"{json_dir}/bad_node_without_id.json", "r"))
 
 
 @pytest.fixture
