@@ -29,6 +29,10 @@ def test_single_edge(validator, single_edge):
     validator(single_edge)
 
 
+def test_single_incidence(validator, single_incidence):
+    validator(single_incidence)
+
+
 def test_metadata_as_list(validator, metadata_as_list):
     with pytest.raises(ValueError):
         validator(metadata_as_list)
