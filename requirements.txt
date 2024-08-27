@@ -1,3 +1,4 @@
 fastjsonschema
+networkx
 pytest
 requests
