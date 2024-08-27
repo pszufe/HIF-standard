@@ -16,6 +16,17 @@ def validator():
 def empty():
     return json.load(open(f"{json_dir}/empty.json", "r"))
 
+@pytest.fixture
+def single_node():
+    return json.load(open(f"{json_dir}/single_node.json", "r"))
+
+@pytest.fixture
+def single_edge():
+    return json.load(open(f"{json_dir}/single_edge.json", "r"))
+
+@pytest.fixture
+def single_incidence():
+    return json.load(open(f"{json_dir}/single_incidence.json", "r"))
 
 @pytest.fixture
 def bad_top_level_field():

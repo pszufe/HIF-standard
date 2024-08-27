@@ -15,8 +15,10 @@ def validate_hif(path):
     info["valid-field-names"] = 0
     fields = {"network-type", "metadata", "nodes", "edges", "incidences"}
     if not set(data).issubset(fields):
+        fields = ", ".join(fields)
+        data = ", ".join(set(data))
         warn(
-            f"Acceptable field names are: {", ".join(fields)}\nand the field names are {", ".join(set(data))}"
+            f"Acceptable field names are: {fields}\nand the field names are {data}"
         )
         info["valid-field-names"] = 1
 
@@ -33,8 +35,9 @@ def validate_hif(path):
     network_types = {"asc", "undirected", "directed"}
     if "network-type" in data:
         if data["network-type"] not in network_types:
+            network_types = ", ".join(network_types)
             warn(
-                f"Unsupported network type. Valid types are: {", ".join(network_types)}"
+                f"Unsupported network type. Valid types are: {network_types}"
             )
             info["valid-network-type"] = 1
 
