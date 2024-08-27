@@ -8,6 +8,7 @@ from collections import defaultdict
 from typing import Dict
 from warnings import warn
 
+#pylint:disable=missing-function-docstring
 def validate_network_type(data, verbose : bool):
     if (
         "network-type" in data
@@ -16,7 +17,7 @@ def validate_network_type(data, verbose : bool):
     ):
         for _i, record in enumerate(data["incidences"]):
             if "direction" not in record[2]:
-                status = 1
+                _status = 1
                 if verbose:
                     print(
                         "".join(["Each incidence record must have have",
@@ -38,8 +39,11 @@ def validate_network_type(data, verbose : bool):
                             "Only maximal faces should be stored for simplicial complexes."
                     )
 
+type SpecificationPart = str
+type StatusCode = int
+
 #pylint:disable=too-many-branches,too-many-statements
-def validate_hif(path) -> Dict[str,int]:
+def validate_hif(path) -> Dict[SpecificationPart,StatusCode]:
     """
     a dictionary specifying whether every part of the HIF specification is followed
     for the file with the given path
@@ -50,7 +54,7 @@ def validate_hif(path) -> Dict[str,int]:
         data = json.loads(file.read())
 
     # dictionary to store statuses
-    info = {}
+    info : Dict[SpecificationPart,StatusCode] = {}
 
     # check that keys do not deviate from the standard field names
     info["valid-field-names"] = 0
@@ -65,14 +69,12 @@ def validate_hif(path) -> Dict[str,int]:
 
     # incidences are required; check that they exist
     info["incidences-exist"] = 0
-
     if "incidences" not in data:
         warn("The file must contain an field for incidences.")
         info["incidences-exist"] = 1
 
     # check network type
     info["valid-network-type"] = 0
-
     network_types = {"asc", "undirected", "directed"}
     if "network-type" in data:
         if data["network-type"] not in network_types:
@@ -84,7 +86,6 @@ def validate_hif(path) -> Dict[str,int]:
 
     # check network metadata
     info["metadata-dict"] = 0
-
     if "metadata" in data:
         if not isinstance(data["metadata"], dict):
             warn("The metadata must be dict-like.")
@@ -93,7 +94,6 @@ def validate_hif(path) -> Dict[str,int]:
     # check node attributes
     info["node-record-length"] = 0
     info["node-attr-dict"] = 0
-
     if "nodes" in data:
         for _i, record in enumerate(data["nodes"]):
             if len(record) != 2:
@@ -110,7 +110,6 @@ def validate_hif(path) -> Dict[str,int]:
     # check edge attributes
     info["edge-record-length"] = 0
     info["edge-attr-dict"] = 0
-
     if "edges" in data:
         for _i, record in enumerate(data["edges"]):
             if len(record) != 2:
