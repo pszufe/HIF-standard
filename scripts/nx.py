@@ -1,6 +1,13 @@
+"""
+convert to a networkx Graph
+"""
+
 import networkx as nx
 
 def from_hif(data) -> nx.Graph:
+    """
+    convert to a networkx Graph
+    """
     g = nx.Graph()
     for n in data.get("nodes", []):
         g.add_node(n["node"], bipartite=0, weight=n.get("weight", 0))

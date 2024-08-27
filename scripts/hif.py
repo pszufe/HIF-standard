@@ -1,9 +1,50 @@
+"""
+this script provides a function `validate_hif`
+which returns a dictionary specifying whether every part of the HIF specification is followed.
+"""
+
 import json
 from collections import defaultdict
+from typing import Dict
 from warnings import warn
 
+def validate_network_type(data, verbose : bool):
+    if (
+        "network-type" in data
+        and data["network-type"] == "directed"
+        and "incidences" in data
+    ):
+        for _i, record in enumerate(data["incidences"]):
+            if "direction" not in record[2]:
+                status = 1
+                if verbose:
+                    print(
+                        "".join(["Each incidence record must have have",
+                                 "the 'direction' attribute for directed hypergraphs."])
+                    )
 
-def validate_hif(path):
+    # in the case of simplicial complexes, make sure that the edges are maximal
+    if "network-type" in data and data["network-type"] == "asc" and "incidences" in data:
+        edgedict = defaultdict(set)
+        for record in data["incidences"]:
+            e = record[0]
+            n = record[1]
+            edgedict[e].add(n)
+        for e1, edge1 in edgedict.items():
+            for e2, edge2 in edgedict.items():
+                if e1 != e2 and edge1.issubset(edge2):
+                    if verbose:
+                        print(
+                            "Only maximal faces should be stored for simplicial complexes."
+                    )
+
+#pylint:disable=too-many-branches,too-many-statements
+def validate_hif(path) -> Dict[str,int]:
+    """
+    a dictionary specifying whether every part of the HIF specification is followed
+    for the file with the given path
+    """
+    #pylint:disable=unspecified-encoding
     with open(path) as file:
         # load JSON file
         data = json.loads(file.read())
@@ -26,7 +67,7 @@ def validate_hif(path):
     info["incidences-exist"] = 0
 
     if "incidences" not in data:
-        warn(f"The file must contain an field for incidences.")
+        warn("The file must contain an field for incidences.")
         info["incidences-exist"] = 1
 
     # check network type
@@ -46,7 +87,7 @@ def validate_hif(path):
 
     if "metadata" in data:
         if not isinstance(data["metadata"], dict):
-            warn(f"The metadata must be dict-like.")
+            warn("The metadata must be dict-like.")
             info["metadata-dict"] = 1
 
     # check node attributes
@@ -54,15 +95,16 @@ def validate_hif(path):
     info["node-attr-dict"] = 0
 
     if "nodes" in data:
-        for i, record in enumerate(data["nodes"]):
+        for _i, record in enumerate(data["nodes"]):
             if len(record) != 2:
                 warn(
-                    f"Each node record must have two entries: an ID and the dictionary of corresponding attributes."
+                    " ".join(["Each node record must have two entries:",
+                              "an ID and the dictionary of corresponding attributes."])
                 )
                 info["node-record-length"] = 1
 
             if not isinstance(record[1], dict):
-                warn(f"The node attributes must be dict-like.")
+                warn("The node attributes must be dict-like.")
                 info["node-attr-dict"] = 1
 
     # check edge attributes
@@ -70,40 +112,44 @@ def validate_hif(path):
     info["edge-attr-dict"] = 0
 
     if "edges" in data:
-        for i, record in enumerate(data["edges"]):
+        for _i, record in enumerate(data["edges"]):
             if len(record) != 2:
                 warn(
-                    f"Each edge record must have two entries: an ID and the dictionary of corresponding attributes."
+                    " ".join(["Each edge record must have two entries:",
+                              "an ID and the dictionary of corresponding attributes."])
                 )
                 info["edge-record-length"] = 1
 
             if not isinstance(record[1], dict):
-                warn(f"The edge attributes must be dict-like.")
+                warn("The edge attributes must be dict-like.")
                 info["edge-attr-dict"] = 1
 
     if "incidences" in data:
         info["incidence-record-length"] = 0
         info["incidence-attr-dict"] = 0
 
-        for i, record in enumerate(data["incidences"]):
+        for _i, record in enumerate(data["incidences"]):
             if len(record) != 3:
                 warn(
-                    f"Each incidence record must have three entries: an edge ID, a node ID, and the dictionary of corresponding attributes."
+                    " ".join(["Each incidence record must have three entries:",
+                              "an edge ID, a node ID,",
+                              "and the dictionary of corresponding attributes."])
                 )
                 info["incidence-record-length"] = 1
 
             if not isinstance(record[2], dict):
-                warn(f"The incidence attributes must be dict-like.")
+                warn("The incidence attributes must be dict-like.")
                 info["incidence-attr-dict"] = 1
 
     # in the case of directed hypergraphs, each incidence must
     # have the "direction" attribute
     if "network-type" in data and data["network-type"] == "directed":
         data["direction-exists-for-directed"] = 0
-        for i, record in enumerate(data["edges"]):
+        for _i, record in enumerate(data["edges"]):
             if "direction" not in record[2]:
                 warn(
-                    f"Each incidence record must have have the 'direction' attribute for directed hypergraphs."
+                    " ".join(["Each incidence record must have have",
+                             "the 'direction' attribute for directed hypergraphs."])
                 )
                 data["direction-exists-for-directed"] = 1
 
@@ -119,7 +165,7 @@ def validate_hif(path):
             for e2, edge2 in edgedict.items():
                 if e1 != e2 and edge1.issubset(edge2):
                     warn(
-                        f"Only maximal faces should be stored for simplicial complexes."
+                        "Only maximal faces should be stored for simplicial complexes."
                     )
                     data["maximal-edges-for-asc"] = 1
 

@@ -1,6 +1,12 @@
+"""
+the networkx Graph
+produced from the loaded data from the test_files
+match the corresponding expected Graph
+"""
+#pylint:disable = missing-function-docstring
+
 import networkx as nx
 from scripts.nx import from_hif
-
 
 def test_empty_hypergraph(empty_hypergraph):
     result = from_hif(empty_hypergraph)

@@ -1,3 +1,5 @@
+#pylint:disable=import-error,unused-import,missing-function-docstring,unspecified-encoding,invalid-name
+#pylint:disable=unsupported-assignment-operation,unsubscriptable-object
 """
 Datasets to use:  
 
@@ -18,6 +20,7 @@ import pandas as pd
 import xgi
 
 warnings.simplefilter("ignore")
+#pylint:disable=consider-using-with
 sys.stdout = open("performance_testing_output.txt", "a")
 
 
@@ -26,12 +29,13 @@ def marktime(msg=None):
     print(temp.strftime("%d/%m/%y %H:%M:%S"), ": ", msg, flush=True)
     return temp
 
-
-schema = json.load(open("hif_schema_v0.1.0.json", "r"))
+with open("hif_schema_v0.1.0.json", "r") as f:
+    schema = json.load(f)
 validator = fastjsonschema.compile(schema)
 
 ### high_school data as dataframes for hnx;
-hs = json.load(open(f"../examples/contacts-high-school.json", "r"))
+with open("../examples/contacts-high-school.json", "r") as f:
+    hs = json.load(f)
 hs_df = pd.DataFrame(hs["hyperedges"]).fillna("")
 hs_df["edge"] = hs_df.interaction.map(lambda x: x[0])
 hs_df["node"] = hs_df.interaction.map(lambda x: x[1])
@@ -42,14 +46,17 @@ hs_nodedf = hs_nodedf.set_index("id").reset_index().fillna("")
 
 
 ### HNX constructors
+#pylint:disable=unused-argument
 def hnx_hypergraph(df, nodedf=None, edgedf=None):
     return hnx.Hypergraph(df, node_properties=nodedf)
 
 
 def hnx_to_hif(hg):
     edgj = hg.edges.to_dataframe
+    #pylint:disable=protected-access
     edid = edgj.index._name or "index"
     nodj = hg.nodes.to_dataframe
+    #pylint:disable=protected-access
     ndid = nodj.index._name or "index"
     edgj = edgj.reset_index().rename(columns={edid: "edge"}).to_dict(orient="records")
     nodj = nodj.reset_index().rename(columns={ndid: "node"}).to_dict(orient="records")
@@ -58,14 +65,14 @@ def hnx_to_hif(hg):
         .rename(columns={"nodes": "node", "edges": "edge"})
         .to_dict(orient="records")
     )
-    hif = {"edges": edgj, "nodes": nodj, "incidences": incj}
-    return hif
+    hif_converted = {"edges": edgj, "nodes": nodj, "incidences": incj}
+    return hif_converted
 
 
-def hnx_from_hif(hif):
-    edges = pd.DataFrame(hif["edges"])
-    nodes = pd.DataFrame(hif["nodes"])
-    incidences = pd.DataFrame(hif["incidences"])
+def hnx_from_hif(hif_to_convert):
+    edges = pd.DataFrame(hif_to_convert["edges"])
+    nodes = pd.DataFrame(hif_to_convert["nodes"])
+    incidences = pd.DataFrame(hif_to_convert["incidences"])
     return hnx.Hypergraph(incidences, node_properties=nodes, edge_properties=edges)
 
 
