@@ -30,3 +30,9 @@ def test_single_incidence(single_incidence):
     expected = nx.Graph()
     expected.add_edge("abcd", 42, weight=0)
     assert nx.utils.graphs_equal(result, expected)
+
+def test_directed_incidence(directed_incidence):
+    result = from_hif(directed_incidence)
+    expected = nx.DiGraph()
+    expected.add_edge("abcd", 42, weight=0)
+    assert nx.utils.graphs_equal(result, expected)

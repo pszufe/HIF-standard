@@ -73,6 +73,9 @@ def test_single_incidence(validator, single_incidence):
     assert len(full_info) == SPECIFICATION_MET_PARTS
     assert which_bad(full_info) == ["incidence_record_length"]
 
+def test_directed_incidence(validator, directed_incidence):
+    validator(directed_incidence)
+
 def test_metadata_as_list(validator, metadata_as_list):
     with pytest.raises(JsonSchemaValueException):
         validator(metadata_as_list)

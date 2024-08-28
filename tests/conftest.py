@@ -32,6 +32,10 @@ def single_incidence():
     return json.load(open(f"{JSON_DIR}/single_incidence.json", "r"))
 
 @pytest.fixture
+def directed_incidence():
+    return json.load(open(f"{JSON_DIR}/directed_incidence.json", "r"))
+
+@pytest.fixture
 def bad_top_level_field():
     return json.load(open(f"{JSON_DIR}/bad_top_level_field.json", "r"))
 

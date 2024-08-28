@@ -1,0 +1,1 @@
+{"network-type": "directed","incidences": [ { "edge": "abcd", "node": 42, "direction": "head"} ]}
