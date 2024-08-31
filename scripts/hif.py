@@ -10,37 +10,6 @@ from os import PathLike
 from typing import List, Literal, Optional, TypeAlias,TypedDict, Union
 from warnings import warn
 
-#pylint:disable=missing-function-docstring
-def validate_network_type(data, verbose : bool):
-    if (
-        "network-type" in data
-        and data["network-type"] == "directed"
-        and "incidences" in data
-    ):
-        for _i, record in enumerate(data["incidences"]):
-            if "direction" not in record[2]:
-                _status = 1
-                if verbose:
-                    print(
-                        "".join(["Each incidence record must have have",
-                                 "the 'direction' attribute for directed hypergraphs."])
-                    )
-
-    # in the case of simplicial complexes, make sure that the edges are maximal
-    if "network-type" in data and data["network-type"] == "asc" and "incidences" in data:
-        edgedict = defaultdict(set)
-        for record in data["incidences"]:
-            e = record[0]
-            n = record[1]
-            edgedict[e].add(n)
-        for e1, edge1 in edgedict.items():
-            for e2, edge2 in edgedict.items():
-                if e1 != e2 and edge1.issubset(edge2):
-                    if verbose:
-                        print(
-                            "Only maximal faces should be stored for simplicial complexes."
-                    )
-
 SpecificationPart : TypeAlias = str
 StatusCode : TypeAlias = Union[Literal[0],Literal[1]]
 
@@ -61,6 +30,9 @@ class SpecificationMet(TypedDict):
     incidence_attr_dict : StatusCode
 
 def all_good() -> SpecificationMet:
+    """
+    all the good status codes
+    """
     return SpecificationMet({"valid_field_names":0,
                         "incidences_exist":0,
                         "validate_network_type":0,
@@ -75,6 +47,9 @@ def all_good() -> SpecificationMet:
 SPECIFICATION_MET_PARTS = len(all_good())
 
 def which_bad(info: SpecificationMet) -> List[str]:
+    """
+    which part of the specification have bad status codes
+    """
     return [k for k, v in info.items() if v != 0]
 
 #pylint:disable=too-many-branches,too-many-statements,too-many-locals
@@ -189,10 +164,28 @@ def validate_hif(path : Union[str,PathLike],*,data: Optional[dict] = None) -> Sp
                              "the 'direction' attribute for directed hypergraphs."])
                 )
                 data["direction-exists-for-directed"] = 1
+    return info_class
+
+def validate_network_type(data, verbose : bool):
+    """
+    Custom validations for network types
+    """
+    if (
+        "network-type" in data
+        and data["network-type"] == "directed"
+        and "incidences" in data
+    ):
+        for _i, record in enumerate(data["incidences"]):
+            if "direction" not in record[2]:
+                _status = 1
+                if verbose:
+                    print(
+                        "".join(["Each incidence record must have have",
+                                 "the 'direction' attribute for directed hypergraphs."])
+                    )
 
     # in the case of simplicial complexes, make sure that the edges are maximal
-    if "network-type" in data and data["network-type"] == "asc":
-        data["maximal-edges-for-asc"] = 0
+    if "network-type" in data and data["network-type"] == "asc" and "incidences" in data:
         edgedict = defaultdict(set)
         for record in data["incidences"]:
             e = record[0]
@@ -201,9 +194,7 @@ def validate_hif(path : Union[str,PathLike],*,data: Optional[dict] = None) -> Sp
         for e1, edge1 in edgedict.items():
             for e2, edge2 in edgedict.items():
                 if e1 != e2 and edge1.issubset(edge2):
-                    warn(
-                        "Only maximal faces should be stored for simplicial complexes."
+                    if verbose:
+                        print(
+                            "Only maximal faces should be stored for simplicial complexes."
                     )
-                    data["maximal-edges-for-asc"] = 1
-
-    return info_class
