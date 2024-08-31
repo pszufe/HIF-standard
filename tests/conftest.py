@@ -39,6 +39,11 @@ def bad_network_type():
 
 
 @pytest.fixture
+def bad_node_without_id():
+    return json.load(open(f"{json_dir}/bad_node_without_id.json", "r"))
+
+
+@pytest.fixture
 def metadata_as_list():
     return json.load(open(f"{json_dir}/metadata_as_list.json", "r"))
 
