@@ -1,5 +1,4 @@
 import networkx as nx
-
 from scripts.nx import from_hif
 
 
