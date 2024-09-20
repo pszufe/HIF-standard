@@ -2,7 +2,6 @@ import json
 
 import fastjsonschema
 import pytest
-import requests
 
 schema = "schemas/hif_schema_v0.1.0.json"
 json_dir = "tests/test_files"
