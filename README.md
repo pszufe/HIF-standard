@@ -25,6 +25,7 @@ Initial assumptions about the core of the HIF data format:
     - **direction keywords** : head, tail
 - If a hypergraph is, for instance, directed, the edge direction will be contained in the incidences record with keyword "direction".
 - Isolated nodes and empty edges are entries in "nodes" and "edges" which are not present in the incidences.
+- This schema explicitely describes all items in the schema using json objects and typing. This is a verbose presentation making it faster to instantiate than list-based schemas requiring a parser.
 
 ### Table of contents for this folder
 
@@ -66,10 +67,8 @@ The authors, co-authors or contributors of the following software libraries are 
 This project is an ongoing colaborative work of the following people (alphabetical order):
 - [Audun Myers](https://www.audunmyers.com/) (Pacific Northwest National Laboratory) 
 - [Brenda Praggastis](https://www.pnnl.gov/people/brenda-praggastis)  (Pacific Northwest National Laboratory)
-- [Caterina Debacco](https://www.cdebacco.com/) (Max Planck Institute for Intelligent Systems)
 - [Cliff Joslyn](https://www.pnnl.gov/people/cliff-joslyn) (Pacific Northwest National Laboratory)
 - [Francesco Lotito](https://scholar.google.it/citations?user=_r_zQAwAAAAJ&hl=en) (University of Trento)
 - [Martín Coll](https://about.me/mcoll)  (University of Buenos Aires)
 - [Nicholas Landry](https://nwlandry.com/) (University of Virginia) 
 - [Przemyslaw Szufel](https://szufel.pl/) (SGH Warsaw School of Economics)
-
