@@ -1,5 +1,6 @@
 import networkx as nx
 
+
 def from_hif(data) -> nx.Graph:
     g = nx.Graph()
     for n in data.get("nodes", []):

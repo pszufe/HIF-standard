@@ -5,7 +5,6 @@ import fastjsonschema
 
 from scripts.hif import validate_network_type
 
-
 if len(sys.argv) > 2 and sys.argv[2] == "--silent":
     verbose = False
 else:
