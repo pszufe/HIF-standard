@@ -1,4 +1,0 @@
-fastjsonschema
-networkx
-pytest
-requests

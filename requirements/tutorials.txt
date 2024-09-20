@@ -1,0 +1,4 @@
+hypergraphx
+hypernetx
+networkx
+xgi
