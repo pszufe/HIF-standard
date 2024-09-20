@@ -1,0 +1,3856 @@
+{
+  "metadata": {
+    "name": "e_coli_core",
+    "organism": "Escherichia coli str. K-12 substr. MG1655"
+  },
+  "network-type": "directed",
+  "nodes": [
+    {
+      "attr": {
+        "name": "3-Phospho-D-glycerate"
+      },
+      "node": "3pg_c"
+    },
+    {
+      "attr": {
+        "name": "Succinate"
+      },
+      "node": "succ_e"
+    },
+    {
+      "attr": {
+        "name": "Ethanol"
+      },
+      "node": "etoh_e"
+    },
+    {
+      "attr": {
+        "name": "3-Phospho-D-glyceroyl phosphate"
+      },
+      "node": "13dpg_c"
+    },
+    {
+      "attr": {
+        "name": "D-Fructose 1,6-bisphosphate"
+      },
+      "node": "fdp_c"
+    },
+    {
+      "attr": {
+        "name": "D-Xylulose 5-phosphate"
+      },
+      "node": "xu5p__D_c"
+    },
+    {
+      "attr": {
+        "name": "AMP C10H12N5O7P"
+      },
+      "node": "amp_c"
+    },
+    {
+      "attr": {
+        "name": "Ethanol"
+      },
+      "node": "etoh_c"
+    },
+    {
+      "attr": {
+        "name": "D-Fructose 6-phosphate"
+      },
+      "node": "f6p_c"
+    },
+    {
+      "attr": {
+        "name": "Oxaloacetate"
+      },
+      "node": "oaa_c"
+    },
+    {
+      "attr": {
+        "name": "Nicotinamide adenine dinucleotide - reduced"
+      },
+      "node": "nadh_c"
+    },
+    {
+      "attr": {
+        "name": "Phosphoenolpyruvate"
+      },
+      "node": "pep_c"
+    },
+    {
+      "attr": {
+        "name": "Succinate"
+      },
+      "node": "succ_c"
+    },
+    {
+      "attr": {
+        "name": "Nicotinamide adenine dinucleotide phosphate"
+      },
+      "node": "nadp_c"
+    },
+    {
+      "attr": {
+        "name": "Nicotinamide adenine dinucleotide phosphate - reduced"
+      },
+      "node": "nadph_c"
+    },
+    {
+      "attr": {
+        "name": "Glyoxylate"
+      },
+      "node": "glx_c"
+    },
+    {
+      "attr": {
+        "name": "2-Oxoglutarate"
+      },
+      "node": "akg_c"
+    },
+    {
+      "attr": {
+        "name": "Fumarate"
+      },
+      "node": "fum_c"
+    },
+    {
+      "attr": {
+        "name": "Acetaldehyde"
+      },
+      "node": "acald_e"
+    },
+    {
+      "attr": {
+        "name": "ADP C10H12N5O10P2"
+      },
+      "node": "adp_c"
+    },
+    {
+      "attr": {
+        "name": "Sedoheptulose 7-phosphate"
+      },
+      "node": "s7p_c"
+    },
+    {
+      "attr": {
+        "name": "CO2 CO2"
+      },
+      "node": "co2_e"
+    },
+    {
+      "attr": {
+        "name": "Acetyl phosphate"
+      },
+      "node": "actp_c"
+    },
+    {
+      "attr": {
+        "name": "Acetyl-CoA"
+      },
+      "node": "accoa_c"
+    },
+    {
+      "attr": {
+        "name": "Citrate"
+      },
+      "node": "cit_c"
+    },
+    {
+      "attr": {
+        "name": "Dihydroxyacetone phosphate"
+      },
+      "node": "dhap_c"
+    },
+    {
+      "attr": {
+        "name": "6-Phospho-D-gluconate"
+      },
+      "node": "6pgc_c"
+    },
+    {
+      "attr": {
+        "name": "D-Lactate"
+      },
+      "node": "lac__D_e"
+    },
+    {
+      "attr": {
+        "name": "D-Erythrose 4-phosphate"
+      },
+      "node": "e4p_c"
+    },
+    {
+      "attr": {
+        "name": "L-Glutamine"
+      },
+      "node": "gln__L_c"
+    },
+    {
+      "attr": {
+        "name": "2-Oxoglutarate"
+      },
+      "node": "akg_e"
+    },
+    {
+      "attr": {
+        "name": "Ubiquinone-8"
+      },
+      "node": "q8_c"
+    },
+    {
+      "attr": {
+        "name": "Succinyl-CoA"
+      },
+      "node": "succoa_c"
+    },
+    {
+      "attr": {
+        "name": "D-Ribulose 5-phosphate"
+      },
+      "node": "ru5p__D_c"
+    },
+    {
+      "attr": {
+        "name": "Fumarate"
+      },
+      "node": "fum_e"
+    },
+    {
+      "attr": {
+        "name": "Ammonium"
+      },
+      "node": "nh4_c"
+    },
+    {
+      "attr": {
+        "name": "Coenzyme A"
+      },
+      "node": "coa_c"
+    },
+    {
+      "attr": {
+        "name": "Isocitrate"
+      },
+      "node": "icit_c"
+    },
+    {
+      "attr": {
+        "name": "H2O H2O"
+      },
+      "node": "h2o_c"
+    },
+    {
+      "attr": {
+        "name": "Acetate"
+      },
+      "node": "ac_e"
+    },
+    {
+      "attr": {
+        "name": "ATP C10H12N5O13P3"
+      },
+      "node": "atp_c"
+    },
+    {
+      "attr": {
+        "name": "L-Malate"
+      },
+      "node": "mal__L_c"
+    },
+    {
+      "attr": {
+        "name": "D-Glycerate 2-phosphate"
+      },
+      "node": "2pg_c"
+    },
+    {
+      "attr": {
+        "name": "H+"
+      },
+      "node": "h_c"
+    },
+    {
+      "attr": {
+        "name": "Alpha-D-Ribose 5-phosphate"
+      },
+      "node": "r5p_c"
+    },
+    {
+      "attr": {
+        "name": "D-Lactate"
+      },
+      "node": "lac__D_c"
+    },
+    {
+      "attr": {
+        "name": "Formate"
+      },
+      "node": "for_e"
+    },
+    {
+      "attr": {
+        "name": "Ammonium"
+      },
+      "node": "nh4_e"
+    },
+    {
+      "attr": {
+        "name": "L-Glutamine"
+      },
+      "node": "gln__L_e"
+    },
+    {
+      "attr": {
+        "name": "Phosphate"
+      },
+      "node": "pi_e"
+    },
+    {
+      "attr": {
+        "name": "Pyruvate"
+      },
+      "node": "pyr_e"
+    },
+    {
+      "attr": {
+        "name": "Phosphate"
+      },
+      "node": "pi_c"
+    },
+    {
+      "attr": {
+        "name": "D-Glucose"
+      },
+      "node": "glc__D_e"
+    },
+    {
+      "attr": {
+        "name": "Ubiquinol-8"
+      },
+      "node": "q8h2_c"
+    },
+    {
+      "attr": {
+        "name": "L-Glutamate"
+      },
+      "node": "glu__L_c"
+    },
+    {
+      "attr": {
+        "name": "H2O H2O"
+      },
+      "node": "h2o_e"
+    },
+    {
+      "attr": {
+        "name": "Acetaldehyde"
+      },
+      "node": "acald_c"
+    },
+    {
+      "attr": {
+        "name": "L-Malate"
+      },
+      "node": "mal__L_e"
+    },
+    {
+      "attr": {
+        "name": "O2 O2"
+      },
+      "node": "o2_e"
+    },
+    {
+      "attr": {
+        "name": "Formate"
+      },
+      "node": "for_c"
+    },
+    {
+      "attr": {
+        "name": "Acetate"
+      },
+      "node": "ac_c"
+    },
+    {
+      "attr": {
+        "name": "Nicotinamide adenine dinucleotide"
+      },
+      "node": "nad_c"
+    },
+    {
+      "attr": {
+        "name": "D-Fructose"
+      },
+      "node": "fru_e"
+    },
+    {
+      "attr": {
+        "name": "L-Glutamate"
+      },
+      "node": "glu__L_e"
+    },
+    {
+      "attr": {
+        "name": "CO2 CO2"
+      },
+      "node": "co2_c"
+    },
+    {
+      "attr": {
+        "name": "D-Glucose 6-phosphate"
+      },
+      "node": "g6p_c"
+    },
+    {
+      "attr": {
+        "name": "Pyruvate"
+      },
+      "node": "pyr_c"
+    },
+    {
+      "attr": {
+        "name": "6-phospho-D-glucono-1,5-lactone"
+      },
+      "node": "6pgl_c"
+    },
+    {
+      "attr": {
+        "name": "Cis-Aconitate"
+      },
+      "node": "acon_C_c"
+    },
+    {
+      "attr": {
+        "name": "H+"
+      },
+      "node": "h_e"
+    },
+    {
+      "attr": {
+        "name": "O2 O2"
+      },
+      "node": "o2_c"
+    },
+    {
+      "attr": {
+        "name": "Glyceraldehyde 3-phosphate"
+      },
+      "node": "g3p_c"
+    }
+  ],
+  "edges": [
+    {
+      "attr": {
+        "name": "Succinyl-CoA synthetase (ADP-forming)"
+      },
+      "edge": "SUCOAS_reverse"
+    },
+    {
+      "attr": {
+        "name": "H2O exchange"
+      },
+      "edge": "EX_h2o_e"
+    },
+    {
+      "attr": {
+        "name": "Malate transport via proton symport (2 H)"
+      },
+      "edge": "MALt2_2"
+    },
+    {
+      "attr": {
+        "name": "Fumarase"
+      },
+      "edge": "FUM"
+    },
+    {
+      "attr": {
+        "name": "H2O transport via diffusion"
+      },
+      "edge": "H2Ot"
+    },
+    {
+      "attr": {
+        "name": "Glucose-6-phosphate isomerase"
+      },
+      "edge": "PGI_reverse"
+    },
+    {
+      "attr": {
+        "name": "H+ exchange"
+      },
+      "edge": "EX_h_e_reverse"
+    },
+    {
+      "attr": {
+        "name": "Ribose-5-phosphate isomerase"
+      },
+      "edge": "RPI_reverse"
+    },
+    {
+      "attr": {
+        "name": "Phosphate reversible transport via symport"
+      },
+      "edge": "PIt2r"
+    },
+    {
+      "attr": {
+        "name": "Glutaminase"
+      },
+      "edge": "GLUN"
+    },
+    {
+      "attr": {
+        "name": "Pyruvate transport in via proton symport"
+      },
+      "edge": "PYRt2_reverse"
+    },
+    {
+      "attr": {
+        "name": "Phosphoglycerate mutase"
+      },
+      "edge": "PGM_reverse"
+    },
+    {
+      "attr": {
+        "name": "D-Glucose exchange"
+      },
+      "edge": "EX_glc__D_e"
+    },
+    {
+      "attr": {
+        "name": "D-Glucose exchange"
+      },
+      "edge": "EX_glc__D_e_reverse"
+    },
+    {
+      "attr": {
+        "name": "Transaldolase"
+      },
+      "edge": "TALA"
+    },
+    {
+      "attr": {
+        "name": "CO2 transporter via diffusion"
+      },
+      "edge": "CO2t"
+    },
+    {
+      "attr": {
+        "name": "Glutamate synthase (NADPH)"
+      },
+      "edge": "GLUSy"
+    },
+    {
+      "attr": {
+        "name": "Acetate kinase"
+      },
+      "edge": "ACKr_reverse"
+    },
+    {
+      "attr": {
+        "name": "Ammonia exchange"
+      },
+      "edge": "EX_nh4_e"
+    },
+    {
+      "attr": {
+        "name": "Acetate reversible transport via proton symport"
+      },
+      "edge": "ACt2r"
+    },
+    {
+      "attr": {
+        "name": "Phosphoglycerate kinase"
+      },
+      "edge": "PGK"
+    },
+    {
+      "attr": {
+        "name": "Transaldolase"
+      },
+      "edge": "TALA_reverse"
+    },
+    {
+      "attr": {
+        "name": "Triose-phosphate isomerase"
+      },
+      "edge": "TPI"
+    },
+    {
+      "attr": {
+        "name": "ATP maintenance requirement"
+      },
+      "edge": "ATPM"
+    },
+    {
+      "attr": {
+        "name": "Succinate transport via proton symport (2 H)"
+      },
+      "edge": "SUCCt2_2"
+    },
+    {
+      "attr": {
+        "name": "Fructose-bisphosphate aldolase"
+      },
+      "edge": "FBA_reverse"
+    },
+    {
+      "attr": {
+        "name": "Cytochrome oxidase bd (ubiquinol-8: 2 protons)"
+      },
+      "edge": "CYTBD"
+    },
+    {
+      "attr": {
+        "name": "D-Fructose exchange"
+      },
+      "edge": "EX_fru_e"
+    },
+    {
+      "attr": {
+        "name": "2 oxoglutarate reversible transport via symport"
+      },
+      "edge": "AKGt2r"
+    },
+    {
+      "attr": {
+        "name": "Phosphate exchange"
+      },
+      "edge": "EX_pi_e_reverse"
+    },
+    {
+      "attr": {
+        "name": "ATP synthase (four protons for one ATP)"
+      },
+      "edge": "ATPS4r"
+    },
+    {
+      "attr": {
+        "name": "Formate transport via diffusion"
+      },
+      "edge": "FORt"
+    },
+    {
+      "attr": {
+        "name": "D-glucose transport via PEP:Pyr PTS"
+      },
+      "edge": "GLCpts"
+    },
+    {
+      "attr": {
+        "name": "Glutamate dehydrogenase (NADP)"
+      },
+      "edge": "GLUDy_reverse"
+    },
+    {
+      "attr": {
+        "name": "Phosphoenolpyruvate synthase"
+      },
+      "edge": "PPS"
+    },
+    {
+      "attr": {
+        "name": "Enolase"
+      },
+      "edge": "ENO"
+    },
+    {
+      "attr": {
+        "name": "Pyruvate exchange"
+      },
+      "edge": "EX_pyr_e"
+    },
+    {
+      "attr": {
+        "name": "Phosphate reversible transport via symport"
+      },
+      "edge": "PIt2r_reverse"
+    },
+    {
+      "attr": {
+        "name": "Glutamate dehydrogenase (NADP)"
+      },
+      "edge": "GLUDy"
+    },
+    {
+      "attr": {
+        "name": "Fumarase"
+      },
+      "edge": "FUM_reverse"
+    },
+    {
+      "attr": {
+        "name": "Ethanol exchange"
+      },
+      "edge": "EX_etoh_e"
+    },
+    {
+      "attr": {
+        "name": "CO2 exchange"
+      },
+      "edge": "EX_co2_e_reverse"
+    },
+    {
+      "attr": {
+        "name": "Transketolase"
+      },
+      "edge": "TKT1"
+    },
+    {
+      "attr": {
+        "name": "Ethanol reversible transport via proton symport"
+      },
+      "edge": "ETOHt2r_reverse"
+    },
+    {
+      "attr": {
+        "name": "Fructose transport via PEP:Pyr PTS (f6p generating)"
+      },
+      "edge": "FRUpts2"
+    },
+    {
+      "attr": {
+        "name": "2 oxoglutarate reversible transport via symport"
+      },
+      "edge": "AKGt2r_reverse"
+    },
+    {
+      "attr": {
+        "name": "Biomass Objective Function with GAM"
+      },
+      "edge": "BIOMASS_Ecoli_core_w_GAM"
+    },
+    {
+      "attr": {
+        "name": "O2 exchange"
+      },
+      "edge": "EX_o2_e"
+    },
+    {
+      "attr": {
+        "name": "6-phosphogluconolactonase"
+      },
+      "edge": "PGL"
+    },
+    {
+      "attr": {
+        "name": "NAD(P) transhydrogenase"
+      },
+      "edge": "THD2"
+    },
+    {
+      "attr": {
+        "name": "Aconitase (half-reaction A, Citrate hydro-lyase)"
+      },
+      "edge": "ACONTa_reverse"
+    },
+    {
+      "attr": {
+        "name": "Formate exchange"
+      },
+      "edge": "EX_for_e"
+    },
+    {
+      "attr": {
+        "name": "Transketolase"
+      },
+      "edge": "TKT2"
+    },
+    {
+      "attr": {
+        "name": "Fructose-bisphosphate aldolase"
+      },
+      "edge": "FBA"
+    },
+    {
+      "attr": {
+        "name": "Acetaldehyde exchange"
+      },
+      "edge": "EX_acald_e"
+    },
+    {
+      "attr": {
+        "name": "Acetate exchange"
+      },
+      "edge": "EX_ac_e"
+    },
+    {
+      "attr": {
+        "name": "L-Glutamate exchange"
+      },
+      "edge": "EX_glu__L_e"
+    },
+    {
+      "attr": {
+        "name": "Aconitase (half-reaction A, Citrate hydro-lyase)"
+      },
+      "edge": "ACONTa"
+    },
+    {
+      "attr": {
+        "name": "NADH dehydrogenase (ubiquinone-8 & 3 protons)"
+      },
+      "edge": "NADH16"
+    },
+    {
+      "attr": {
+        "name": "O2 transport  diffusion "
+      },
+      "edge": "O2t"
+    },
+    {
+      "attr": {
+        "name": "Succinate exchange"
+      },
+      "edge": "EX_succ_e"
+    },
+    {
+      "attr": {
+        "name": "D lactate transport via proton symport"
+      },
+      "edge": "D_LACt2_reverse"
+    },
+    {
+      "attr": {
+        "name": "H2O transport via diffusion"
+      },
+      "edge": "H2Ot_reverse"
+    },
+    {
+      "attr": {
+        "name": "Fructose-bisphosphatase"
+      },
+      "edge": "FBP"
+    },
+    {
+      "attr": {
+        "name": "Adenylate kinase"
+      },
+      "edge": "ADK1_reverse"
+    },
+    {
+      "attr": {
+        "name": "Ammonia reversible transport"
+      },
+      "edge": "NH4t"
+    },
+    {
+      "attr": {
+        "name": "Phosphofructokinase"
+      },
+      "edge": "PFK"
+    },
+    {
+      "attr": {
+        "name": "D-lactate exchange"
+      },
+      "edge": "EX_lac__D_e"
+    },
+    {
+      "attr": {
+        "name": "Phosphoglycerate mutase"
+      },
+      "edge": "PGM"
+    },
+    {
+      "attr": {
+        "name": "Malic enzyme (NADP)"
+      },
+      "edge": "ME2"
+    },
+    {
+      "attr": {
+        "name": "Phosphate exchange"
+      },
+      "edge": "EX_pi_e"
+    },
+    {
+      "attr": {
+        "name": "Glucose 6-phosphate dehydrogenase"
+      },
+      "edge": "G6PDH2r"
+    },
+    {
+      "attr": {
+        "name": "Enolase"
+      },
+      "edge": "ENO_reverse"
+    },
+    {
+      "attr": {
+        "name": "Ethanol reversible transport via proton symport"
+      },
+      "edge": "ETOHt2r"
+    },
+    {
+      "attr": {
+        "name": "Pyruvate kinase"
+      },
+      "edge": "PYK"
+    },
+    {
+      "attr": {
+        "name": "Ribulose 5-phosphate 3-epimerase"
+      },
+      "edge": "RPE_reverse"
+    },
+    {
+      "attr": {
+        "name": "Ribulose 5-phosphate 3-epimerase"
+      },
+      "edge": "RPE"
+    },
+    {
+      "attr": {
+        "name": "Glutamine synthetase"
+      },
+      "edge": "GLNS"
+    },
+    {
+      "attr": {
+        "name": "Pyruvate formate lyase"
+      },
+      "edge": "PFL"
+    },
+    {
+      "attr": {
+        "name": "2-Oxogluterate dehydrogenase"
+      },
+      "edge": "AKGDH"
+    },
+    {
+      "attr": {
+        "name": "NAD transhydrogenase"
+      },
+      "edge": "NADTRHD"
+    },
+    {
+      "attr": {
+        "name": "D lactate transport via proton symport"
+      },
+      "edge": "D_LACt2"
+    },
+    {
+      "attr": {
+        "name": "Glucose 6-phosphate dehydrogenase"
+      },
+      "edge": "G6PDH2r_reverse"
+    },
+    {
+      "attr": {
+        "name": "D-lactate dehydrogenase"
+      },
+      "edge": "LDH_D"
+    },
+    {
+      "attr": {
+        "name": "Alcohol dehydrogenase (ethanol)"
+      },
+      "edge": "ALCD2x"
+    },
+    {
+      "attr": {
+        "name": "Pyruvate dehydrogenase"
+      },
+      "edge": "PDH"
+    },
+    {
+      "attr": {
+        "name": "Fumarate reductase"
+      },
+      "edge": "FRD7"
+    },
+    {
+      "attr": {
+        "name": "L-Glutamine exchange"
+      },
+      "edge": "EX_gln__L_e"
+    },
+    {
+      "attr": {
+        "name": "Malate synthase"
+      },
+      "edge": "MALS"
+    },
+    {
+      "attr": {
+        "name": "Fumarate exchange"
+      },
+      "edge": "EX_fum_e"
+    },
+    {
+      "attr": {
+        "name": "L glutamate transport via proton symport  reversible"
+      },
+      "edge": "GLUt2r_reverse"
+    },
+    {
+      "attr": {
+        "name": "Isocitrate lyase"
+      },
+      "edge": "ICL"
+    },
+    {
+      "attr": {
+        "name": "Glucose-6-phosphate isomerase"
+      },
+      "edge": "PGI"
+    },
+    {
+      "attr": {
+        "name": "Acetaldehyde reversible transport"
+      },
+      "edge": "ACALDt_reverse"
+    },
+    {
+      "attr": {
+        "name": "L-glutamine transport via ABC system"
+      },
+      "edge": "GLNabc"
+    },
+    {
+      "attr": {
+        "name": "D-lactate dehydrogenase"
+      },
+      "edge": "LDH_D_reverse"
+    },
+    {
+      "attr": {
+        "name": "Triose-phosphate isomerase"
+      },
+      "edge": "TPI_reverse"
+    },
+    {
+      "attr": {
+        "name": "Ribose-5-phosphate isomerase"
+      },
+      "edge": "RPI"
+    },
+    {
+      "attr": {
+        "name": "Phosphoenolpyruvate carboxykinase"
+      },
+      "edge": "PPCK"
+    },
+    {
+      "attr": {
+        "name": "CO2 exchange"
+      },
+      "edge": "EX_co2_e"
+    },
+    {
+      "attr": {
+        "name": "Transketolase"
+      },
+      "edge": "TKT2_reverse"
+    },
+    {
+      "attr": {
+        "name": "O2 exchange"
+      },
+      "edge": "EX_o2_e_reverse"
+    },
+    {
+      "attr": {
+        "name": "Pyruvate transport in via proton symport"
+      },
+      "edge": "PYRt2"
+    },
+    {
+      "attr": {
+        "name": "Citrate synthase"
+      },
+      "edge": "CS"
+    },
+    {
+      "attr": {
+        "name": "O2 transport  diffusion "
+      },
+      "edge": "O2t_reverse"
+    },
+    {
+      "attr": {
+        "name": "Fumarate transport via proton symport (2 H)"
+      },
+      "edge": "FUMt2_2"
+    },
+    {
+      "attr": {
+        "name": "Aconitase (half-reaction B, Isocitrate hydro-lyase)"
+      },
+      "edge": "ACONTb"
+    },
+    {
+      "attr": {
+        "name": "Glyceraldehyde-3-phosphate dehydrogenase"
+      },
+      "edge": "GAPD_reverse"
+    },
+    {
+      "attr": {
+        "name": "Succinate transport out via proton antiport"
+      },
+      "edge": "SUCCt3"
+    },
+    {
+      "attr": {
+        "name": "Adenylate kinase"
+      },
+      "edge": "ADK1"
+    },
+    {
+      "attr": {
+        "name": "Acetate kinase"
+      },
+      "edge": "ACKr"
+    },
+    {
+      "attr": {
+        "name": "ATP synthase (four protons for one ATP)"
+      },
+      "edge": "ATPS4r_reverse"
+    },
+    {
+      "attr": {
+        "name": "Acetaldehyde dehydrogenase (acetylating)"
+      },
+      "edge": "ACALD"
+    },
+    {
+      "attr": {
+        "name": "CO2 transporter via diffusion"
+      },
+      "edge": "CO2t_reverse"
+    },
+    {
+      "attr": {
+        "name": "Malate dehydrogenase"
+      },
+      "edge": "MDH_reverse"
+    },
+    {
+      "attr": {
+        "name": "Glyceraldehyde-3-phosphate dehydrogenase"
+      },
+      "edge": "GAPD"
+    },
+    {
+      "attr": {
+        "name": "Ammonia reversible transport"
+      },
+      "edge": "NH4t_reverse"
+    },
+    {
+      "attr": {
+        "name": "Malate dehydrogenase"
+      },
+      "edge": "MDH"
+    },
+    {
+      "attr": {
+        "name": "L glutamate transport via proton symport  reversible"
+      },
+      "edge": "GLUt2r"
+    },
+    {
+      "attr": {
+        "name": "Transketolase"
+      },
+      "edge": "TKT1_reverse"
+    },
+    {
+      "attr": {
+        "name": "Phosphogluconate dehydrogenase"
+      },
+      "edge": "GND"
+    },
+    {
+      "attr": {
+        "name": "Malic enzyme (NAD)"
+      },
+      "edge": "ME1"
+    },
+    {
+      "attr": {
+        "name": "Ammonia exchange"
+      },
+      "edge": "EX_nh4_e_reverse"
+    },
+    {
+      "attr": {
+        "name": "Succinyl-CoA synthetase (ADP-forming)"
+      },
+      "edge": "SUCOAS"
+    },
+    {
+      "attr": {
+        "name": "2-Oxoglutarate exchange"
+      },
+      "edge": "EX_akg_e"
+    },
+    {
+      "attr": {
+        "name": "Acetaldehyde dehydrogenase (acetylating)"
+      },
+      "edge": "ACALD_reverse"
+    },
+    {
+      "attr": {
+        "name": "Alcohol dehydrogenase (ethanol)"
+      },
+      "edge": "ALCD2x_reverse"
+    },
+    {
+      "attr": {
+        "name": "Succinate dehydrogenase (irreversible)"
+      },
+      "edge": "SUCDi"
+    },
+    {
+      "attr": {
+        "name": "H2O exchange"
+      },
+      "edge": "EX_h2o_e_reverse"
+    },
+    {
+      "attr": {
+        "name": "Formate transport in via proton symport"
+      },
+      "edge": "FORt2"
+    },
+    {
+      "attr": {
+        "name": "Aconitase (half-reaction B, Isocitrate hydro-lyase)"
+      },
+      "edge": "ACONTb_reverse"
+    },
+    {
+      "attr": {
+        "name": "Acetate reversible transport via proton symport"
+      },
+      "edge": "ACt2r_reverse"
+    },
+    {
+      "attr": {
+        "name": "H+ exchange"
+      },
+      "edge": "EX_h_e"
+    },
+    {
+      "attr": {
+        "name": "Isocitrate dehydrogenase (NADP)"
+      },
+      "edge": "ICDHyr"
+    },
+    {
+      "attr": {
+        "name": "Isocitrate dehydrogenase (NADP)"
+      },
+      "edge": "ICDHyr_reverse"
+    },
+    {
+      "attr": {
+        "name": "Acetaldehyde reversible transport"
+      },
+      "edge": "ACALDt"
+    },
+    {
+      "attr": {
+        "name": "L-Malate exchange"
+      },
+      "edge": "EX_mal__L_e"
+    },
+    {
+      "attr": {
+        "name": "Phosphoglycerate kinase"
+      },
+      "edge": "PGK_reverse"
+    },
+    {
+      "attr": {
+        "name": "Phosphoenolpyruvate carboxylase"
+      },
+      "edge": "PPC"
+    },
+    {
+      "attr": {
+        "name": "Phosphotransacetylase"
+      },
+      "edge": "PTAr_reverse"
+    },
+    {
+      "attr": {
+        "name": "Phosphotransacetylase"
+      },
+      "edge": "PTAr"
+    }
+  ],
+  "incidences": [
+    {
+      "edge": "PFK",
+      "node": "f6p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PFK",
+      "node": "atp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PFK",
+      "node": "fdp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PFK",
+      "node": "adp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PFK",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PFL",
+      "node": "coa_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PFL",
+      "node": "pyr_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PFL",
+      "node": "accoa_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PFL",
+      "node": "for_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PGI",
+      "node": "g6p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PGI",
+      "node": "f6p_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PGI_reverse",
+      "node": "f6p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PGI_reverse",
+      "node": "g6p_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PGK",
+      "node": "3pg_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PGK",
+      "node": "atp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PGK",
+      "node": "adp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PGK",
+      "node": "13dpg_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PGK_reverse",
+      "node": "adp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PGK_reverse",
+      "node": "13dpg_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PGK_reverse",
+      "node": "3pg_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PGK_reverse",
+      "node": "atp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PGL",
+      "node": "6pgl_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PGL",
+      "node": "h2o_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PGL",
+      "node": "6pgc_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PGL",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ACALD",
+      "node": "coa_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ACALD",
+      "node": "nad_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ACALD",
+      "node": "acald_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ACALD",
+      "node": "accoa_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ACALD",
+      "node": "nadh_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ACALD",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ACALD_reverse",
+      "node": "accoa_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ACALD_reverse",
+      "node": "nadh_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ACALD_reverse",
+      "node": "h_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ACALD_reverse",
+      "node": "coa_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ACALD_reverse",
+      "node": "nad_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ACALD_reverse",
+      "node": "acald_c",
+      "direction": "head"
+    },
+    {
+      "edge": "AKGt2r",
+      "node": "akg_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "AKGt2r",
+      "node": "h_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "AKGt2r",
+      "node": "akg_c",
+      "direction": "head"
+    },
+    {
+      "edge": "AKGt2r",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "AKGt2r_reverse",
+      "node": "akg_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "AKGt2r_reverse",
+      "node": "h_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "AKGt2r_reverse",
+      "node": "akg_e",
+      "direction": "head"
+    },
+    {
+      "edge": "AKGt2r_reverse",
+      "node": "h_e",
+      "direction": "head"
+    },
+    {
+      "edge": "PGM",
+      "node": "2pg_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PGM",
+      "node": "3pg_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PGM_reverse",
+      "node": "3pg_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PGM_reverse",
+      "node": "2pg_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PIt2r",
+      "node": "pi_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "PIt2r",
+      "node": "h_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "PIt2r",
+      "node": "pi_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PIt2r",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PIt2r_reverse",
+      "node": "pi_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PIt2r_reverse",
+      "node": "h_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PIt2r_reverse",
+      "node": "pi_e",
+      "direction": "head"
+    },
+    {
+      "edge": "PIt2r_reverse",
+      "node": "h_e",
+      "direction": "head"
+    },
+    {
+      "edge": "ALCD2x",
+      "node": "etoh_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ALCD2x",
+      "node": "nad_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ALCD2x",
+      "node": "acald_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ALCD2x",
+      "node": "nadh_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ALCD2x",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ALCD2x_reverse",
+      "node": "acald_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ALCD2x_reverse",
+      "node": "nadh_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ALCD2x_reverse",
+      "node": "h_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ALCD2x_reverse",
+      "node": "etoh_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ALCD2x_reverse",
+      "node": "nad_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ACALDt",
+      "node": "acald_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "ACALDt",
+      "node": "acald_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ACALDt_reverse",
+      "node": "acald_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ACALDt_reverse",
+      "node": "acald_e",
+      "direction": "head"
+    },
+    {
+      "edge": "ACKr",
+      "node": "ac_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ACKr",
+      "node": "atp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ACKr",
+      "node": "adp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ACKr",
+      "node": "actp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ACKr_reverse",
+      "node": "adp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ACKr_reverse",
+      "node": "actp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ACKr_reverse",
+      "node": "ac_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ACKr_reverse",
+      "node": "atp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PPC",
+      "node": "h2o_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PPC",
+      "node": "co2_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PPC",
+      "node": "pep_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PPC",
+      "node": "oaa_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PPC",
+      "node": "pi_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PPC",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ACONTa",
+      "node": "cit_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ACONTa",
+      "node": "acon_C_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ACONTa",
+      "node": "h2o_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ACONTa_reverse",
+      "node": "acon_C_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ACONTa_reverse",
+      "node": "h2o_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ACONTa_reverse",
+      "node": "cit_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ACONTb",
+      "node": "acon_C_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ACONTb",
+      "node": "h2o_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ACONTb",
+      "node": "icit_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ACONTb_reverse",
+      "node": "icit_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ACONTb_reverse",
+      "node": "acon_C_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ACONTb_reverse",
+      "node": "h2o_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ATPM",
+      "node": "h2o_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ATPM",
+      "node": "atp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ATPM",
+      "node": "adp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ATPM",
+      "node": "pi_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ATPM",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PPCK",
+      "node": "oaa_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PPCK",
+      "node": "atp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PPCK",
+      "node": "adp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PPCK",
+      "node": "co2_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PPCK",
+      "node": "pep_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ACt2r",
+      "node": "ac_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "ACt2r",
+      "node": "h_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "ACt2r",
+      "node": "ac_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ACt2r",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ACt2r_reverse",
+      "node": "ac_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ACt2r_reverse",
+      "node": "h_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ACt2r_reverse",
+      "node": "ac_e",
+      "direction": "head"
+    },
+    {
+      "edge": "ACt2r_reverse",
+      "node": "h_e",
+      "direction": "head"
+    },
+    {
+      "edge": "PPS",
+      "node": "h2o_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PPS",
+      "node": "atp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PPS",
+      "node": "pyr_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PPS",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PPS",
+      "node": "amp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PPS",
+      "node": "pi_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PPS",
+      "node": "pep_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ADK1",
+      "node": "amp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ADK1",
+      "node": "atp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ADK1",
+      "node": "adp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ADK1_reverse",
+      "node": "adp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ADK1_reverse",
+      "node": "amp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ADK1_reverse",
+      "node": "atp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "AKGDH",
+      "node": "akg_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "AKGDH",
+      "node": "coa_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "AKGDH",
+      "node": "nad_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "AKGDH",
+      "node": "co2_c",
+      "direction": "head"
+    },
+    {
+      "edge": "AKGDH",
+      "node": "nadh_c",
+      "direction": "head"
+    },
+    {
+      "edge": "AKGDH",
+      "node": "succoa_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ATPS4r",
+      "node": "adp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ATPS4r",
+      "node": "pi_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ATPS4r",
+      "node": "h_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "ATPS4r",
+      "node": "h2o_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ATPS4r",
+      "node": "atp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ATPS4r",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ATPS4r_reverse",
+      "node": "h2o_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ATPS4r_reverse",
+      "node": "atp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ATPS4r_reverse",
+      "node": "h_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ATPS4r_reverse",
+      "node": "adp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ATPS4r_reverse",
+      "node": "pi_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ATPS4r_reverse",
+      "node": "h_e",
+      "direction": "head"
+    },
+    {
+      "edge": "PTAr",
+      "node": "accoa_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PTAr",
+      "node": "pi_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PTAr",
+      "node": "coa_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PTAr",
+      "node": "actp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PTAr_reverse",
+      "node": "coa_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PTAr_reverse",
+      "node": "actp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PTAr_reverse",
+      "node": "accoa_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PTAr_reverse",
+      "node": "pi_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PYK",
+      "node": "adp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PYK",
+      "node": "h_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PYK",
+      "node": "pep_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PYK",
+      "node": "atp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PYK",
+      "node": "pyr_c",
+      "direction": "head"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "nad_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "accoa_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "f6p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "h2o_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "glu__L_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "g6p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "atp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "oaa_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "pep_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "pyr_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "g3p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "3pg_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "nadph_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "gln__L_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "e4p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "r5p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "adp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "coa_c",
+      "direction": "head"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "nadh_c",
+      "direction": "head"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "nadp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "pi_c",
+      "direction": "head"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "akg_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PYRt2",
+      "node": "pyr_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "PYRt2",
+      "node": "h_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "PYRt2",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PYRt2",
+      "node": "pyr_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PYRt2_reverse",
+      "node": "h_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PYRt2_reverse",
+      "node": "pyr_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PYRt2_reverse",
+      "node": "pyr_e",
+      "direction": "head"
+    },
+    {
+      "edge": "PYRt2_reverse",
+      "node": "h_e",
+      "direction": "head"
+    },
+    {
+      "edge": "CO2t",
+      "node": "co2_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "CO2t",
+      "node": "co2_c",
+      "direction": "head"
+    },
+    {
+      "edge": "CO2t_reverse",
+      "node": "co2_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "CO2t_reverse",
+      "node": "co2_e",
+      "direction": "head"
+    },
+    {
+      "edge": "RPE",
+      "node": "ru5p__D_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "RPE",
+      "node": "xu5p__D_c",
+      "direction": "head"
+    },
+    {
+      "edge": "RPE_reverse",
+      "node": "xu5p__D_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "RPE_reverse",
+      "node": "ru5p__D_c",
+      "direction": "head"
+    },
+    {
+      "edge": "CS",
+      "node": "accoa_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "CS",
+      "node": "h2o_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "CS",
+      "node": "oaa_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "CS",
+      "node": "cit_c",
+      "direction": "head"
+    },
+    {
+      "edge": "CS",
+      "node": "coa_c",
+      "direction": "head"
+    },
+    {
+      "edge": "CS",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "RPI",
+      "node": "r5p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "RPI",
+      "node": "ru5p__D_c",
+      "direction": "head"
+    },
+    {
+      "edge": "RPI_reverse",
+      "node": "ru5p__D_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "RPI_reverse",
+      "node": "r5p_c",
+      "direction": "head"
+    },
+    {
+      "edge": "SUCCt2_2",
+      "node": "succ_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "SUCCt2_2",
+      "node": "h_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "SUCCt2_2",
+      "node": "succ_c",
+      "direction": "head"
+    },
+    {
+      "edge": "SUCCt2_2",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "CYTBD",
+      "node": "o2_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "CYTBD",
+      "node": "q8h2_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "CYTBD",
+      "node": "h_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "CYTBD",
+      "node": "h2o_c",
+      "direction": "head"
+    },
+    {
+      "edge": "CYTBD",
+      "node": "h_e",
+      "direction": "head"
+    },
+    {
+      "edge": "CYTBD",
+      "node": "q8_c",
+      "direction": "head"
+    },
+    {
+      "edge": "D_LACt2",
+      "node": "lac__D_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "D_LACt2",
+      "node": "h_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "D_LACt2",
+      "node": "lac__D_c",
+      "direction": "head"
+    },
+    {
+      "edge": "D_LACt2",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "D_LACt2_reverse",
+      "node": "lac__D_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "D_LACt2_reverse",
+      "node": "h_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "D_LACt2_reverse",
+      "node": "lac__D_e",
+      "direction": "head"
+    },
+    {
+      "edge": "D_LACt2_reverse",
+      "node": "h_e",
+      "direction": "head"
+    },
+    {
+      "edge": "ENO",
+      "node": "2pg_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ENO",
+      "node": "h2o_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ENO",
+      "node": "pep_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ENO_reverse",
+      "node": "h2o_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ENO_reverse",
+      "node": "pep_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ENO_reverse",
+      "node": "2pg_c",
+      "direction": "head"
+    },
+    {
+      "edge": "SUCCt3",
+      "node": "succ_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "SUCCt3",
+      "node": "h_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "SUCCt3",
+      "node": "succ_e",
+      "direction": "head"
+    },
+    {
+      "edge": "SUCCt3",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ETOHt2r",
+      "node": "etoh_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "ETOHt2r",
+      "node": "h_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "ETOHt2r",
+      "node": "etoh_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ETOHt2r",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ETOHt2r_reverse",
+      "node": "etoh_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ETOHt2r_reverse",
+      "node": "h_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ETOHt2r_reverse",
+      "node": "etoh_e",
+      "direction": "head"
+    },
+    {
+      "edge": "ETOHt2r_reverse",
+      "node": "h_e",
+      "direction": "head"
+    },
+    {
+      "edge": "SUCDi",
+      "node": "succ_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "SUCDi",
+      "node": "q8_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "SUCDi",
+      "node": "q8h2_c",
+      "direction": "head"
+    },
+    {
+      "edge": "SUCDi",
+      "node": "fum_c",
+      "direction": "head"
+    },
+    {
+      "edge": "SUCOAS",
+      "node": "atp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "SUCOAS",
+      "node": "coa_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "SUCOAS",
+      "node": "succ_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "SUCOAS",
+      "node": "adp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "SUCOAS",
+      "node": "pi_c",
+      "direction": "head"
+    },
+    {
+      "edge": "SUCOAS",
+      "node": "succoa_c",
+      "direction": "head"
+    },
+    {
+      "edge": "SUCOAS_reverse",
+      "node": "adp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "SUCOAS_reverse",
+      "node": "pi_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "SUCOAS_reverse",
+      "node": "succoa_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "SUCOAS_reverse",
+      "node": "atp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "SUCOAS_reverse",
+      "node": "coa_c",
+      "direction": "head"
+    },
+    {
+      "edge": "SUCOAS_reverse",
+      "node": "succ_c",
+      "direction": "head"
+    },
+    {
+      "edge": "TALA",
+      "node": "g3p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "TALA",
+      "node": "s7p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "TALA",
+      "node": "f6p_c",
+      "direction": "head"
+    },
+    {
+      "edge": "TALA",
+      "node": "e4p_c",
+      "direction": "head"
+    },
+    {
+      "edge": "TALA_reverse",
+      "node": "f6p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "TALA_reverse",
+      "node": "e4p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "TALA_reverse",
+      "node": "g3p_c",
+      "direction": "head"
+    },
+    {
+      "edge": "TALA_reverse",
+      "node": "s7p_c",
+      "direction": "head"
+    },
+    {
+      "edge": "THD2",
+      "node": "nadp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "THD2",
+      "node": "nadh_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "THD2",
+      "node": "h_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "THD2",
+      "node": "nadph_c",
+      "direction": "head"
+    },
+    {
+      "edge": "THD2",
+      "node": "nad_c",
+      "direction": "head"
+    },
+    {
+      "edge": "THD2",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "TKT1",
+      "node": "r5p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "TKT1",
+      "node": "xu5p__D_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "TKT1",
+      "node": "g3p_c",
+      "direction": "head"
+    },
+    {
+      "edge": "TKT1",
+      "node": "s7p_c",
+      "direction": "head"
+    },
+    {
+      "edge": "TKT1_reverse",
+      "node": "g3p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "TKT1_reverse",
+      "node": "s7p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "TKT1_reverse",
+      "node": "r5p_c",
+      "direction": "head"
+    },
+    {
+      "edge": "TKT1_reverse",
+      "node": "xu5p__D_c",
+      "direction": "head"
+    },
+    {
+      "edge": "TKT2",
+      "node": "xu5p__D_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "TKT2",
+      "node": "e4p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "TKT2",
+      "node": "f6p_c",
+      "direction": "head"
+    },
+    {
+      "edge": "TKT2",
+      "node": "g3p_c",
+      "direction": "head"
+    },
+    {
+      "edge": "TKT2_reverse",
+      "node": "f6p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "TKT2_reverse",
+      "node": "g3p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "TKT2_reverse",
+      "node": "xu5p__D_c",
+      "direction": "head"
+    },
+    {
+      "edge": "TKT2_reverse",
+      "node": "e4p_c",
+      "direction": "head"
+    },
+    {
+      "edge": "TPI",
+      "node": "dhap_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "TPI",
+      "node": "g3p_c",
+      "direction": "head"
+    },
+    {
+      "edge": "TPI_reverse",
+      "node": "g3p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "TPI_reverse",
+      "node": "dhap_c",
+      "direction": "head"
+    },
+    {
+      "edge": "EX_ac_e",
+      "node": "ac_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "EX_acald_e",
+      "node": "acald_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "EX_akg_e",
+      "node": "akg_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "EX_co2_e",
+      "node": "co2_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "EX_co2_e_reverse",
+      "node": "co2_e",
+      "direction": "head"
+    },
+    {
+      "edge": "EX_etoh_e",
+      "node": "etoh_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "EX_for_e",
+      "node": "for_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "EX_fru_e",
+      "node": "fru_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "EX_fum_e",
+      "node": "fum_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "EX_glc__D_e",
+      "node": "glc__D_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "EX_glc__D_e_reverse",
+      "node": "glc__D_e",
+      "direction": "head"
+    },
+    {
+      "edge": "EX_gln__L_e",
+      "node": "gln__L_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "EX_glu__L_e",
+      "node": "glu__L_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "EX_h_e",
+      "node": "h_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "EX_h_e_reverse",
+      "node": "h_e",
+      "direction": "head"
+    },
+    {
+      "edge": "EX_h2o_e",
+      "node": "h2o_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "EX_h2o_e_reverse",
+      "node": "h2o_e",
+      "direction": "head"
+    },
+    {
+      "edge": "EX_lac__D_e",
+      "node": "lac__D_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "EX_mal__L_e",
+      "node": "mal__L_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "EX_nh4_e",
+      "node": "nh4_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "EX_nh4_e_reverse",
+      "node": "nh4_e",
+      "direction": "head"
+    },
+    {
+      "edge": "EX_o2_e",
+      "node": "o2_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "EX_o2_e_reverse",
+      "node": "o2_e",
+      "direction": "head"
+    },
+    {
+      "edge": "EX_pi_e",
+      "node": "pi_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "EX_pi_e_reverse",
+      "node": "pi_e",
+      "direction": "head"
+    },
+    {
+      "edge": "EX_pyr_e",
+      "node": "pyr_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "EX_succ_e",
+      "node": "succ_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "FBA",
+      "node": "fdp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "FBA",
+      "node": "g3p_c",
+      "direction": "head"
+    },
+    {
+      "edge": "FBA",
+      "node": "dhap_c",
+      "direction": "head"
+    },
+    {
+      "edge": "FBA_reverse",
+      "node": "g3p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "FBA_reverse",
+      "node": "dhap_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "FBA_reverse",
+      "node": "fdp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "FBP",
+      "node": "fdp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "FBP",
+      "node": "h2o_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "FBP",
+      "node": "f6p_c",
+      "direction": "head"
+    },
+    {
+      "edge": "FBP",
+      "node": "pi_c",
+      "direction": "head"
+    },
+    {
+      "edge": "FORt2",
+      "node": "for_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "FORt2",
+      "node": "h_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "FORt2",
+      "node": "for_c",
+      "direction": "head"
+    },
+    {
+      "edge": "FORt2",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "FORt",
+      "node": "for_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "FORt",
+      "node": "for_e",
+      "direction": "head"
+    },
+    {
+      "edge": "FRD7",
+      "node": "q8h2_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "FRD7",
+      "node": "fum_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "FRD7",
+      "node": "succ_c",
+      "direction": "head"
+    },
+    {
+      "edge": "FRD7",
+      "node": "q8_c",
+      "direction": "head"
+    },
+    {
+      "edge": "FRUpts2",
+      "node": "fru_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "FRUpts2",
+      "node": "pep_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "FRUpts2",
+      "node": "f6p_c",
+      "direction": "head"
+    },
+    {
+      "edge": "FRUpts2",
+      "node": "pyr_c",
+      "direction": "head"
+    },
+    {
+      "edge": "FUM",
+      "node": "h2o_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "FUM",
+      "node": "fum_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "FUM",
+      "node": "mal__L_c",
+      "direction": "head"
+    },
+    {
+      "edge": "FUM_reverse",
+      "node": "mal__L_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "FUM_reverse",
+      "node": "h2o_c",
+      "direction": "head"
+    },
+    {
+      "edge": "FUM_reverse",
+      "node": "fum_c",
+      "direction": "head"
+    },
+    {
+      "edge": "FUMt2_2",
+      "node": "fum_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "FUMt2_2",
+      "node": "h_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "FUMt2_2",
+      "node": "fum_c",
+      "direction": "head"
+    },
+    {
+      "edge": "FUMt2_2",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "G6PDH2r",
+      "node": "nadp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "G6PDH2r",
+      "node": "g6p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "G6PDH2r",
+      "node": "6pgl_c",
+      "direction": "head"
+    },
+    {
+      "edge": "G6PDH2r",
+      "node": "nadph_c",
+      "direction": "head"
+    },
+    {
+      "edge": "G6PDH2r",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "G6PDH2r_reverse",
+      "node": "6pgl_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "G6PDH2r_reverse",
+      "node": "nadph_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "G6PDH2r_reverse",
+      "node": "h_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "G6PDH2r_reverse",
+      "node": "nadp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "G6PDH2r_reverse",
+      "node": "g6p_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GAPD",
+      "node": "g3p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GAPD",
+      "node": "pi_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GAPD",
+      "node": "nad_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GAPD",
+      "node": "13dpg_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GAPD",
+      "node": "nadh_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GAPD",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GAPD_reverse",
+      "node": "13dpg_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GAPD_reverse",
+      "node": "nadh_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GAPD_reverse",
+      "node": "h_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GAPD_reverse",
+      "node": "g3p_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GAPD_reverse",
+      "node": "pi_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GAPD_reverse",
+      "node": "nad_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLCpts",
+      "node": "glc__D_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLCpts",
+      "node": "pep_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLCpts",
+      "node": "g6p_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLCpts",
+      "node": "pyr_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLNS",
+      "node": "glu__L_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLNS",
+      "node": "nh4_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLNS",
+      "node": "atp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLNS",
+      "node": "adp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLNS",
+      "node": "gln__L_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLNS",
+      "node": "pi_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLNS",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLNabc",
+      "node": "h2o_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLNabc",
+      "node": "atp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLNabc",
+      "node": "gln__L_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLNabc",
+      "node": "adp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLNabc",
+      "node": "gln__L_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLNabc",
+      "node": "pi_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLNabc",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLUDy",
+      "node": "h2o_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLUDy",
+      "node": "nadp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLUDy",
+      "node": "glu__L_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLUDy",
+      "node": "akg_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLUDy",
+      "node": "nh4_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLUDy",
+      "node": "nadph_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLUDy",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLUDy_reverse",
+      "node": "akg_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLUDy_reverse",
+      "node": "nh4_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLUDy_reverse",
+      "node": "nadph_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLUDy_reverse",
+      "node": "h_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLUDy_reverse",
+      "node": "h2o_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLUDy_reverse",
+      "node": "nadp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLUDy_reverse",
+      "node": "glu__L_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLUN",
+      "node": "gln__L_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLUN",
+      "node": "h2o_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLUN",
+      "node": "glu__L_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLUN",
+      "node": "nh4_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLUSy",
+      "node": "akg_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLUSy",
+      "node": "gln__L_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLUSy",
+      "node": "nadph_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLUSy",
+      "node": "h_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLUSy",
+      "node": "nadp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLUSy",
+      "node": "glu__L_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLUt2r",
+      "node": "glu__L_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLUt2r",
+      "node": "h_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLUt2r",
+      "node": "glu__L_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLUt2r",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLUt2r_reverse",
+      "node": "glu__L_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLUt2r_reverse",
+      "node": "h_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLUt2r_reverse",
+      "node": "glu__L_e",
+      "direction": "head"
+    },
+    {
+      "edge": "GLUt2r_reverse",
+      "node": "h_e",
+      "direction": "head"
+    },
+    {
+      "edge": "GND",
+      "node": "6pgc_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GND",
+      "node": "nadp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GND",
+      "node": "ru5p__D_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GND",
+      "node": "nadph_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GND",
+      "node": "co2_c",
+      "direction": "head"
+    },
+    {
+      "edge": "H2Ot",
+      "node": "h2o_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "H2Ot",
+      "node": "h2o_c",
+      "direction": "head"
+    },
+    {
+      "edge": "H2Ot_reverse",
+      "node": "h2o_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "H2Ot_reverse",
+      "node": "h2o_e",
+      "direction": "head"
+    },
+    {
+      "edge": "ICDHyr",
+      "node": "icit_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ICDHyr",
+      "node": "nadp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ICDHyr",
+      "node": "akg_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ICDHyr",
+      "node": "nadph_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ICDHyr",
+      "node": "co2_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ICDHyr_reverse",
+      "node": "akg_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ICDHyr_reverse",
+      "node": "nadph_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ICDHyr_reverse",
+      "node": "co2_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ICDHyr_reverse",
+      "node": "icit_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ICDHyr_reverse",
+      "node": "nadp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ICL",
+      "node": "icit_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ICL",
+      "node": "glx_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ICL",
+      "node": "succ_c",
+      "direction": "head"
+    },
+    {
+      "edge": "LDH_D",
+      "node": "lac__D_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "LDH_D",
+      "node": "nad_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "LDH_D",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "LDH_D",
+      "node": "nadh_c",
+      "direction": "head"
+    },
+    {
+      "edge": "LDH_D",
+      "node": "pyr_c",
+      "direction": "head"
+    },
+    {
+      "edge": "LDH_D_reverse",
+      "node": "h_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "LDH_D_reverse",
+      "node": "nadh_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "LDH_D_reverse",
+      "node": "pyr_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "LDH_D_reverse",
+      "node": "lac__D_c",
+      "direction": "head"
+    },
+    {
+      "edge": "LDH_D_reverse",
+      "node": "nad_c",
+      "direction": "head"
+    },
+    {
+      "edge": "MALS",
+      "node": "accoa_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "MALS",
+      "node": "h2o_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "MALS",
+      "node": "glx_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "MALS",
+      "node": "mal__L_c",
+      "direction": "head"
+    },
+    {
+      "edge": "MALS",
+      "node": "coa_c",
+      "direction": "head"
+    },
+    {
+      "edge": "MALS",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "MALt2_2",
+      "node": "mal__L_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "MALt2_2",
+      "node": "h_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "MALt2_2",
+      "node": "mal__L_c",
+      "direction": "head"
+    },
+    {
+      "edge": "MALt2_2",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "MDH",
+      "node": "mal__L_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "MDH",
+      "node": "nad_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "MDH",
+      "node": "oaa_c",
+      "direction": "head"
+    },
+    {
+      "edge": "MDH",
+      "node": "nadh_c",
+      "direction": "head"
+    },
+    {
+      "edge": "MDH",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "MDH_reverse",
+      "node": "oaa_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "MDH_reverse",
+      "node": "nadh_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "MDH_reverse",
+      "node": "h_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "MDH_reverse",
+      "node": "mal__L_c",
+      "direction": "head"
+    },
+    {
+      "edge": "MDH_reverse",
+      "node": "nad_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ME1",
+      "node": "mal__L_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ME1",
+      "node": "nad_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ME1",
+      "node": "co2_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ME1",
+      "node": "nadh_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ME1",
+      "node": "pyr_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ME2",
+      "node": "nadp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ME2",
+      "node": "mal__L_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "ME2",
+      "node": "co2_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ME2",
+      "node": "nadph_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ME2",
+      "node": "pyr_c",
+      "direction": "head"
+    },
+    {
+      "edge": "NADH16",
+      "node": "h_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "NADH16",
+      "node": "nadh_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "NADH16",
+      "node": "q8_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "NADH16",
+      "node": "q8h2_c",
+      "direction": "head"
+    },
+    {
+      "edge": "NADH16",
+      "node": "nad_c",
+      "direction": "head"
+    },
+    {
+      "edge": "NADH16",
+      "node": "h_e",
+      "direction": "head"
+    },
+    {
+      "edge": "NADTRHD",
+      "node": "nadph_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "NADTRHD",
+      "node": "nad_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "NADTRHD",
+      "node": "nadp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "NADTRHD",
+      "node": "nadh_c",
+      "direction": "head"
+    },
+    {
+      "edge": "NH4t",
+      "node": "nh4_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "NH4t",
+      "node": "nh4_c",
+      "direction": "head"
+    },
+    {
+      "edge": "NH4t_reverse",
+      "node": "nh4_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "NH4t_reverse",
+      "node": "nh4_e",
+      "direction": "head"
+    },
+    {
+      "edge": "O2t",
+      "node": "o2_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "O2t",
+      "node": "o2_c",
+      "direction": "head"
+    },
+    {
+      "edge": "O2t_reverse",
+      "node": "o2_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "O2t_reverse",
+      "node": "o2_e",
+      "direction": "head"
+    },
+    {
+      "edge": "PDH",
+      "node": "coa_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PDH",
+      "node": "nad_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PDH",
+      "node": "pyr_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PDH",
+      "node": "accoa_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PDH",
+      "node": "nadh_c",
+      "direction": "head"
+    },
+    {
+      "edge": "PDH",
+      "node": "co2_c",
+      "direction": "head"
+    }
+  ]
+}
