@@ -1,7 +1,17 @@
-## A set of Hypergraph Exchange Format (HIF) specification & validators
+## The Hypergraph Exchange Format (HIF) standard
 (Work-in-progress)
 
-Hypergraph Exchange Format (HIF) is a forthcoming standard for data exchange between the existing hypergaph libraries. 
+Hypergraph Exchange Format (HIF) is a forthcoming standard for higher-order network data to facilitate seamless data exchange between existing higher-order network libraries. 
+
+### Table of contents for this folder
+
+This repository is organized into the following folders:
+* `examples`: This folder contains examples of higher-order datasets in the HIF standard. For details of its contents, see the [README](/examples/EXAMPLES.md).
+* `requirements`: This folder contains a list of all dependencies used in this project.
+* `schemas`: This folder contains all schemas used for specifying the HIF standard. For details of what has changed with each version, see the [CHANGELOG](/schemas/SCHEMAS.md).
+* `src`: This folder contains addition functionality for checking against the HIF specification.
+* `tests`: This folder contains all of the unit tests used for validating that the schema is correct.
+* `tutorials`: This folder contains tutorials detailing how each library uses the HIF standard and how the HIF standard allows seamless integration between libraries. For details of its contents, see the [README](/examples/TUTORIALS.md).
 
 Initial assumptions about the core of the HIF data format:
 ```
@@ -26,13 +36,6 @@ Initial assumptions about the core of the HIF data format:
 - If a hypergraph is, for instance, directed, the edge direction will be contained in the incidences record with keyword "direction".
 - Isolated nodes and empty edges are entries in "nodes" and "edges" which are not present in the incidences.
 - This schema explicitely describes all items in the schema using json objects and typing. This is a verbose presentation making it faster to instantiate than list-based schemas requiring a parser.
-
-### Table of contents for this folder
-
-This repository is organized into three folders:
-* `examples`: This folder contains examples of higher-order datasets in the HIF standard. For details of its contents, see the [README](/examples/EXAMPLES.md).
-* `schemas`: This folder contains all schemas used for specifying the HIF standard. For details of its contents, see the [README](/schemas/SCHEMAS.md).
-* `scripts`: This folder contains scripts for checking that datasets match the HIF standard. For details of its contents, see the [README](/scripts/SCRIPTS.md).
 
 - *validate_hif.py*: This Python command line executable checks whether a JSON file matches the HIF standard. All errors print to the command line. More details on running this are in the [next section](#validate-files-against-the-hif-standard).
 	
