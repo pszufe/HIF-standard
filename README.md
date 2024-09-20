@@ -51,8 +51,9 @@ The only option is `--silent`, which suppresses all detailed warnings. Regardles
 ```python
 import fastjsonschema
 import json
+import requests
 
-schema = json.load(open("hif_schema_v0.1.0.json","r"))
+schema = requests.get("https://raw.githubusercontent.com/pszufe/HIF_validators/main/schemas/hif_schema_v0.1.0.json").json()
 validator = fastjsonschema.compile(schema)
 hiftext = json.load(open(filename,'r'))
 validator(hiftext)
