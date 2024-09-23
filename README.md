@@ -1,4 +1,4 @@
-## The Hypergraph Exchange Format (HIF) standard
+## The Hypergraph Interchange Format (HIF) standard
 (Work-in-progress)
 
 Hypergraph Exchange Format (HIF) is a forthcoming standard for higher-order network data to facilitate seamless data exchange between existing higher-order network libraries. 
