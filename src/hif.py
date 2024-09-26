@@ -19,7 +19,11 @@ def validate_network_type(data, verbose):
                     )
 
     # in the case of simplicial complexes, make sure that the edges are maximal
-    if "network-type" in data and data["network-type"] == "asc" and "incidences" in data:
+    if (
+        "network-type" in data
+        and data["network-type"] == "asc"
+        and "incidences" in data
+    ):
         edgedict = defaultdict(set)
         for record in data["incidences"]:
             e = record[0]
@@ -31,4 +35,4 @@ def validate_network_type(data, verbose):
                     if verbose:
                         print(
                             f"Only maximal faces should be stored for simplicial complexes."
-                    )
+                        )

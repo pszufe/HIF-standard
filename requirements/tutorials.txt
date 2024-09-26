@@ -1,0 +1,5 @@
+hypergraphx
+hypernetx
+networkx
+xgi
+requests
