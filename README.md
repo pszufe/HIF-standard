@@ -1,17 +1,17 @@
 ## The Hypergraph Interchange Format (HIF) standard
 (Work-in-progress)
 
-Hypergraph Exchange Format (HIF) is a forthcoming standard for higher-order network data to facilitate seamless data exchange between existing higher-order network libraries. 
+Hypergraph Interchange Format (HIF) is a forthcoming standard for higher-order network data to facilitate seamless data exchange between existing higher-order network libraries. 
 
 ### Table of contents for this folder
 
 This repository is organized into the following folders:
 * `examples`: This folder contains examples of higher-order datasets in the HIF standard. For details of its contents, see the [README](/examples/EXAMPLES.md).
 * `requirements`: This folder contains a list of all dependencies used in this project.
-* `schemas`: This folder contains all schemas used for specifying the HIF standard. For details of what has changed with each version, see the [CHANGELOG](/schemas/SCHEMAS.md).
+* `schemas`: This folder contains all schemas used for specifying the HIF standard. For details of what has changed with each version, see the [CHANGELOG](/schemas/CHANGLEOG.md).
 * `src`: This folder contains addition functionality for checking against the HIF specification.
 * `tests`: This folder contains all of the unit tests used for validating that the schema is correct.
-* `tutorials`: This folder contains tutorials detailing how each library uses the HIF standard and how the HIF standard allows seamless integration between libraries. For details of its contents, see the [README](/examples/TUTORIALS.md).
+* `tutorials`: This folder contains tutorials detailing how each library uses the HIF standard and how the HIF standard allows seamless integration between libraries. For details of its contents, see the [README](/tutorials/TUTORIALS.md).
 
 Initial assumptions about the core of the HIF data format:
 ```
