@@ -1,1 +1,8 @@
-{"incidences": [], "nodes": [ { "node": 42 } ]}
+{
+    "incidences": [],
+    "nodes": [
+        {
+            "node": 42
+        }
+    ]
+}
