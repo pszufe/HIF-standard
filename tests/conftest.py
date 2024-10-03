@@ -44,6 +44,22 @@ def bad_node_without_id():
     return json.load(open(f"{bad_json_dir}/bad_node_without_id.json", "r"))
 
 
+@pytest.fixture
+def bad_node_field():
+    return json.load(open(f"{bad_json_dir}/bad_node_field.json", "r"))
+
+
+# test edges
+@pytest.fixture
+def bad_edge_without_id():
+    return json.load(open(f"{bad_json_dir}/bad_edge_without_id.json", "r"))
+
+
+@pytest.fixture
+def bad_edge_field():
+    return json.load(open(f"{bad_json_dir}/bad_edge_field.json", "r"))
+
+
 # test incidences
 @pytest.fixture
 def bad_incidence_field():

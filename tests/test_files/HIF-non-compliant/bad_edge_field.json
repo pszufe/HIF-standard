@@ -1,0 +1,9 @@
+{
+    "incidences": [],
+    "edges": [
+        {
+            "edge": 2,
+            "test": "this should break"
+        }
+    ]
+}
