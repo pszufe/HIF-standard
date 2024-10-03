@@ -1,7 +1,7 @@
 ## The Hypergraph Interchange Format (HIF) standard
 (Work-in-progress)
 
-Hypergraph Interchange Format (HIF) is a forthcoming standard for higher-order network data to facilitate seamless data exchange between existing higher-order network libraries. 
+The Hypergraph Interchange Format (HIF) is a forthcoming standard for higher-order network data to facilitate seamless data exchange between existing higher-order network libraries. 
 
 ### Table of contents for this folder
 
@@ -13,7 +13,7 @@ This repository is organized into the following folders:
 * `tests`: This folder contains all of the unit tests used for validating that the schema is correct.
 * `tutorials`: This folder contains tutorials detailing how each library uses the HIF standard and how the HIF standard allows seamless integration between libraries. For details of its contents, see the [README](/tutorials/TUTORIALS.md).
 
-Initial assumptions about the core of the HIF data format:
+Initial assumptions about the core of the HIF standard:
 ```
 {
 "network-type": "undirected", # will indicate if directed or an asc
@@ -53,7 +53,7 @@ import fastjsonschema
 import json
 import requests
 
-schema = requests.get("https://raw.githubusercontent.com/pszufe/HIF_validators/main/schemas/hif_schema_v0.1.0.json").json()
+schema = requests.get("https://raw.githubusercontent.com/pszufe/HIF-standard/main/schemas/hif_schema_v0.1.0.json").json()
 validator = fastjsonschema.compile(schema)
 hiftext = json.load(open(filename,'r'))
 validator(hiftext)
