@@ -3,7 +3,7 @@
     "edges": [
         {
             "edge": 2,
-            "test": "this should break"
+            "test": ["this should break"]
         }
     ]
 }

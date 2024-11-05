@@ -1,0 +1,11 @@
+{
+    "incidences": [],
+    "nodes": [
+        {
+            "node": 42,    
+            "weight": 2,
+            "color": "blue",
+            "online": true
+        }
+    ]
+}

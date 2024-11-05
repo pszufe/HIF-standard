@@ -90,6 +90,9 @@ def single_node():
 def single_node_with_attrs():
     return json.load(open(f"{good_json_dir}/single_node_with_attrs.json", "r"))
 
+@pytest.fixture
+def single_node_with_additional_properties():
+    return json.load(open(f"{good_json_dir}/single_node_with_additional_properties.json", "r"))
 
 # test edges
 @pytest.fixture
@@ -101,6 +104,9 @@ def single_edge():
 def single_edge_with_attrs():
     return json.load(open(f"{good_json_dir}/single_edge_with_attrs.json", "r"))
 
+@pytest.fixture
+def single_edge_with_additional_properties():
+    return json.load(open(f"{good_json_dir}/single_edge_with_additional_properties.json", "r"))
 
 # test incidences
 @pytest.fixture
@@ -116,3 +122,11 @@ def single_incidence_with_weights():
 @pytest.fixture
 def single_incidence_with_attrs():
     return json.load(open(f"{good_json_dir}/single_incidence_with_attrs.json", "r"))
+
+@pytest.fixture
+def single_incidence_with_additional_properties():
+    return json.load(open(f"{good_json_dir}/single_incidence_with_additional_properties.json", "r"))
+
+@pytest.fixture
+def good_metadata():
+    return json.load(open(f"{good_json_dir}/good_metadata.json"))
