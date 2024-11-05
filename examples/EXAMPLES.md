@@ -1,5 +1,8 @@
-## Description of dataset examples
+# HIF Examples 
 
-- *lesmis_hif.json* : HIF format for hypergraph generated in schemas/HIF_schema.ipynb
-- *contacts-high-school.json* : nodes and hyperedges of hypergraph generated from xgi-data
-- *contacts_high_school_hif.json* : HIF format for contact-high-school dataset
+Contents:
+- Example.ipynb : the notebook that generated the examples
+- contacts-high-school.json : source json for example of the same name
+- contacts-high-school-hif.json : HIF format for json of the same name
+- lesmis-hif.json : HIF format for toy example from HyperNetX
+
