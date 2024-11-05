@@ -44,8 +44,15 @@
                         "type": "object"
                     }
                 },
+                "additionalProperties": {
+                    "type": [
+                        "string",
+                        "integer",
+                        "number",
+                        "boolean"
+                    ]
+                },
                 "unevaluatedProperties": false,
-                "additionalProperties": false,
                 "required": [
                     "edge",
                     "node"
@@ -70,8 +77,15 @@
                         "type": "object"
                     }
                 },
+                "additionalProperties": {
+                    "type": [
+                        "string",
+                        "integer",
+                        "number",
+                        "boolean"
+                    ]
+                },
                 "unevaluatedProperties": false,
-                "additionalProperties": false,
                 "required": [
                     "node"
                 ]
@@ -95,8 +109,15 @@
                         "type": "object"
                     }
                 },
+                "additionalProperties": {
+                    "type": [
+                        "string",
+                        "integer",
+                        "number",
+                        "boolean"
+                    ]
+                },
                 "unevaluatedProperties": false,
-                "additionalProperties": false,
                 "required": [
                     "edge"
                 ]
