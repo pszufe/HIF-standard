@@ -3,3097 +3,3097 @@
   "network-type": "asc",
   "nodes": [
     {
-      "attr": {
+      "attrs": {
         "label": "Insulin resistance"
       },
       "node": "919"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Muscular dystrophy"
       },
       "node": "223"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Central core disease"
       },
       "node": "814"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Neuroblastoma"
       },
       "node": "838"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Epiphyseal dysplasia"
       },
       "node": "306"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Cleft palate"
       },
       "node": "796"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Pancreatic agenesis"
       },
       "node": "669"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Bladder cancer"
       },
       "node": "474"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Pyropoikilocytosis"
       },
       "node": "1020"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Rett syndrome"
       },
       "node": "767"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Desmoid disease, hereditary"
       },
       "node": "115"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Apert syndrome"
       },
       "node": "480"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Piebaldism"
       },
       "node": "695"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Newfoundland rod-cone dystrophy"
       },
       "node": "966"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Goiter"
       },
       "node": "1048"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Leukemia"
       },
       "node": "47"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Myxoma, intracardiac"
       },
       "node": "924"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Atrial fibrillation"
       },
       "node": "327"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Neuroectodermal tumors"
       },
       "node": "912"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Viral infection"
       },
       "node": "463"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Unna-Thost disease, nonepidermolytic"
       },
       "node": "704"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Nevus, epidermal, epidermolytic hyperkeratotic type"
       },
       "node": "709"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Sandho disease, infantile, juvenile, and adult forms"
       },
       "node": "605"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Pseudoachondroplasia"
       },
       "node": "313"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Adenoma, periampullary"
       },
       "node": "112"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Persistent hyperinsulinemic hypoglycemia of infancy"
       },
       "node": "687"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Myotilinopathy"
       },
       "node": "1174"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Myelofibrosis, idiopathic"
       },
       "node": "680"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Subcortical laminar heterotopia"
       },
       "node": "370"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Crouzon syndrome"
       },
       "node": "476"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Intervertebral disc disease"
       },
       "node": "307"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Stroke"
       },
       "node": "100"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Shprintzen-Goldberg syndrome"
       },
       "node": "456"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Primary lateral sclerosis"
       },
       "node": "1270"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Meningioma"
       },
       "node": "790"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Ossication of the posterior longitudinal spinal ligaments"
       },
       "node": "887"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Lynch cancer family syndrome II"
       },
       "node": "794"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Becker muscular dystrophy"
       },
       "node": "385"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Neutropenia"
       },
       "node": "423"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Pancreatic cancer"
       },
       "node": "59"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Adult i phenotype"
       },
       "node": "542"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Carcinoid tumors, intestinal"
       },
       "node": "986"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Myoclonic epilepsy"
       },
       "node": "527"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Rubenstein-Taybi syndrome"
       },
       "node": "323"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Malignant hyperthermia susceptibility"
       },
       "node": "217"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Achondrogenesis Ib"
       },
       "node": "407"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Anorexia nervosa"
       },
       "node": "644"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Heart block"
       },
       "node": "978"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Ehlers-Danlos syndrome"
       },
       "node": "285"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Osteoarthritis"
       },
       "node": "290"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Wegener granulomatosis"
       },
       "node": "1029"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Incontinentia pigmenti"
       },
       "node": "1136"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Migraine"
       },
       "node": "158"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Urolithiasise"
       },
       "node": "131"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Myelodysplastic syndrome"
       },
       "node": "671"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Lhermitte-Duclos syndrome"
       },
       "node": "942"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Spherocytosis"
       },
       "node": "109"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Achromatopsia"
       },
       "node": "282"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Malaria"
       },
       "node": "245"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Glutathione synthetase deciency"
       },
       "node": "585"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Orolaryngeal cancer"
       },
       "node": "253"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Oligodontia-colorectal cancer syndrome"
       },
       "node": "1132"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Dilated cardiomyopathy with woolly hair and keratoderma"
       },
       "node": "403"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Pilomatricoma"
       },
       "node": "334"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Histiocytoma"
       },
       "node": "1066"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Craniofacial anomalies, empty sella turcica, corneal endothelial changes"
       },
       "node": "1227"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hystrix-like ichthyosis with deafness"
       },
       "node": "556"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Coronary artery disease"
       },
       "node": "37"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Thyroid carcinoma"
       },
       "node": "634"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Prostate cancer"
       },
       "node": "139"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Adenosine deaminase deficiency"
       },
       "node": "62"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Myoglobinuria/hemolysis due to PGK deciency"
       },
       "node": "897"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Aquaporin-1 deficiency"
       },
       "node": "134"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Menkes disease"
       },
       "node": "166"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "HDL cholesterol level QTL"
       },
       "node": "38"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Vohwinkel syndrome"
       },
       "node": "559"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Foveomacular dystrophy, adult-onset, with choroidal neovascularization"
       },
       "node": "959"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Usher syndrome"
       },
       "node": "822"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Paragangliomas"
       },
       "node": "984"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Cataract"
       },
       "node": "325"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Alagille syndrome"
       },
       "node": "77"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Erythrokeratoderma"
       },
       "node": "560"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Night blindness"
       },
       "node": "215"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Ventricular brillation, idiopathic"
       },
       "node": "980"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Apolipoprotein deficiency"
       },
       "node": "121"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Cyclic ichthyosis with epidermolytic hyperkeratosis"
       },
       "node": "702"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Aortic aneurysm"
       },
       "node": "453"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Ectopia"
       },
       "node": "454"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Jackson-Weiss syndrome"
       },
       "node": "470"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Li Fraumeni syndrome"
       },
       "node": "252"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Adrenal cortical carcinoma"
       },
       "node": "1065"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Aniridia, type II"
       },
       "node": "872"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Macrocytic anemia"
       },
       "node": "670"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hypokalemic periodic paralysis"
       },
       "node": "216"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Placental abruption"
       },
       "node": "842"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Barth syndrome"
       },
       "node": "1033"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Larson syndrome"
       },
       "node": "502"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Saethre-Chotzen syndrome"
       },
       "node": "484"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Growth hormone"
       },
       "node": "550"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Wiskott-Aldrich syndrome"
       },
       "node": "1094"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Non-Hodgkin lymphoma"
       },
       "node": "225"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hypercholesterolemia"
       },
       "node": "125"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hemiplegic migraine, familial"
       },
       "node": "212"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Jervell and Lange-Nielsen syndrome"
       },
       "node": "685"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Placental steroid sulfatase deciency"
       },
       "node": "147"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hyperostosis, endosteal"
       },
       "node": "745"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Prolactinoma, hyperparathyroidism, carcinoid syndrome"
       },
       "node": "774"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Dentin dysplasia, type II"
       },
       "node": "405"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Spinocereballar ataxia"
       },
       "node": "213"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Nonsmall cell lung cancer"
       },
       "node": "201"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Ataxia"
       },
       "node": "219"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Corneal dystrophy"
       },
       "node": "122"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Laryngoonychocutaneous syndrome"
       },
       "node": "716"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Myotonia congenita"
       },
       "node": "272"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Oculodentodigital dysplasia"
       },
       "node": "553"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hypoplastic left heart syndrome"
       },
       "node": "552"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Myocardial infarction"
       },
       "node": "99"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Dejerine-Sottas disease"
       },
       "node": "419"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Glaucoma"
       },
       "node": "340"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Graves disease"
       },
       "node": "331"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Osseous heteroplasia"
       },
       "node": "577"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Waardenburg-Shah syndrome"
       },
       "node": "417"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Tetralogy of Fallot"
       },
       "node": "78"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Osteoporosis-pseudoglioma syndrome"
       },
       "node": "746"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Abetalipoproteinemia"
       },
       "node": "126"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Simpson-Golabi-Behmel syndrome"
       },
       "node": "563"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Medulloblastoma"
       },
       "node": "1145"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PPM-X syndrome"
       },
       "node": "766"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Graft-versus-host disease"
       },
       "node": "663"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Deafness"
       },
       "node": "55"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Ataxia-telangiectasia"
       },
       "node": "154"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Maculopathy, bull's-eye"
       },
       "node": "1091"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hirschsprung disease"
       },
       "node": "411"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Omenn syndrome"
       },
       "node": "953"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Bare lymphocyte syndrome"
       },
       "node": "778"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Sick sinus syndrome"
       },
       "node": "979"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Roussy-Levy syndrome"
       },
       "node": "793"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Cutis laxa"
       },
       "node": "165"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Arrhythmogenic right ventricular dysplasia"
       },
       "node": "402"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hyperproreninemia"
       },
       "node": "960"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Leigh syndrome"
       },
       "node": "185"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Gerstmann-Straussler disease"
       },
       "node": "928"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hemorrhagic diathesis"
       },
       "node": "446"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Liddle syndrome"
       },
       "node": "982"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Favism"
       },
       "node": "523"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Leber congenital amaurosis"
       },
       "node": "324"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Apparent mineralocorticoid excess, hypertension due to"
       },
       "node": "637"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hemolytic-uremic syndrome"
       },
       "node": "606"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Perineal hypospadias"
       },
       "node": "138"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Maple syrup urine disease"
       },
       "node": "180"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Alexander disease"
       },
       "node": "545"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Creatine phosphokinase"
       },
       "node": "231"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Fanconi anemia"
       },
       "node": "202"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Neurofibromatosis"
       },
       "node": "833"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Self-healing collodion baby"
       },
       "node": "1051"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Atopy"
       },
       "node": "661"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Noncompaction of left ventricular myocardium"
       },
       "node": "1034"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Noonan syndrome"
       },
       "node": "948"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Supravalvar aortic stenosis"
       },
       "node": "424"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Oligodontia"
       },
       "node": "879"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hypoceruloplasminemia"
       },
       "node": "317"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Fanconi-Bickel syndrome"
       },
       "node": "996"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Gastrointestinal stromal tumor"
       },
       "node": "691"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Osteosarcoma"
       },
       "node": "1070"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Atelosteogenesis"
       },
       "node": "408"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Pigmented adrenocortical disease, primary isolated"
       },
       "node": "925"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Fuchs endothelial corneal dystrophy"
       },
       "node": "305"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Coronary spasms"
       },
       "node": "841"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Proud syndrome"
       },
       "node": "1305"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Caffey disease"
       },
       "node": "283"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Bannayan-Riley-Ruvalcaba syndrome"
       },
       "node": "941"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Pheochromocytoma"
       },
       "node": "985"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Mesothelioma"
       },
       "node": "1152"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Giant-cell fibroblastoma"
       },
       "node": "883"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Autoimmune disease"
       },
       "node": "119"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Dopamine beta-hydroxylase deciency"
       },
       "node": "363"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Bone mineral density variability"
       },
       "node": "743"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Holoprosencephaly"
       },
       "node": "940"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Renal tubular dysgenesis"
       },
       "node": "80"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Leanness, inherited"
       },
       "node": "76"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Neurofibrosarcoma"
       },
       "node": "810"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Brugada syndrome"
       },
       "node": "977"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Rabson-Mendenhall syndrome"
       },
       "node": "668"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Keratoderma, palmoplantar, with deafness"
       },
       "node": "558"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Allergic rhinitis"
       },
       "node": "664"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Glomerulocystic kidney disease, hypoplastic"
       },
       "node": "1040"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Benzene toxicity"
       },
       "node": "380"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Stickler syndrome"
       },
       "node": "292"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Aarskog-Scott syndrome"
       },
       "node": "468"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Bothnia retinal dystrophy"
       },
       "node": "965"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Squamous cell carcinoma"
       },
       "node": "132"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Supranuclear palsy"
       },
       "node": "753"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Ventricular tachycardia"
       },
       "node": "226"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Gardner syndrome"
       },
       "node": "116"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Alcohol dependence"
       },
       "node": "643"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Wolff-Parkinson-White syndrome"
       },
       "node": "1242"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Amyloidosis"
       },
       "node": "120"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ABCD syndrome"
       },
       "node": "416"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Myasthenic syndrome"
       },
       "node": "266"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Polycythemia"
       },
       "node": "681"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Renal cell carcinoma"
       },
       "node": "775"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Coats disease"
       },
       "node": "828"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Endometrial carcinoma"
       },
       "node": "248"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Thrombophilia"
       },
       "node": "239"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Androgen insensitivity"
       },
       "node": "136"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Huntington disease"
       },
       "node": "602"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Insomnia"
       },
       "node": "526"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hyperlipoproteinemia"
       },
       "node": "128"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Seasonal affective disorder"
       },
       "node": "645"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Neurobromatosis-Noonan syndrome"
       },
       "node": "834"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hematopoiesis, cyclic"
       },
       "node": "422"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Pseudohypoparathyroidism"
       },
       "node": "578"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Pseudohypoaldosteronism"
       },
       "node": "786"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Thrombocythemia"
       },
       "node": "682"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hypofibrinogenemia"
       },
       "node": "486"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Costello syndrome"
       },
       "node": "633"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Optic nerve hypoplasia/aplasia"
       },
       "node": "878"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Pigmented paravenous chorioretinal atrophy"
       },
       "node": "1208"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Sezary syndrome"
       },
       "node": "1153"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hyperprolinemia"
       },
       "node": "930"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Emery-Dreifuss muscular dystrophy"
       },
       "node": "426"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Optic atrophy"
       },
       "node": "858"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hypobetalipoproteinemia"
       },
       "node": "127"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Muir-Torre syndrome"
       },
       "node": "785"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Nijmegen breakage syndrome"
       },
       "node": "826"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Angiotensin I-converting enzyme"
       },
       "node": "365"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Retinal cone dsytrophy"
       },
       "node": "851"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Thyrotoxic periodic paralysis"
       },
       "node": "218"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Polyposis"
       },
       "node": "192"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Branchiootic syndrome"
       },
       "node": "442"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "IgE levels QTL"
       },
       "node": "1238"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Uterine leiomyoma"
       },
       "node": "1121"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Macular dystrophy"
       },
       "node": "44"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hypoglycemia"
       },
       "node": "1027"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Juvenile polyposis/hereditary hemorrhagic telangiectasia syndrome"
       },
       "node": "748"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Pick disease"
       },
       "node": "935"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Adenomas"
       },
       "node": "113"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Li-Fraumeni syndrome"
       },
       "node": "1067"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hyperinsulinism"
       },
       "node": "540"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Fundus albipunctatus"
       },
       "node": "43"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Morning glory disc anomaly"
       },
       "node": "877"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hyperparathyroidism"
       },
       "node": "227"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Retinitis pigmentosa"
       },
       "node": "45"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Carpal tunnel syndrome, familial"
       },
       "node": "1081"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Breast cancer"
       },
       "node": "137"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Osteogenesis imperfecta"
       },
       "node": "286"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Achondroplasia"
       },
       "node": "473"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Meniere disease"
       },
       "node": "376"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Medullary thyroid carcinoma"
       },
       "node": "853"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "van Buchem disease"
       },
       "node": "747"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Spinal muscular atrophy"
       },
       "node": "140"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Loeys-Dietz syndrome"
       },
       "node": "1050"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hemosiderosis, systemic, due to aceruloplasminemia"
       },
       "node": "316"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Leopard syndrome"
       },
       "node": "947"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Mitochondrial complex deciency"
       },
       "node": "186"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Rheumatoid arthritis"
       },
       "node": "236"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Eye anomalies"
       },
       "node": "874"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Dementia"
       },
       "node": "751"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Myopathy"
       },
       "node": "53"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Frasier syndrome"
       },
       "node": "1100"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Sea-blue histiocyte disease"
       },
       "node": "129"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MASS syndrome"
       },
       "node": "455"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Exudative vitreoretinopathy"
       },
       "node": "744"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Tietz syndrome"
       },
       "node": "781"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Myokymia with neonatal epilepsy"
       },
       "node": "689"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Thyroid hormone resistance"
       },
       "node": "1053"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Anxiety-related personality traits"
       },
       "node": "1002"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Parkinson disease"
       },
       "node": "364"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Rh-negative blood type"
       },
       "node": "963"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Parietal foramina"
       },
       "node": "799"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Amyloid neuropathy"
       },
       "node": "1080"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Epilepsy"
       },
       "node": "220"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Basal cell nevus syndrome"
       },
       "node": "939"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Mohr-Tranebjaerg syndrome"
       },
       "node": "375"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Cardiomyopathy"
       },
       "node": "54"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Platelet defect/deficiency"
       },
       "node": "235"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Osteoporosis"
       },
       "node": "222"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Stargardt disease"
       },
       "node": "46"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Anemia"
       },
       "node": "41"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Myeloperoxidase deficiency"
       },
       "node": "792"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Solitary median maxillary central incisor"
       },
       "node": "991"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Norrie disease"
       },
       "node": "829"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hypercholanemia"
       },
       "node": "177"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Wilms tumor"
       },
       "node": "203"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "3-methylglutaconicaciduria"
       },
       "node": "1285"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Aneurysm, familial arterial"
       },
       "node": "294"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Beare-Stevenson cutis gyrata syndrome"
       },
       "node": "481"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Thanatophoric dysplasia, types I and II"
       },
       "node": "479"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Ichthyosis"
       },
       "node": "146"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Sebastian syndrome"
       },
       "node": "820"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Melanoma"
       },
       "node": "200"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "VATER association with hydrocephalus"
       },
       "node": "944"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Osteopetrosis"
       },
       "node": "277"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Witkop syndrome"
       },
       "node": "798"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Multiple endocrine neoplasia"
       },
       "node": "772"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Trismus-pseudocomptodactyly syndrome"
       },
       "node": "816"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Dysfibrinogenemia"
       },
       "node": "467"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hypothyroidism"
       },
       "node": "332"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Listeria monocytogenes"
       },
       "node": "249"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Enhanced S-cone syndrome"
       },
       "node": "1181"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Coffin-Lowry syndrome"
       },
       "node": "969"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Dystransthyretinemic hyperthyroxinemia"
       },
       "node": "1082"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Epstein syndrome"
       },
       "node": "817"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Netherton syndrome"
       },
       "node": "1198"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Infantile spasm syndrome"
       },
       "node": "1303"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Rippling muscle disease"
       },
       "node": "232"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Duchenne muscular dystrophy"
       },
       "node": "386"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Adrenocortical carcinoma"
       },
       "node": "923"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Iridogoniodysgenesis"
       },
       "node": "491"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Germ cell tumor"
       },
       "node": "692"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "McCune-Albright syndrome"
       },
       "node": "576"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Complementary component deficiency"
       },
       "node": "208"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Marfan syndrome"
       },
       "node": "287"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Weill-Marchesani syndrome"
       },
       "node": "457"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "OSMED syndrome"
       },
       "node": "311"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Albinism"
       },
       "node": "856"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GRACILE syndrome"
       },
       "node": "184"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Total iodide organication defect"
       },
       "node": "1073"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Ovarian cancer"
       },
       "node": "197"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Ichthyosiform erythroderma"
       },
       "node": "101"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Oligodendroglioma"
       },
       "node": "943"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Neuropathy"
       },
       "node": "420"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Multiple malignancy syndrome"
       },
       "node": "1068"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Coloboma, ocular"
       },
       "node": "873"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Cerebral amyloid angiopathy"
       },
       "node": "36"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Leprechaunism"
       },
       "node": "667"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Walker-Warburg syndrome"
       },
       "node": "464"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Neurofibromatosis"
       },
       "node": "795"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Autism"
       },
       "node": "570"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Mastocytosis with associated hematologic disorder"
       },
       "node": "694"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Zlotogora-Ogur syndrome"
       },
       "node": "949"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "EBD"
       },
       "node": "301"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "G6PD deficiency"
       },
       "node": "524"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Nasopharyngeal carcinoma"
       },
       "node": "1069"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Estrogen resistance"
       },
       "node": "434"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Infundibular hypoplasia and hypopituitarism"
       },
       "node": "1012"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Tauopathy and respiratory failure"
       },
       "node": "754"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Alternating hemiplegia of childhood"
       },
       "node": "157"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Blood group"
       },
       "node": "48"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Carcinoid tumor of lung"
       },
       "node": "771"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Sepsis"
       },
       "node": "1061"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Dentinogenesis imperfecta, Shields type"
       },
       "node": "406"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Mental retardation"
       },
       "node": "81"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Denys-Drash syndrome"
       },
       "node": "1099"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Afibrinogenemia"
       },
       "node": "466"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Macular degeneration"
       },
       "node": "607"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hypoalphalipoproteinemia"
       },
       "node": "124"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Marshall syndrome"
       },
       "node": "310"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Retinoblastoma"
       },
       "node": "956"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Keratoconus"
       },
       "node": "1228"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Lymphoma"
       },
       "node": "155"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Stomach cancer"
       },
       "node": "701"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Dyserythropoietic anemia"
       },
       "node": "535"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Diabetes mellitus"
       },
       "node": "87"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PCWH"
       },
       "node": "1015"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Mesangial sclerosis"
       },
       "node": "1101"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Asthma"
       },
       "node": "68"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Gastric cancer"
       },
       "node": "117"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Epidermolytic hyperkeratosis"
       },
       "node": "703"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Parkes Weber syndrome"
       },
       "node": "955"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Esophageal cancer"
       },
       "node": "968"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Beta-2-adrenoreceptor agonist, reduced response to"
       },
       "node": "69"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Central hypoventilation syndrome"
       },
       "node": "187"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Shah-Waardenburg syndrome"
       },
       "node": "415"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Achondrogenesis-hypochondrogenesis, type II"
       },
       "node": "288"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Angelman syndrome"
       },
       "node": "765"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Toenail dystrophy, isolated"
       },
       "node": "303"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Capillary malformations"
       },
       "node": "954"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Arthropathy"
       },
       "node": "1148"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Thrombocytopenia"
       },
       "node": "447"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Adrenal adenoma"
       },
       "node": "769"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Wagner syndrome"
       },
       "node": "293"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Silver spastic paraplegia syndrome"
       },
       "node": "1221"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Cowden disease"
       },
       "node": "191"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Rh-mod syndrome"
       },
       "node": "962"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Colon cancer"
       },
       "node": "114"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Lung cancer"
       },
       "node": "314"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hyperkalemic periodic paralysis"
       },
       "node": "975"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Insensitivity to pain"
       },
       "node": "852"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hemolytic anemia"
       },
       "node": "86"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Yemenite deaf-blind hypopigmentation syndrome"
       },
       "node": "1016"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "WAGR syndrome"
       },
       "node": "1102"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Papillary serous carcinoma of the peritoneum"
       },
       "node": "198"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Weissenbacher-Zweymuller syndrome"
       },
       "node": "312"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Enlarged vestibular aqueduct"
       },
       "node": "888"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hypertriglyceridemia"
       },
       "node": "123"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Macrothrombocytopenia"
       },
       "node": "536"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Atrioventricular block"
       },
       "node": "328"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Pendred syndrome"
       },
       "node": "889"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hyperthyroidism"
       },
       "node": "1072"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Spastic ataxia/paraplegia"
       },
       "node": "640"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hemangioblastoma, cerebellar"
       },
       "node": "1089"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hypocalciuric hypercalcemia"
       },
       "node": "229"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Amyotrophic lateral sclerosis"
       },
       "node": "367"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Pneumothorax, primary spontaneous"
       },
       "node": "1307"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Severe combined immunodeciency"
       },
       "node": "63"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Merkel cell carcinoma"
       },
       "node": "987"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Syndactyly"
       },
       "node": "554"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Carney complex"
       },
       "node": "815"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Kallmann syndrome"
       },
       "node": "471"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Tangier disease"
       },
       "node": "39"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Skin fragility-woolly hair syndrome"
       },
       "node": "404"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Myelogenous leukemia"
       },
       "node": "237"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CPT deficiency, hepatic"
       },
       "node": "322"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Pallidopontonigral degeneration"
       },
       "node": "752"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Peters anomaly"
       },
       "node": "341"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Schizophrenia"
       },
       "node": "130"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Pelizaeus-Merzbacher disease"
       },
       "node": "911"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Vitelliform macular dystrophy"
       },
       "node": "1092"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Systemic lupus erythematosus"
       },
       "node": "133"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Homocystinuria"
       },
       "node": "238"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Craniofacial-skeletal-dermatologic dysplasia"
       },
       "node": "482"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Keratosis palmoplantaria striata"
       },
       "node": "401"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Asperger syndrome"
       },
       "node": "1245"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Ectodermal dysplasia"
       },
       "node": "414"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SARS, progression of"
       },
       "node": "366"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Creatine deciency syndrome, X-linked"
       },
       "node": "1003"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Anterior segment anomalies and cataract"
       },
       "node": "441"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Birt-Hogg-Dube syndrome"
       },
       "node": "1306"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Glioblastoma"
       },
       "node": "384"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Iris hypoplasia and glaucoma"
       },
       "node": "492"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Convulsions"
       },
       "node": "1289"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Schwannomatosis"
       },
       "node": "836"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Fechtner syndrome"
       },
       "node": "818"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hypocalcemia"
       },
       "node": "228"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Kniest dysplasia"
       },
       "node": "289"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Occipital horn syndrome"
       },
       "node": "167"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Memory impairment"
       },
       "node": "188"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Renal tubular acidosis"
       },
       "node": "164"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Craniofacial-deafness-hand syndrome"
       },
       "node": "871"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Foveal hypoplasia"
       },
       "node": "875"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Spondylocarpotarsal synostosis syndrome"
       },
       "node": "503"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hyperproinsulinemia"
       },
       "node": "665"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Dermatobrosarcoma protuberans"
       },
       "node": "882"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Epidermolysis bullosa"
       },
       "node": "302"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Lipodystrophy"
       },
       "node": "736"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Miyoshi myopathy"
       },
       "node": "1130"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Mast cell leukemia"
       },
       "node": "693"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Pfeiffer syndrome"
       },
       "node": "472"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Multiple sclerosis"
       },
       "node": "779"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Autoimmune thyroid disease"
       },
       "node": "1047"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Axenfeld anomaly"
       },
       "node": "490"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Pyruvate dehydrogenase deciency"
       },
       "node": "880"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "T-cell lymphoblastic leukemia"
       },
       "node": "156"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Prion disease with protracted course"
       },
       "node": "929"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Spondyloepiphyseal dysplasia"
       },
       "node": "74"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hyperthroidism"
       },
       "node": "1078"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Episodic ataxia"
       },
       "node": "211"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Cone dystrophy"
       },
       "node": "42"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Creutzfeldt-Jakob disease"
       },
       "node": "616"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Immunodysregulation, polyendocrinopathy, and enteropathy, X-linked"
       },
       "node": "1232"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hypereosinophilic syndrome"
       },
       "node": "884"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Angiofibroma, sporadic"
       },
       "node": "770"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Craniosynostosis"
       },
       "node": "483"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Colonic aganglionosis, total, with small bowel involvement"
       },
       "node": "961"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Nephropathy-hypertension"
       },
       "node": "608"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Preeclampsia"
       },
       "node": "79"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Combined immunodeficiency"
       },
       "node": "209"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Elliptocytosis"
       },
       "node": "429"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Emphysema"
       },
       "node": "902"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Ring dermoid of cornea"
       },
       "node": "904"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Pituitary ACTH-secreting adenoma"
       },
       "node": "574"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Factor x deficiency"
       },
       "node": "448"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Cerebellar ataxia"
       },
       "node": "210"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Keratitis-ichthyosis-deafness syndrome"
       },
       "node": "557"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Lipoma"
       },
       "node": "742"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Alzheimer disease"
       },
       "node": "30"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Waardenburg syndrome"
       },
       "node": "782"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Lissencephaly"
       },
       "node": "369"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Turcot syndrome"
       },
       "node": "118"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Nevo syndrome"
       },
       "node": "909"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Parathyroid adenoma"
       },
       "node": "773"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Paramyotonia congenita"
       },
       "node": "976"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SMED Strudwick type"
       },
       "node": "291"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Salivary adenoma"
       },
       "node": "1120"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Acquired long QT syndrome"
       },
       "node": "686"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Williams-Beuren syndrome"
       },
       "node": "425"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Butterfly dystrophy, retinal"
       },
       "node": "958"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Atherosclerosis"
       },
       "node": "98"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Cramps, potassium-aggravated"
       },
       "node": "974"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "von Hippel-Lindau syndrome"
       },
       "node": "181"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hepatic adenoma"
       },
       "node": "224"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Lower motor neuron disease, progressive, without sensory symptoms"
       },
       "node": "368"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "May-Hegglin anomaly"
       },
       "node": "819"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Charcot-Marie-Tooth disease"
       },
       "node": "390"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Obsessive-compulsive disorder"
       },
       "node": "189"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Acromegaly"
       },
       "node": "575"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Bart-Pumphrey syndrome"
       },
       "node": "555"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Cafe-au-lait spots"
       },
       "node": "784"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hypochondroplasia"
       },
       "node": "477"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Basal cell carcinoma"
       },
       "node": "938"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Nicotine addiction"
       },
       "node": "270"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Rhabdomyosarcoma"
       },
       "node": "497"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Jensen syndrome"
       },
       "node": "374"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Dissection of cervical arteries"
       },
       "node": "284"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Rieger syndrome"
       },
       "node": "493"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Watson syndrome"
       },
       "node": "835"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Obesity"
       },
       "node": "70"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Diastrophic dysplasia"
       },
       "node": "409"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Keratitis"
       },
       "node": "876"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hypertension"
       },
       "node": "65"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Transient bullous of the newborn"
       },
       "node": "304"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Cervical carcinoma"
       },
       "node": "475"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Coumarin resistance"
       },
       "node": "342"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Partington syndrome"
       },
       "node": "1304"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "HIV"
       },
       "node": "280"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Somatotrophinoma"
       },
       "node": "579"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Leprosy"
       },
       "node": "868"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Muenke syndrome"
       },
       "node": "478"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Peutz-Jeghers syndrome"
       },
       "node": "1025"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Cancer susceptibility"
       },
       "node": "485"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Adenocarcinoma"
       },
       "node": "199"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MODY"
       },
       "node": "541"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Long QT syndrome"
       },
       "node": "110"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Hypodontia"
       },
       "node": "797"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "Vertical talus"
       },
       "node": "627"
@@ -3101,2629 +3101,2629 @@
   ],
   "edges": [
     {
-      "attr": {
+      "attrs": {
         "label": "CPT1A"
       },
       "edge": "1955"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MSX2"
       },
       "edge": "3286"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CASP8"
       },
       "edge": "2437"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "BRCA1"
       },
       "edge": "3278"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "TPO"
       },
       "edge": "3941"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "TSHR"
       },
       "edge": "3743"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MPO"
       },
       "edge": "3057"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MAP3K8"
       },
       "edge": "2824"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "COMT"
       },
       "edge": "3540"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ANK1"
       },
       "edge": "3623"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CD3D"
       },
       "edge": "3572"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CHEK2"
       },
       "edge": "3397"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CASP10"
       },
       "edge": "3159"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "STK11"
       },
       "edge": "3317"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ESR1"
       },
       "edge": "2968"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GC"
       },
       "edge": "2380"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PLA2G7"
       },
       "edge": "3344"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GCSL"
       },
       "edge": "2870"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "HSPB1"
       },
       "edge": "3130"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "IL13"
       },
       "edge": "1515"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CDK4"
       },
       "edge": "2896"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "RHAG"
       },
       "edge": "3505"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "EFHC1"
       },
       "edge": "3071"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "RDS"
       },
       "edge": "3917"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "HSD11B2"
       },
       "edge": "2550"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "BDNF"
       },
       "edge": "3189"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GFI1"
       },
       "edge": "3139"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SLC2A2"
       },
       "edge": "2254"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "OAS1"
       },
       "edge": "3815"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PTPN22"
       },
       "edge": "3702"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MN1"
       },
       "edge": "2905"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CDKN2A"
       },
       "edge": "3268"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GJB3"
       },
       "edge": "2214"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "FGA"
       },
       "edge": "2105"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "COL7A1"
       },
       "edge": "3759"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ECE1"
       },
       "edge": "2548"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PC"
       },
       "edge": "3426"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "KCNA1"
       },
       "edge": "2206"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CRYAB"
       },
       "edge": "3079"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "AGTR1"
       },
       "edge": "3984"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "RHCE"
       },
       "edge": "3506"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ING1"
       },
       "edge": "3663"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SLC6A8"
       },
       "edge": "3905"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "AXIN2"
       },
       "edge": "3204"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "EYA4"
       },
       "edge": "2000"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ENPP1"
       },
       "edge": "3220"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "AIRE"
       },
       "edge": "1554"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SPINK5"
       },
       "edge": "3117"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PDGFB"
       },
       "edge": "2907"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PTCH"
       },
       "edge": "3894"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "RPE65"
       },
       "edge": "3473"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "XRCC3"
       },
       "edge": "2899"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ACTG1"
       },
       "edge": "1990"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GABRB3"
       },
       "edge": "2645"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PLP1"
       },
       "edge": "3614"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SPTB"
       },
       "edge": "3627"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "FGFR4"
       },
       "edge": "1709"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "COL3A1"
       },
       "edge": "3892"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ZFPM2"
       },
       "edge": "3714"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "EP300"
       },
       "edge": "3522"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MYH6"
       },
       "edge": "1727"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CPT2"
       },
       "edge": "3078"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GSS"
       },
       "edge": "2423"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "APOA2"
       },
       "edge": "2507"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "RAD54L"
       },
       "edge": "2840"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "BARD1"
       },
       "edge": "1663"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SHH"
       },
       "edge": "3608"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "KCNH2"
       },
       "edge": "2814"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "COMP"
       },
       "edge": "3403"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "KCNE3"
       },
       "edge": "2585"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "EDA"
       },
       "edge": "2122"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "NRTN"
       },
       "edge": "2463"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PCM1"
       },
       "edge": "3739"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MYOT"
       },
       "edge": "3086"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "IGHMBP2"
       },
       "edge": "3634"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "NOS3"
       },
       "edge": "3904"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PGK1"
       },
       "edge": "3073"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "KRT10"
       },
       "edge": "3143"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "WAS"
       },
       "edge": "3857"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PAX9"
       },
       "edge": "3203"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "BSCL2"
       },
       "edge": "3637"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GABRG2"
       },
       "edge": "3070"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GDNF"
       },
       "edge": "2462"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "STAT5B"
       },
       "edge": "2761"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "RLBP1"
       },
       "edge": "3467"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "IL4R"
       },
       "edge": "1534"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "NF2"
       },
       "edge": "3548"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MASS1"
       },
       "edge": "3801"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "NGFB"
       },
       "edge": "3132"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "FASLG"
       },
       "edge": "3699"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "KCNE1"
       },
       "edge": "2813"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MATN3"
       },
       "edge": "3657"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MPZ"
       },
       "edge": "3519"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SLC26A4"
       },
       "edge": "3306"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "DMBT1"
       },
       "edge": "2331"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "AGPAT2"
       },
       "edge": "2794"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "DYSF"
       },
       "edge": "3085"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "BCKDHA"
       },
       "edge": "2867"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "AGT"
       },
       "edge": "3983"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PKP2"
       },
       "edge": "1501"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CTNNB1"
       },
       "edge": "3335"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "EPHX2"
       },
       "edge": "2509"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SOX10"
       },
       "edge": "3875"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "APOC2"
       },
       "edge": "2525"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "TWIST1"
       },
       "edge": "3524"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PSEN1"
       },
       "edge": "3331"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "APOE"
       },
       "edge": "3553"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "RDH12"
       },
       "edge": "2716"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ADA"
       },
       "edge": "3571"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "UBE3A"
       },
       "edge": "1465"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "OPA3"
       },
       "edge": "3211"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SNCB"
       },
       "edge": "2039"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PDHA1"
       },
       "edge": "3427"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SDHB"
       },
       "edge": "3324"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SUFU"
       },
       "edge": "2888"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "THPO"
       },
       "edge": "3723"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MSH3"
       },
       "edge": "2157"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ADRB2"
       },
       "edge": "3168"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SGCD"
       },
       "edge": "3023"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "STOX1"
       },
       "edge": "3372"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "IPF1"
       },
       "edge": "3928"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PIK3CA"
       },
       "edge": "3251"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CACNB4"
       },
       "edge": "2182"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MYH8"
       },
       "edge": "3772"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "HSPD1"
       },
       "edge": "3612"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CRELD1"
       },
       "edge": "1548"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "COL9A1"
       },
       "edge": "2199"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "EPB41"
       },
       "edge": "2143"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "RDH5"
       },
       "edge": "2290"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "APOB"
       },
       "edge": "2566"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CALCA"
       },
       "edge": "3234"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PRX"
       },
       "edge": "2035"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "RYR2"
       },
       "edge": "3812"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "NR2E3"
       },
       "edge": "3477"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ELA2"
       },
       "edge": "3137"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "BUB1"
       },
       "edge": "1868"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CFH"
       },
       "edge": "3113"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "NME1"
       },
       "edge": "3119"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "KCNQ2"
       },
       "edge": "3074"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "TAZ"
       },
       "edge": "3158"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "FGD1"
       },
       "edge": "2914"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "HLA-DQB1"
       },
       "edge": "1967"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GSN"
       },
       "edge": "1442"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MXI1"
       },
       "edge": "3393"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "BRIP1"
       },
       "edge": "2253"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MSH6"
       },
       "edge": "3249"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "DNM2"
       },
       "edge": "1792"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "FANCA"
       },
       "edge": "2244"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CACNA1S"
       },
       "edge": "3749"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MITF"
       },
       "edge": "3827"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PHF11"
       },
       "edge": "2625"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "RASA1"
       },
       "edge": "3288"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "FGF14"
       },
       "edge": "3639"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "POU6F2"
       },
       "edge": "3855"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "HRAS"
       },
       "edge": "3738"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "FBLN5"
       },
       "edge": "2850"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "IL1B"
       },
       "edge": "2306"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "COL11A2"
       },
       "edge": "3844"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CASQ2"
       },
       "edge": "3810"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CTLA4"
       },
       "edge": "2601"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GATA1"
       },
       "edge": "2847"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SCNN1B"
       },
       "edge": "3408"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GATA4"
       },
       "edge": "1541"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CBFB"
       },
       "edge": "3051"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CRB1"
       },
       "edge": "3480"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ADAMTS10"
       },
       "edge": "3843"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "FLCN"
       },
       "edge": "3446"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "F5"
       },
       "edge": "3729"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "BAX"
       },
       "edge": "3709"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "VAPB"
       },
       "edge": "3636"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ABO"
       },
       "edge": "1621"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SDHD"
       },
       "edge": "3325"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MYO7A"
       },
       "edge": "3795"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CCR2"
       },
       "edge": "2468"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "REN"
       },
       "edge": "3986"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "KCNJ11"
       },
       "edge": "3930"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CYP2A6"
       },
       "edge": "3146"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CHAT"
       },
       "edge": "3035"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "COL11A1"
       },
       "edge": "3675"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "NDUFV2"
       },
       "edge": "3290"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SCNN1A"
       },
       "edge": "3407"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "LMNA"
       },
       "edge": "2792"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "STS"
       },
       "edge": "3964"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "RAG1"
       },
       "edge": "3576"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "F7"
       },
       "edge": "3063"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MYH7"
       },
       "edge": "3896"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "COX15"
       },
       "edge": "2722"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "INSR"
       },
       "edge": "3429"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PPP1R3A"
       },
       "edge": "2648"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "EDN3"
       },
       "edge": "3581"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PAX3"
       },
       "edge": "3828"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "VMD2"
       },
       "edge": "3919"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GCK"
       },
       "edge": "2979"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ALX4"
       },
       "edge": "3287"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CLCN1"
       },
       "edge": "3087"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "COL9A2"
       },
       "edge": "2651"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SOX3"
       },
       "edge": "2923"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "NLGN4X"
       },
       "edge": "2932"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "NDP"
       },
       "edge": "3164"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "DSG1"
       },
       "edge": "2687"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "NEFH"
       },
       "edge": "1446"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "IKBKG"
       },
       "edge": "2640"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "RHD"
       },
       "edge": "3507"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "COL17A1"
       },
       "edge": "2169"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ELN"
       },
       "edge": "3851"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PITX2"
       },
       "edge": "3513"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CRYAA"
       },
       "edge": "1750"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "DES"
       },
       "edge": "3080"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "USH3A"
       },
       "edge": "3797"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "NKX2-5"
       },
       "edge": "3713"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CHST6"
       },
       "edge": "3916"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "TGFBR1"
       },
       "edge": "2808"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "RETN"
       },
       "edge": "2555"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "IL2RG"
       },
       "edge": "3952"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SIX3"
       },
       "edge": "2477"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "EYA1"
       },
       "edge": "1660"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CYP1B1"
       },
       "edge": "3315"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PRKAG2"
       },
       "edge": "3860"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "LOR"
       },
       "edge": "3822"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "HMGA2"
       },
       "edge": "3803"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "LGI1"
       },
       "edge": "2335"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "NBN"
       },
       "edge": "3156"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MSX1"
       },
       "edge": "3858"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "AQP1"
       },
       "edge": "1623"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "FCGR3A"
       },
       "edge": "3814"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GYPC"
       },
       "edge": "2856"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "THRB"
       },
       "edge": "3939"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "INS"
       },
       "edge": "2981"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MPL"
       },
       "edge": "3725"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "BCS1L"
       },
       "edge": "2971"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "APRT"
       },
       "edge": "3793"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "EDNRA"
       },
       "edge": "2967"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PROM1"
       },
       "edge": "3452"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "EDNRB"
       },
       "edge": "3825"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "BAAT"
       },
       "edge": "2504"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "THRA"
       },
       "edge": "3338"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GLO1"
       },
       "edge": "1550"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "KRT9"
       },
       "edge": "2180"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "NR3C2"
       },
       "edge": "3406"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CASP12P1"
       },
       "edge": "3568"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ATP1A2"
       },
       "edge": "2966"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MYF6"
       },
       "edge": "3082"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "RELN"
       },
       "edge": "2805"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MRE11A"
       },
       "edge": "1529"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "TCF1"
       },
       "edge": "2983"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ATM"
       },
       "edge": "3708"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "TAP2"
       },
       "edge": "3841"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ALOX12B"
       },
       "edge": "2614"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "FRZB"
       },
       "edge": "3222"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "NRL"
       },
       "edge": "3461"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "BMPR1A"
       },
       "edge": "3356"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "APOC3"
       },
       "edge": "1491"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CIITA"
       },
       "edge": "3980"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SNCA"
       },
       "edge": "3293"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GJB4"
       },
       "edge": "2216"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "F10"
       },
       "edge": "2235"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GARS"
       },
       "edge": "3632"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SNAI2"
       },
       "edge": "3829"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "RNF6"
       },
       "edge": "2217"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CREBBP"
       },
       "edge": "3521"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SPTA1"
       },
       "edge": "3626"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CDKL5"
       },
       "edge": "3489"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "TIMM8A"
       },
       "edge": "2985"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MAD1L1"
       },
       "edge": "3396"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MYOC"
       },
       "edge": "2328"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "EPHX1"
       },
       "edge": "3371"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CNGA3"
       },
       "edge": "1338"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "TG"
       },
       "edge": "3893"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CACNA1F"
       },
       "edge": "3151"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "KAL1"
       },
       "edge": "2675"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ELOVL4"
       },
       "edge": "3918"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ERBB2"
       },
       "edge": "3248"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SDHC"
       },
       "edge": "3281"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ACSL6"
       },
       "edge": "3054"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ABCC8"
       },
       "edge": "2576"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CP"
       },
       "edge": "2569"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ALOX5AP"
       },
       "edge": "3678"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "RAB3GAP1"
       },
       "edge": "3835"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PLOD1"
       },
       "edge": "3142"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SLC26A2"
       },
       "edge": "2203"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "HD"
       },
       "edge": "2492"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ALS2"
       },
       "edge": "3619"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "FOXO1A"
       },
       "edge": "3491"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MDS1"
       },
       "edge": "3048"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "OGG1"
       },
       "edge": "3441"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CRX"
       },
       "edge": "3459"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "JAK2"
       },
       "edge": "3722"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SLC34A1"
       },
       "edge": "3794"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "DSPP"
       },
       "edge": "2049"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "TCF2"
       },
       "edge": "2984"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "KRT2A"
       },
       "edge": "2619"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SMAD4"
       },
       "edge": "3357"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "EGFR"
       },
       "edge": "3161"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "THBD"
       },
       "edge": "3735"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "KLF6"
       },
       "edge": "3390"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MAPT"
       },
       "edge": "3706"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "DCTN1"
       },
       "edge": "2819"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ADD1"
       },
       "edge": "2544"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "FGFR1"
       },
       "edge": "3318"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "LAMA3"
       },
       "edge": "2705"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "COCH"
       },
       "edge": "2904"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SERPINA1"
       },
       "edge": "2434"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "BRAF"
       },
       "edge": "3160"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "NDUFS4"
       },
       "edge": "2975"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ATBF1"
       },
       "edge": "3388"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ACVR1B"
       },
       "edge": "3266"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MTHFR"
       },
       "edge": "2483"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PTCH2"
       },
       "edge": "2887"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GJB6"
       },
       "edge": "2127"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CACNA1A"
       },
       "edge": "3638"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PVRL1"
       },
       "edge": "3887"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "AKT2"
       },
       "edge": "2055"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CD36"
       },
       "edge": "3343"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GPC3"
       },
       "edge": "3853"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "C6"
       },
       "edge": "3951"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GJA1"
       },
       "edge": "3913"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CNGB3"
       },
       "edge": "2851"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "TGFBR2"
       },
       "edge": "2809"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "TACSTD2"
       },
       "edge": "1935"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "RPS6KA3"
       },
       "edge": "2920"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PMS2"
       },
       "edge": "3782"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PITX3"
       },
       "edge": "1763"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ACTA1"
       },
       "edge": "3076"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "EGR2"
       },
       "edge": "3129"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "AK1"
       },
       "edge": "2418"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GUCA1A"
       },
       "edge": "1907"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CHRNB2"
       },
       "edge": "2184"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MET"
       },
       "edge": "3440"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "DMD"
       },
       "edge": "2099"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ALDH4A1"
       },
       "edge": "2541"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GPR51"
       },
       "edge": "3147"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "RRAS2"
       },
       "edge": "3252"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PLEC1"
       },
       "edge": "3020"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "G6PD"
       },
       "edge": "2420"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MIF"
       },
       "edge": "3498"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MS4A2"
       },
       "edge": "1512"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PDE4D"
       },
       "edge": "3679"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "TBX22"
       },
       "edge": "1852"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "FAS"
       },
       "edge": "3662"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "WISP3"
       },
       "edge": "3659"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "KCNQ1"
       },
       "edge": "2816"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "FOXE3"
       },
       "edge": "1477"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "IL10"
       },
       "edge": "3496"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "C1QA"
       },
       "edge": "1687"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "NLGN3"
       },
       "edge": "1552"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "RPGR"
       },
       "edge": "3472"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "COL1A2"
       },
       "edge": "3237"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SLC5A5"
       },
       "edge": "2602"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "NDUFV1"
       },
       "edge": "2974"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ACTC"
       },
       "edge": "1719"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GUCY2D"
       },
       "edge": "2711"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PRODH"
       },
       "edge": "3542"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "FZD4"
       },
       "edge": "2229"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "RP1"
       },
       "edge": "3470"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "AGC1"
       },
       "edge": "3656"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "TBP"
       },
       "edge": "3646"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "DCX"
       },
       "edge": "3681"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "DBH"
       },
       "edge": "3289"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PLAG1"
       },
       "edge": "1361"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "RAD54B"
       },
       "edge": "2842"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ANK2"
       },
       "edge": "2812"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "AGRP"
       },
       "edge": "3170"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MUTYH"
       },
       "edge": "2309"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CDC73"
       },
       "edge": "3285"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ABCA1"
       },
       "edge": "3704"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "HMCN1"
       },
       "edge": "2852"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "EMD"
       },
       "edge": "2149"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "LPP"
       },
       "edge": "2799"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ABCB7"
       },
       "edge": "1455"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "TYR"
       },
       "edge": "3830"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "OPA1"
       },
       "edge": "3210"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CA4"
       },
       "edge": "3456"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "OCA2"
       },
       "edge": "1394"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "A2M"
       },
       "edge": "1420"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MEF2A"
       },
       "edge": "1942"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "RYR1"
       },
       "edge": "3897"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GCNT2"
       },
       "edge": "1631"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PHOX2B"
       },
       "edge": "3120"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "NTRK1"
       },
       "edge": "3920"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "TGM1"
       },
       "edge": "3560"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "HEXB"
       },
       "edge": "3633"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "VSX1"
       },
       "edge": "2685"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ALOX5"
       },
       "edge": "1533"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "NDUFS1"
       },
       "edge": "2972"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "HNF4A"
       },
       "edge": "2980"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PDE6B"
       },
       "edge": "3463"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "COL5A1"
       },
       "edge": "2136"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CHRNA4"
       },
       "edge": "3145"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CAPN3"
       },
       "edge": "3016"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "NDUFS3"
       },
       "edge": "2724"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "KCNE2"
       },
       "edge": "2818"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "TTR"
       },
       "edge": "2120"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "BCL8"
       },
       "edge": "2834"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "FOXP3"
       },
       "edge": "2635"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GCLM"
       },
       "edge": "3064"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "AGTR2"
       },
       "edge": "2911"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "APOA5"
       },
       "edge": "2560"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CST3"
       },
       "edge": "1776"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "FLNB"
       },
       "edge": "3653"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "JAG1"
       },
       "edge": "3712"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PDGFRA"
       },
       "edge": "2517"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GFAP"
       },
       "edge": "1402"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CLCN7"
       },
       "edge": "3229"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CBS"
       },
       "edge": "3728"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GHRHR"
       },
       "edge": "2386"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PTPN11"
       },
       "edge": "3163"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PARK2"
       },
       "edge": "3292"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "P2RY12"
       },
       "edge": "3345"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ABL1"
       },
       "edge": "2740"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "COL8A2"
       },
       "edge": "2285"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "FCMD"
       },
       "edge": "3833"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SLC6A4"
       },
       "edge": "3191"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MTP"
       },
       "edge": "1329"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CCND1"
       },
       "edge": "3823"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "RUNX1"
       },
       "edge": "3495"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "IGF2R"
       },
       "edge": "2439"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "GNAI2"
       },
       "edge": "3811"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "NQO1"
       },
       "edge": "2747"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "MLH1"
       },
       "edge": "3781"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "USH2A"
       },
       "edge": "3796"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PTPRC"
       },
       "edge": "3981"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "HOXD10"
       },
       "edge": "3813"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SSTR5"
       },
       "edge": "1348"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "CASR"
       },
       "edge": "2568"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SMO"
       },
       "edge": "1586"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "PDGFRL"
       },
       "edge": "2441"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "RFX5"
       },
       "edge": "1573"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "APP"
       },
       "edge": "3539"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "RB1"
       },
       "edge": "3485"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SLC22A18"
       },
       "edge": "3492"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ATP6V1B1"
       },
       "edge": "3972"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ATP7A"
       },
       "edge": "3192"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "FGB"
       },
       "edge": "3730"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "SERPIND1"
       },
       "edge": "3732"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ADRB3"
       },
       "edge": "3169"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "TTPA"
       },
       "edge": "1524"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "FGG"
       },
       "edge": "3731"
     },
     {
-      "attr": {
+      "attrs": {
         "label": "ICAM1"
       },
       "edge": "2857"
