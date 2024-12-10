@@ -6,433 +6,433 @@
   "network-type": "directed",
   "nodes": [
     {
-      "attr": {
+      "attrs": {
         "name": "3-Phospho-D-glycerate"
       },
       "node": "3pg_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Succinate"
       },
       "node": "succ_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Ethanol"
       },
       "node": "etoh_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "3-Phospho-D-glyceroyl phosphate"
       },
       "node": "13dpg_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "D-Fructose 1,6-bisphosphate"
       },
       "node": "fdp_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "D-Xylulose 5-phosphate"
       },
       "node": "xu5p__D_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "AMP C10H12N5O7P"
       },
       "node": "amp_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Ethanol"
       },
       "node": "etoh_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "D-Fructose 6-phosphate"
       },
       "node": "f6p_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Oxaloacetate"
       },
       "node": "oaa_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Nicotinamide adenine dinucleotide - reduced"
       },
       "node": "nadh_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Phosphoenolpyruvate"
       },
       "node": "pep_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Succinate"
       },
       "node": "succ_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Nicotinamide adenine dinucleotide phosphate"
       },
       "node": "nadp_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Nicotinamide adenine dinucleotide phosphate - reduced"
       },
       "node": "nadph_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Glyoxylate"
       },
       "node": "glx_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "2-Oxoglutarate"
       },
       "node": "akg_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Fumarate"
       },
       "node": "fum_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Acetaldehyde"
       },
       "node": "acald_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "ADP C10H12N5O10P2"
       },
       "node": "adp_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Sedoheptulose 7-phosphate"
       },
       "node": "s7p_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "CO2 CO2"
       },
       "node": "co2_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Acetyl phosphate"
       },
       "node": "actp_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Acetyl-CoA"
       },
       "node": "accoa_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Citrate"
       },
       "node": "cit_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Dihydroxyacetone phosphate"
       },
       "node": "dhap_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "6-Phospho-D-gluconate"
       },
       "node": "6pgc_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "D-Lactate"
       },
       "node": "lac__D_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "D-Erythrose 4-phosphate"
       },
       "node": "e4p_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "L-Glutamine"
       },
       "node": "gln__L_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "2-Oxoglutarate"
       },
       "node": "akg_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Ubiquinone-8"
       },
       "node": "q8_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Succinyl-CoA"
       },
       "node": "succoa_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "D-Ribulose 5-phosphate"
       },
       "node": "ru5p__D_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Fumarate"
       },
       "node": "fum_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Ammonium"
       },
       "node": "nh4_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Coenzyme A"
       },
       "node": "coa_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Isocitrate"
       },
       "node": "icit_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "H2O H2O"
       },
       "node": "h2o_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Acetate"
       },
       "node": "ac_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "ATP C10H12N5O13P3"
       },
       "node": "atp_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "L-Malate"
       },
       "node": "mal__L_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "D-Glycerate 2-phosphate"
       },
       "node": "2pg_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "H+"
       },
       "node": "h_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Alpha-D-Ribose 5-phosphate"
       },
       "node": "r5p_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "D-Lactate"
       },
       "node": "lac__D_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Formate"
       },
       "node": "for_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Ammonium"
       },
       "node": "nh4_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "L-Glutamine"
       },
       "node": "gln__L_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Phosphate"
       },
       "node": "pi_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Pyruvate"
       },
       "node": "pyr_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Phosphate"
       },
       "node": "pi_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "D-Glucose"
       },
       "node": "glc__D_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Ubiquinol-8"
       },
       "node": "q8h2_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "L-Glutamate"
       },
       "node": "glu__L_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "H2O H2O"
       },
       "node": "h2o_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Acetaldehyde"
       },
       "node": "acald_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "L-Malate"
       },
       "node": "mal__L_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "O2 O2"
       },
       "node": "o2_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Formate"
       },
       "node": "for_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Acetate"
       },
       "node": "ac_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Nicotinamide adenine dinucleotide"
       },
       "node": "nad_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "D-Fructose"
       },
       "node": "fru_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "L-Glutamate"
       },
       "node": "glu__L_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "CO2 CO2"
       },
       "node": "co2_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "D-Glucose 6-phosphate"
       },
       "node": "g6p_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Pyruvate"
       },
       "node": "pyr_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "6-phospho-D-glucono-1,5-lactone"
       },
       "node": "6pgl_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Cis-Aconitate"
       },
       "node": "acon_C_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "H+"
       },
       "node": "h_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "O2 O2"
       },
       "node": "o2_c"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Glyceraldehyde 3-phosphate"
       },
       "node": "g3p_c"
@@ -440,847 +440,847 @@
   ],
   "edges": [
     {
-      "attr": {
+      "attrs": {
         "name": "Succinyl-CoA synthetase (ADP-forming)"
       },
       "edge": "SUCOAS_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "H2O exchange"
       },
       "edge": "EX_h2o_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Malate transport via proton symport (2 H)"
       },
       "edge": "MALt2_2"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Fumarase"
       },
       "edge": "FUM"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "H2O transport via diffusion"
       },
       "edge": "H2Ot"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Glucose-6-phosphate isomerase"
       },
       "edge": "PGI_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "H+ exchange"
       },
       "edge": "EX_h_e_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Ribose-5-phosphate isomerase"
       },
       "edge": "RPI_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Phosphate reversible transport via symport"
       },
       "edge": "PIt2r"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Glutaminase"
       },
       "edge": "GLUN"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Pyruvate transport in via proton symport"
       },
       "edge": "PYRt2_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Phosphoglycerate mutase"
       },
       "edge": "PGM_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "D-Glucose exchange"
       },
       "edge": "EX_glc__D_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "D-Glucose exchange"
       },
       "edge": "EX_glc__D_e_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Transaldolase"
       },
       "edge": "TALA"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "CO2 transporter via diffusion"
       },
       "edge": "CO2t"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Glutamate synthase (NADPH)"
       },
       "edge": "GLUSy"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Acetate kinase"
       },
       "edge": "ACKr_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Ammonia exchange"
       },
       "edge": "EX_nh4_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Acetate reversible transport via proton symport"
       },
       "edge": "ACt2r"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Phosphoglycerate kinase"
       },
       "edge": "PGK"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Transaldolase"
       },
       "edge": "TALA_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Triose-phosphate isomerase"
       },
       "edge": "TPI"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "ATP maintenance requirement"
       },
       "edge": "ATPM"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Succinate transport via proton symport (2 H)"
       },
       "edge": "SUCCt2_2"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Fructose-bisphosphate aldolase"
       },
       "edge": "FBA_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Cytochrome oxidase bd (ubiquinol-8: 2 protons)"
       },
       "edge": "CYTBD"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "D-Fructose exchange"
       },
       "edge": "EX_fru_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "2 oxoglutarate reversible transport via symport"
       },
       "edge": "AKGt2r"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Phosphate exchange"
       },
       "edge": "EX_pi_e_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "ATP synthase (four protons for one ATP)"
       },
       "edge": "ATPS4r"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Formate transport via diffusion"
       },
       "edge": "FORt"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "D-glucose transport via PEP:Pyr PTS"
       },
       "edge": "GLCpts"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Glutamate dehydrogenase (NADP)"
       },
       "edge": "GLUDy_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Phosphoenolpyruvate synthase"
       },
       "edge": "PPS"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Enolase"
       },
       "edge": "ENO"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Pyruvate exchange"
       },
       "edge": "EX_pyr_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Phosphate reversible transport via symport"
       },
       "edge": "PIt2r_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Glutamate dehydrogenase (NADP)"
       },
       "edge": "GLUDy"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Fumarase"
       },
       "edge": "FUM_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Ethanol exchange"
       },
       "edge": "EX_etoh_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "CO2 exchange"
       },
       "edge": "EX_co2_e_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Transketolase"
       },
       "edge": "TKT1"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Ethanol reversible transport via proton symport"
       },
       "edge": "ETOHt2r_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Fructose transport via PEP:Pyr PTS (f6p generating)"
       },
       "edge": "FRUpts2"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "2 oxoglutarate reversible transport via symport"
       },
       "edge": "AKGt2r_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Biomass Objective Function with GAM"
       },
       "edge": "BIOMASS_Ecoli_core_w_GAM"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "O2 exchange"
       },
       "edge": "EX_o2_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "6-phosphogluconolactonase"
       },
       "edge": "PGL"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "NAD(P) transhydrogenase"
       },
       "edge": "THD2"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Aconitase (half-reaction A, Citrate hydro-lyase)"
       },
       "edge": "ACONTa_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Formate exchange"
       },
       "edge": "EX_for_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Transketolase"
       },
       "edge": "TKT2"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Fructose-bisphosphate aldolase"
       },
       "edge": "FBA"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Acetaldehyde exchange"
       },
       "edge": "EX_acald_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Acetate exchange"
       },
       "edge": "EX_ac_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "L-Glutamate exchange"
       },
       "edge": "EX_glu__L_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Aconitase (half-reaction A, Citrate hydro-lyase)"
       },
       "edge": "ACONTa"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "NADH dehydrogenase (ubiquinone-8 & 3 protons)"
       },
       "edge": "NADH16"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "O2 transport  diffusion "
       },
       "edge": "O2t"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Succinate exchange"
       },
       "edge": "EX_succ_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "D lactate transport via proton symport"
       },
       "edge": "D_LACt2_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "H2O transport via diffusion"
       },
       "edge": "H2Ot_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Fructose-bisphosphatase"
       },
       "edge": "FBP"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Adenylate kinase"
       },
       "edge": "ADK1_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Ammonia reversible transport"
       },
       "edge": "NH4t"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Phosphofructokinase"
       },
       "edge": "PFK"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "D-lactate exchange"
       },
       "edge": "EX_lac__D_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Phosphoglycerate mutase"
       },
       "edge": "PGM"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Malic enzyme (NADP)"
       },
       "edge": "ME2"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Phosphate exchange"
       },
       "edge": "EX_pi_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Glucose 6-phosphate dehydrogenase"
       },
       "edge": "G6PDH2r"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Enolase"
       },
       "edge": "ENO_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Ethanol reversible transport via proton symport"
       },
       "edge": "ETOHt2r"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Pyruvate kinase"
       },
       "edge": "PYK"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Ribulose 5-phosphate 3-epimerase"
       },
       "edge": "RPE_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Ribulose 5-phosphate 3-epimerase"
       },
       "edge": "RPE"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Glutamine synthetase"
       },
       "edge": "GLNS"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Pyruvate formate lyase"
       },
       "edge": "PFL"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "2-Oxogluterate dehydrogenase"
       },
       "edge": "AKGDH"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "NAD transhydrogenase"
       },
       "edge": "NADTRHD"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "D lactate transport via proton symport"
       },
       "edge": "D_LACt2"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Glucose 6-phosphate dehydrogenase"
       },
       "edge": "G6PDH2r_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "D-lactate dehydrogenase"
       },
       "edge": "LDH_D"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Alcohol dehydrogenase (ethanol)"
       },
       "edge": "ALCD2x"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Pyruvate dehydrogenase"
       },
       "edge": "PDH"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Fumarate reductase"
       },
       "edge": "FRD7"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "L-Glutamine exchange"
       },
       "edge": "EX_gln__L_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Malate synthase"
       },
       "edge": "MALS"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Fumarate exchange"
       },
       "edge": "EX_fum_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "L glutamate transport via proton symport  reversible"
       },
       "edge": "GLUt2r_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Isocitrate lyase"
       },
       "edge": "ICL"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Glucose-6-phosphate isomerase"
       },
       "edge": "PGI"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Acetaldehyde reversible transport"
       },
       "edge": "ACALDt_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "L-glutamine transport via ABC system"
       },
       "edge": "GLNabc"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "D-lactate dehydrogenase"
       },
       "edge": "LDH_D_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Triose-phosphate isomerase"
       },
       "edge": "TPI_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Ribose-5-phosphate isomerase"
       },
       "edge": "RPI"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Phosphoenolpyruvate carboxykinase"
       },
       "edge": "PPCK"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "CO2 exchange"
       },
       "edge": "EX_co2_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Transketolase"
       },
       "edge": "TKT2_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "O2 exchange"
       },
       "edge": "EX_o2_e_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Pyruvate transport in via proton symport"
       },
       "edge": "PYRt2"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Citrate synthase"
       },
       "edge": "CS"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "O2 transport  diffusion "
       },
       "edge": "O2t_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Fumarate transport via proton symport (2 H)"
       },
       "edge": "FUMt2_2"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Aconitase (half-reaction B, Isocitrate hydro-lyase)"
       },
       "edge": "ACONTb"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Glyceraldehyde-3-phosphate dehydrogenase"
       },
       "edge": "GAPD_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Succinate transport out via proton antiport"
       },
       "edge": "SUCCt3"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Adenylate kinase"
       },
       "edge": "ADK1"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Acetate kinase"
       },
       "edge": "ACKr"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "ATP synthase (four protons for one ATP)"
       },
       "edge": "ATPS4r_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Acetaldehyde dehydrogenase (acetylating)"
       },
       "edge": "ACALD"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "CO2 transporter via diffusion"
       },
       "edge": "CO2t_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Malate dehydrogenase"
       },
       "edge": "MDH_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Glyceraldehyde-3-phosphate dehydrogenase"
       },
       "edge": "GAPD"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Ammonia reversible transport"
       },
       "edge": "NH4t_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Malate dehydrogenase"
       },
       "edge": "MDH"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "L glutamate transport via proton symport  reversible"
       },
       "edge": "GLUt2r"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Transketolase"
       },
       "edge": "TKT1_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Phosphogluconate dehydrogenase"
       },
       "edge": "GND"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Malic enzyme (NAD)"
       },
       "edge": "ME1"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Ammonia exchange"
       },
       "edge": "EX_nh4_e_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Succinyl-CoA synthetase (ADP-forming)"
       },
       "edge": "SUCOAS"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "2-Oxoglutarate exchange"
       },
       "edge": "EX_akg_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Acetaldehyde dehydrogenase (acetylating)"
       },
       "edge": "ACALD_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Alcohol dehydrogenase (ethanol)"
       },
       "edge": "ALCD2x_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Succinate dehydrogenase (irreversible)"
       },
       "edge": "SUCDi"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "H2O exchange"
       },
       "edge": "EX_h2o_e_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Formate transport in via proton symport"
       },
       "edge": "FORt2"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Aconitase (half-reaction B, Isocitrate hydro-lyase)"
       },
       "edge": "ACONTb_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Acetate reversible transport via proton symport"
       },
       "edge": "ACt2r_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "H+ exchange"
       },
       "edge": "EX_h_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Isocitrate dehydrogenase (NADP)"
       },
       "edge": "ICDHyr"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Isocitrate dehydrogenase (NADP)"
       },
       "edge": "ICDHyr_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Acetaldehyde reversible transport"
       },
       "edge": "ACALDt"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "L-Malate exchange"
       },
       "edge": "EX_mal__L_e"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Phosphoglycerate kinase"
       },
       "edge": "PGK_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Phosphoenolpyruvate carboxylase"
       },
       "edge": "PPC"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Phosphotransacetylase"
       },
       "edge": "PTAr_reverse"
     },
     {
-      "attr": {
+      "attrs": {
         "name": "Phosphotransacetylase"
       },
       "edge": "PTAr"
