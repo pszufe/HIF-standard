@@ -1,6 +1,8 @@
 HypergraphAnalysisToolbox
 hypergraphx
-hypernetx
+hypernetx>=2.3.10
 networkx
-xgi
+xgi>=0.9.1
 requests
+jupyter>=1.0
+ipython<=8.12.0
