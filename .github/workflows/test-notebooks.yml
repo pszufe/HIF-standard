@@ -1,0 +1,48 @@
+name: Test tutorials
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  tutorials:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.13"
+
+    - name: Install packages
+      run: |
+        sudo apt-get install -y rename
+        python -m pip install --upgrade pip wheel setuptools
+        python -m pip install -r requirements/tutorials.txt
+        python -m pip list
+
+    - name: Prepare notebooks
+      run: |
+        # go into tutorial location
+        cd tutorials
+        # convert each notebook into a python file
+        jupyter nbconvert --to script *.ipynb
+        # rename the files so they are found by pytest: add 'test' at the beginning
+        rename 's/(.*)\.py/test $1.py/' *
+        # rename the files so they are found by pytest: change spaces to underscores
+        rename 's/ /_/g' test*
+        # modify each file by adding one level of indentation to each line
+        sed -i 's/^/    /' test*.py
+        # modify each file by adding 'def test_func():' at the top
+        sed -i '1s;^;def test_func():\n;' test*.py
+
+    - name: Test tutorial notebooks
+      run: |
+        # run pytest ONLY on the tutorials
+        cd tutorials
+        pytest --color=yes

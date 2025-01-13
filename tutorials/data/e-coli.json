@@ -7,9 +7,183 @@
   "nodes": [
     {
       "attrs": {
+        "name": "L-Malate"
+      },
+      "node": "mal__L_c"
+    },
+    {
+      "attrs": {
+        "name": "Acetaldehyde"
+      },
+      "node": "acald_e"
+    },
+    {
+      "attrs": {
+        "name": "Acetyl phosphate"
+      },
+      "node": "actp_c"
+    },
+    {
+      "attrs": {
+        "name": "L-Glutamine"
+      },
+      "node": "gln__L_c"
+    },
+    {
+      "attrs": {
         "name": "3-Phospho-D-glycerate"
       },
       "node": "3pg_c"
+    },
+    {
+      "attrs": {
+        "name": "O2 O2"
+      },
+      "node": "o2_c"
+    },
+    {
+      "attrs": {
+        "name": "Alpha-D-Ribose 5-phosphate"
+      },
+      "node": "r5p_c"
+    },
+    {
+      "attrs": {
+        "name": "Formate"
+      },
+      "node": "for_e"
+    },
+    {
+      "attrs": {
+        "name": "AMP C10H12N5O7P"
+      },
+      "node": "amp_c"
+    },
+    {
+      "attrs": {
+        "name": "6-phospho-D-glucono-1,5-lactone"
+      },
+      "node": "6pgl_c"
+    },
+    {
+      "attrs": {
+        "name": "Acetate"
+      },
+      "node": "ac_e"
+    },
+    {
+      "attrs": {
+        "name": "L-Glutamate"
+      },
+      "node": "glu__L_c"
+    },
+    {
+      "attrs": {
+        "name": "Fumarate"
+      },
+      "node": "fum_c"
+    },
+    {
+      "attrs": {
+        "name": "D-Ribulose 5-phosphate"
+      },
+      "node": "ru5p__D_c"
+    },
+    {
+      "attrs": {
+        "name": "D-Fructose 1,6-bisphosphate"
+      },
+      "node": "fdp_c"
+    },
+    {
+      "attrs": {
+        "name": "Ubiquinone-8"
+      },
+      "node": "q8_c"
+    },
+    {
+      "attrs": {
+        "name": "Glyceraldehyde 3-phosphate"
+      },
+      "node": "g3p_c"
+    },
+    {
+      "attrs": {
+        "name": "CO2 CO2"
+      },
+      "node": "co2_e"
+    },
+    {
+      "attrs": {
+        "name": "Oxaloacetate"
+      },
+      "node": "oaa_c"
+    },
+    {
+      "attrs": {
+        "name": "Succinyl-CoA"
+      },
+      "node": "succoa_c"
+    },
+    {
+      "attrs": {
+        "name": "6-Phospho-D-gluconate"
+      },
+      "node": "6pgc_c"
+    },
+    {
+      "attrs": {
+        "name": "Acetaldehyde"
+      },
+      "node": "acald_c"
+    },
+    {
+      "attrs": {
+        "name": "D-Glycerate 2-phosphate"
+      },
+      "node": "2pg_c"
+    },
+    {
+      "attrs": {
+        "name": "Nicotinamide adenine dinucleotide"
+      },
+      "node": "nad_c"
+    },
+    {
+      "attrs": {
+        "name": "L-Glutamine"
+      },
+      "node": "gln__L_e"
+    },
+    {
+      "attrs": {
+        "name": "D-Fructose 6-phosphate"
+      },
+      "node": "f6p_c"
+    },
+    {
+      "attrs": {
+        "name": "Coenzyme A"
+      },
+      "node": "coa_c"
+    },
+    {
+      "attrs": {
+        "name": "D-Lactate"
+      },
+      "node": "lac__D_e"
+    },
+    {
+      "attrs": {
+        "name": "O2 O2"
+      },
+      "node": "o2_e"
+    },
+    {
+      "attrs": {
+        "name": "D-Xylulose 5-phosphate"
+      },
+      "node": "xu5p__D_c"
     },
     {
       "attrs": {
@@ -21,331 +195,7 @@
       "attrs": {
         "name": "Ethanol"
       },
-      "node": "etoh_e"
-    },
-    {
-      "attrs": {
-        "name": "3-Phospho-D-glyceroyl phosphate"
-      },
-      "node": "13dpg_c"
-    },
-    {
-      "attrs": {
-        "name": "D-Fructose 1,6-bisphosphate"
-      },
-      "node": "fdp_c"
-    },
-    {
-      "attrs": {
-        "name": "D-Xylulose 5-phosphate"
-      },
-      "node": "xu5p__D_c"
-    },
-    {
-      "attrs": {
-        "name": "AMP C10H12N5O7P"
-      },
-      "node": "amp_c"
-    },
-    {
-      "attrs": {
-        "name": "Ethanol"
-      },
       "node": "etoh_c"
-    },
-    {
-      "attrs": {
-        "name": "D-Fructose 6-phosphate"
-      },
-      "node": "f6p_c"
-    },
-    {
-      "attrs": {
-        "name": "Oxaloacetate"
-      },
-      "node": "oaa_c"
-    },
-    {
-      "attrs": {
-        "name": "Nicotinamide adenine dinucleotide - reduced"
-      },
-      "node": "nadh_c"
-    },
-    {
-      "attrs": {
-        "name": "Phosphoenolpyruvate"
-      },
-      "node": "pep_c"
-    },
-    {
-      "attrs": {
-        "name": "Succinate"
-      },
-      "node": "succ_c"
-    },
-    {
-      "attrs": {
-        "name": "Nicotinamide adenine dinucleotide phosphate"
-      },
-      "node": "nadp_c"
-    },
-    {
-      "attrs": {
-        "name": "Nicotinamide adenine dinucleotide phosphate - reduced"
-      },
-      "node": "nadph_c"
-    },
-    {
-      "attrs": {
-        "name": "Glyoxylate"
-      },
-      "node": "glx_c"
-    },
-    {
-      "attrs": {
-        "name": "2-Oxoglutarate"
-      },
-      "node": "akg_c"
-    },
-    {
-      "attrs": {
-        "name": "Fumarate"
-      },
-      "node": "fum_c"
-    },
-    {
-      "attrs": {
-        "name": "Acetaldehyde"
-      },
-      "node": "acald_e"
-    },
-    {
-      "attrs": {
-        "name": "ADP C10H12N5O10P2"
-      },
-      "node": "adp_c"
-    },
-    {
-      "attrs": {
-        "name": "Sedoheptulose 7-phosphate"
-      },
-      "node": "s7p_c"
-    },
-    {
-      "attrs": {
-        "name": "CO2 CO2"
-      },
-      "node": "co2_e"
-    },
-    {
-      "attrs": {
-        "name": "Acetyl phosphate"
-      },
-      "node": "actp_c"
-    },
-    {
-      "attrs": {
-        "name": "Acetyl-CoA"
-      },
-      "node": "accoa_c"
-    },
-    {
-      "attrs": {
-        "name": "Citrate"
-      },
-      "node": "cit_c"
-    },
-    {
-      "attrs": {
-        "name": "Dihydroxyacetone phosphate"
-      },
-      "node": "dhap_c"
-    },
-    {
-      "attrs": {
-        "name": "6-Phospho-D-gluconate"
-      },
-      "node": "6pgc_c"
-    },
-    {
-      "attrs": {
-        "name": "D-Lactate"
-      },
-      "node": "lac__D_e"
-    },
-    {
-      "attrs": {
-        "name": "D-Erythrose 4-phosphate"
-      },
-      "node": "e4p_c"
-    },
-    {
-      "attrs": {
-        "name": "L-Glutamine"
-      },
-      "node": "gln__L_c"
-    },
-    {
-      "attrs": {
-        "name": "2-Oxoglutarate"
-      },
-      "node": "akg_e"
-    },
-    {
-      "attrs": {
-        "name": "Ubiquinone-8"
-      },
-      "node": "q8_c"
-    },
-    {
-      "attrs": {
-        "name": "Succinyl-CoA"
-      },
-      "node": "succoa_c"
-    },
-    {
-      "attrs": {
-        "name": "D-Ribulose 5-phosphate"
-      },
-      "node": "ru5p__D_c"
-    },
-    {
-      "attrs": {
-        "name": "Fumarate"
-      },
-      "node": "fum_e"
-    },
-    {
-      "attrs": {
-        "name": "Ammonium"
-      },
-      "node": "nh4_c"
-    },
-    {
-      "attrs": {
-        "name": "Coenzyme A"
-      },
-      "node": "coa_c"
-    },
-    {
-      "attrs": {
-        "name": "Isocitrate"
-      },
-      "node": "icit_c"
-    },
-    {
-      "attrs": {
-        "name": "H2O H2O"
-      },
-      "node": "h2o_c"
-    },
-    {
-      "attrs": {
-        "name": "Acetate"
-      },
-      "node": "ac_e"
-    },
-    {
-      "attrs": {
-        "name": "ATP C10H12N5O13P3"
-      },
-      "node": "atp_c"
-    },
-    {
-      "attrs": {
-        "name": "L-Malate"
-      },
-      "node": "mal__L_c"
-    },
-    {
-      "attrs": {
-        "name": "D-Glycerate 2-phosphate"
-      },
-      "node": "2pg_c"
-    },
-    {
-      "attrs": {
-        "name": "H+"
-      },
-      "node": "h_c"
-    },
-    {
-      "attrs": {
-        "name": "Alpha-D-Ribose 5-phosphate"
-      },
-      "node": "r5p_c"
-    },
-    {
-      "attrs": {
-        "name": "D-Lactate"
-      },
-      "node": "lac__D_c"
-    },
-    {
-      "attrs": {
-        "name": "Formate"
-      },
-      "node": "for_e"
-    },
-    {
-      "attrs": {
-        "name": "Ammonium"
-      },
-      "node": "nh4_e"
-    },
-    {
-      "attrs": {
-        "name": "L-Glutamine"
-      },
-      "node": "gln__L_e"
-    },
-    {
-      "attrs": {
-        "name": "Phosphate"
-      },
-      "node": "pi_e"
-    },
-    {
-      "attrs": {
-        "name": "Pyruvate"
-      },
-      "node": "pyr_e"
-    },
-    {
-      "attrs": {
-        "name": "Phosphate"
-      },
-      "node": "pi_c"
-    },
-    {
-      "attrs": {
-        "name": "D-Glucose"
-      },
-      "node": "glc__D_e"
-    },
-    {
-      "attrs": {
-        "name": "Ubiquinol-8"
-      },
-      "node": "q8h2_c"
-    },
-    {
-      "attrs": {
-        "name": "L-Glutamate"
-      },
-      "node": "glu__L_c"
-    },
-    {
-      "attrs": {
-        "name": "H2O H2O"
-      },
-      "node": "h2o_e"
-    },
-    {
-      "attrs": {
-        "name": "Acetaldehyde"
-      },
-      "node": "acald_c"
     },
     {
       "attrs": {
@@ -355,63 +205,15 @@
     },
     {
       "attrs": {
-        "name": "O2 O2"
+        "name": "Phosphoenolpyruvate"
       },
-      "node": "o2_e"
+      "node": "pep_c"
     },
     {
       "attrs": {
-        "name": "Formate"
+        "name": "Phosphate"
       },
-      "node": "for_c"
-    },
-    {
-      "attrs": {
-        "name": "Acetate"
-      },
-      "node": "ac_c"
-    },
-    {
-      "attrs": {
-        "name": "Nicotinamide adenine dinucleotide"
-      },
-      "node": "nad_c"
-    },
-    {
-      "attrs": {
-        "name": "D-Fructose"
-      },
-      "node": "fru_e"
-    },
-    {
-      "attrs": {
-        "name": "L-Glutamate"
-      },
-      "node": "glu__L_e"
-    },
-    {
-      "attrs": {
-        "name": "CO2 CO2"
-      },
-      "node": "co2_c"
-    },
-    {
-      "attrs": {
-        "name": "D-Glucose 6-phosphate"
-      },
-      "node": "g6p_c"
-    },
-    {
-      "attrs": {
-        "name": "Pyruvate"
-      },
-      "node": "pyr_c"
-    },
-    {
-      "attrs": {
-        "name": "6-phospho-D-glucono-1,5-lactone"
-      },
-      "node": "6pgl_c"
+      "node": "pi_e"
     },
     {
       "attrs": {
@@ -421,827 +223,227 @@
     },
     {
       "attrs": {
+        "name": "CO2 CO2"
+      },
+      "node": "co2_c"
+    },
+    {
+      "attrs": {
+        "name": "Ammonium"
+      },
+      "node": "nh4_e"
+    },
+    {
+      "attrs": {
+        "name": "Dihydroxyacetone phosphate"
+      },
+      "node": "dhap_c"
+    },
+    {
+      "attrs": {
+        "name": "2-Oxoglutarate"
+      },
+      "node": "akg_c"
+    },
+    {
+      "attrs": {
+        "name": "2-Oxoglutarate"
+      },
+      "node": "akg_e"
+    },
+    {
+      "attrs": {
+        "name": "Phosphate"
+      },
+      "node": "pi_c"
+    },
+    {
+      "attrs": {
+        "name": "Ubiquinol-8"
+      },
+      "node": "q8h2_c"
+    },
+    {
+      "attrs": {
+        "name": "Pyruvate"
+      },
+      "node": "pyr_c"
+    },
+    {
+      "attrs": {
+        "name": "Acetate"
+      },
+      "node": "ac_c"
+    },
+    {
+      "attrs": {
+        "name": "Isocitrate"
+      },
+      "node": "icit_c"
+    },
+    {
+      "attrs": {
+        "name": "Nicotinamide adenine dinucleotide phosphate - reduced"
+      },
+      "node": "nadph_c"
+    },
+    {
+      "attrs": {
+        "name": "H2O H2O"
+      },
+      "node": "h2o_e"
+    },
+    {
+      "attrs": {
+        "name": "D-Glucose"
+      },
+      "node": "glc__D_e"
+    },
+    {
+      "attrs": {
+        "name": "Acetyl-CoA"
+      },
+      "node": "accoa_c"
+    },
+    {
+      "attrs": {
+        "name": "D-Glucose 6-phosphate"
+      },
+      "node": "g6p_c"
+    },
+    {
+      "attrs": {
+        "name": "3-Phospho-D-glyceroyl phosphate"
+      },
+      "node": "13dpg_c"
+    },
+    {
+      "attrs": {
+        "name": "D-Fructose"
+      },
+      "node": "fru_e"
+    },
+    {
+      "attrs": {
+        "name": "Pyruvate"
+      },
+      "node": "pyr_e"
+    },
+    {
+      "attrs": {
+        "name": "Sedoheptulose 7-phosphate"
+      },
+      "node": "s7p_c"
+    },
+    {
+      "attrs": {
+        "name": "Glyoxylate"
+      },
+      "node": "glx_c"
+    },
+    {
+      "attrs": {
+        "name": "Nicotinamide adenine dinucleotide phosphate"
+      },
+      "node": "nadp_c"
+    },
+    {
+      "attrs": {
+        "name": "H2O H2O"
+      },
+      "node": "h2o_c"
+    },
+    {
+      "attrs": {
+        "name": "Nicotinamide adenine dinucleotide - reduced"
+      },
+      "node": "nadh_c"
+    },
+    {
+      "attrs": {
+        "name": "D-Lactate"
+      },
+      "node": "lac__D_c"
+    },
+    {
+      "attrs": {
+        "name": "Fumarate"
+      },
+      "node": "fum_e"
+    },
+    {
+      "attrs": {
+        "name": "Ethanol"
+      },
+      "node": "etoh_e"
+    },
+    {
+      "attrs": {
+        "name": "L-Glutamate"
+      },
+      "node": "glu__L_e"
+    },
+    {
+      "attrs": {
+        "name": "D-Erythrose 4-phosphate"
+      },
+      "node": "e4p_c"
+    },
+    {
+      "attrs": {
+        "name": "Citrate"
+      },
+      "node": "cit_c"
+    },
+    {
+      "attrs": {
+        "name": "Succinate"
+      },
+      "node": "succ_c"
+    },
+    {
+      "attrs": {
+        "name": "Formate"
+      },
+      "node": "for_c"
+    },
+    {
+      "attrs": {
+        "name": "ADP C10H12N5O10P2"
+      },
+      "node": "adp_c"
+    },
+    {
+      "attrs": {
+        "name": "ATP C10H12N5O13P3"
+      },
+      "node": "atp_c"
+    },
+    {
+      "attrs": {
+        "name": "Ammonium"
+      },
+      "node": "nh4_c"
+    },
+    {
+      "attrs": {
+        "name": "H+"
+      },
+      "node": "h_c"
+    },
+    {
+      "attrs": {
         "name": "H+"
       },
       "node": "h_e"
-    },
-    {
-      "attrs": {
-        "name": "O2 O2"
-      },
-      "node": "o2_c"
-    },
-    {
-      "attrs": {
-        "name": "Glyceraldehyde 3-phosphate"
-      },
-      "node": "g3p_c"
     }
   ],
   "edges": [
     {
       "attrs": {
-        "name": "Succinyl-CoA synthetase (ADP-forming)"
-      },
-      "edge": "SUCOAS_reverse"
-    },
-    {
-      "attrs": {
-        "name": "H2O exchange"
-      },
-      "edge": "EX_h2o_e"
-    },
-    {
-      "attrs": {
-        "name": "Malate transport via proton symport (2 H)"
-      },
-      "edge": "MALt2_2"
-    },
-    {
-      "attrs": {
-        "name": "Fumarase"
-      },
-      "edge": "FUM"
-    },
-    {
-      "attrs": {
-        "name": "H2O transport via diffusion"
-      },
-      "edge": "H2Ot"
-    },
-    {
-      "attrs": {
-        "name": "Glucose-6-phosphate isomerase"
-      },
-      "edge": "PGI_reverse"
-    },
-    {
-      "attrs": {
-        "name": "H+ exchange"
-      },
-      "edge": "EX_h_e_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Ribose-5-phosphate isomerase"
-      },
-      "edge": "RPI_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Phosphate reversible transport via symport"
-      },
-      "edge": "PIt2r"
-    },
-    {
-      "attrs": {
-        "name": "Glutaminase"
-      },
-      "edge": "GLUN"
-    },
-    {
-      "attrs": {
-        "name": "Pyruvate transport in via proton symport"
-      },
-      "edge": "PYRt2_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Phosphoglycerate mutase"
-      },
-      "edge": "PGM_reverse"
-    },
-    {
-      "attrs": {
-        "name": "D-Glucose exchange"
-      },
-      "edge": "EX_glc__D_e"
-    },
-    {
-      "attrs": {
-        "name": "D-Glucose exchange"
-      },
-      "edge": "EX_glc__D_e_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Transaldolase"
-      },
-      "edge": "TALA"
-    },
-    {
-      "attrs": {
-        "name": "CO2 transporter via diffusion"
-      },
-      "edge": "CO2t"
-    },
-    {
-      "attrs": {
-        "name": "Glutamate synthase (NADPH)"
-      },
-      "edge": "GLUSy"
-    },
-    {
-      "attrs": {
-        "name": "Acetate kinase"
-      },
-      "edge": "ACKr_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Ammonia exchange"
-      },
-      "edge": "EX_nh4_e"
-    },
-    {
-      "attrs": {
-        "name": "Acetate reversible transport via proton symport"
-      },
-      "edge": "ACt2r"
-    },
-    {
-      "attrs": {
-        "name": "Phosphoglycerate kinase"
-      },
-      "edge": "PGK"
-    },
-    {
-      "attrs": {
-        "name": "Transaldolase"
-      },
-      "edge": "TALA_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Triose-phosphate isomerase"
-      },
-      "edge": "TPI"
-    },
-    {
-      "attrs": {
-        "name": "ATP maintenance requirement"
-      },
-      "edge": "ATPM"
-    },
-    {
-      "attrs": {
-        "name": "Succinate transport via proton symport (2 H)"
-      },
-      "edge": "SUCCt2_2"
-    },
-    {
-      "attrs": {
-        "name": "Fructose-bisphosphate aldolase"
-      },
-      "edge": "FBA_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Cytochrome oxidase bd (ubiquinol-8: 2 protons)"
-      },
-      "edge": "CYTBD"
-    },
-    {
-      "attrs": {
-        "name": "D-Fructose exchange"
-      },
-      "edge": "EX_fru_e"
-    },
-    {
-      "attrs": {
-        "name": "2 oxoglutarate reversible transport via symport"
-      },
-      "edge": "AKGt2r"
-    },
-    {
-      "attrs": {
-        "name": "Phosphate exchange"
-      },
-      "edge": "EX_pi_e_reverse"
-    },
-    {
-      "attrs": {
-        "name": "ATP synthase (four protons for one ATP)"
-      },
-      "edge": "ATPS4r"
-    },
-    {
-      "attrs": {
-        "name": "Formate transport via diffusion"
-      },
-      "edge": "FORt"
-    },
-    {
-      "attrs": {
-        "name": "D-glucose transport via PEP:Pyr PTS"
-      },
-      "edge": "GLCpts"
-    },
-    {
-      "attrs": {
-        "name": "Glutamate dehydrogenase (NADP)"
-      },
-      "edge": "GLUDy_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Phosphoenolpyruvate synthase"
-      },
-      "edge": "PPS"
-    },
-    {
-      "attrs": {
-        "name": "Enolase"
-      },
-      "edge": "ENO"
-    },
-    {
-      "attrs": {
-        "name": "Pyruvate exchange"
-      },
-      "edge": "EX_pyr_e"
-    },
-    {
-      "attrs": {
-        "name": "Phosphate reversible transport via symport"
-      },
-      "edge": "PIt2r_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Glutamate dehydrogenase (NADP)"
-      },
-      "edge": "GLUDy"
-    },
-    {
-      "attrs": {
-        "name": "Fumarase"
-      },
-      "edge": "FUM_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Ethanol exchange"
-      },
-      "edge": "EX_etoh_e"
-    },
-    {
-      "attrs": {
-        "name": "CO2 exchange"
-      },
-      "edge": "EX_co2_e_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Transketolase"
-      },
-      "edge": "TKT1"
-    },
-    {
-      "attrs": {
-        "name": "Ethanol reversible transport via proton symport"
-      },
-      "edge": "ETOHt2r_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Fructose transport via PEP:Pyr PTS (f6p generating)"
-      },
-      "edge": "FRUpts2"
-    },
-    {
-      "attrs": {
-        "name": "2 oxoglutarate reversible transport via symport"
-      },
-      "edge": "AKGt2r_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Biomass Objective Function with GAM"
-      },
-      "edge": "BIOMASS_Ecoli_core_w_GAM"
-    },
-    {
-      "attrs": {
-        "name": "O2 exchange"
-      },
-      "edge": "EX_o2_e"
-    },
-    {
-      "attrs": {
-        "name": "6-phosphogluconolactonase"
-      },
-      "edge": "PGL"
-    },
-    {
-      "attrs": {
-        "name": "NAD(P) transhydrogenase"
-      },
-      "edge": "THD2"
-    },
-    {
-      "attrs": {
-        "name": "Aconitase (half-reaction A, Citrate hydro-lyase)"
-      },
-      "edge": "ACONTa_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Formate exchange"
-      },
-      "edge": "EX_for_e"
-    },
-    {
-      "attrs": {
-        "name": "Transketolase"
-      },
-      "edge": "TKT2"
-    },
-    {
-      "attrs": {
-        "name": "Fructose-bisphosphate aldolase"
-      },
-      "edge": "FBA"
-    },
-    {
-      "attrs": {
-        "name": "Acetaldehyde exchange"
-      },
-      "edge": "EX_acald_e"
-    },
-    {
-      "attrs": {
-        "name": "Acetate exchange"
-      },
-      "edge": "EX_ac_e"
-    },
-    {
-      "attrs": {
-        "name": "L-Glutamate exchange"
-      },
-      "edge": "EX_glu__L_e"
-    },
-    {
-      "attrs": {
-        "name": "Aconitase (half-reaction A, Citrate hydro-lyase)"
-      },
-      "edge": "ACONTa"
-    },
-    {
-      "attrs": {
-        "name": "NADH dehydrogenase (ubiquinone-8 & 3 protons)"
-      },
-      "edge": "NADH16"
-    },
-    {
-      "attrs": {
-        "name": "O2 transport  diffusion "
-      },
-      "edge": "O2t"
-    },
-    {
-      "attrs": {
-        "name": "Succinate exchange"
-      },
-      "edge": "EX_succ_e"
-    },
-    {
-      "attrs": {
-        "name": "D lactate transport via proton symport"
-      },
-      "edge": "D_LACt2_reverse"
-    },
-    {
-      "attrs": {
-        "name": "H2O transport via diffusion"
-      },
-      "edge": "H2Ot_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Fructose-bisphosphatase"
-      },
-      "edge": "FBP"
-    },
-    {
-      "attrs": {
-        "name": "Adenylate kinase"
-      },
-      "edge": "ADK1_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Ammonia reversible transport"
-      },
-      "edge": "NH4t"
-    },
-    {
-      "attrs": {
-        "name": "Phosphofructokinase"
-      },
-      "edge": "PFK"
-    },
-    {
-      "attrs": {
-        "name": "D-lactate exchange"
-      },
-      "edge": "EX_lac__D_e"
-    },
-    {
-      "attrs": {
-        "name": "Phosphoglycerate mutase"
-      },
-      "edge": "PGM"
-    },
-    {
-      "attrs": {
-        "name": "Malic enzyme (NADP)"
-      },
-      "edge": "ME2"
-    },
-    {
-      "attrs": {
-        "name": "Phosphate exchange"
-      },
-      "edge": "EX_pi_e"
-    },
-    {
-      "attrs": {
-        "name": "Glucose 6-phosphate dehydrogenase"
-      },
-      "edge": "G6PDH2r"
-    },
-    {
-      "attrs": {
-        "name": "Enolase"
-      },
-      "edge": "ENO_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Ethanol reversible transport via proton symport"
-      },
-      "edge": "ETOHt2r"
-    },
-    {
-      "attrs": {
-        "name": "Pyruvate kinase"
-      },
-      "edge": "PYK"
-    },
-    {
-      "attrs": {
-        "name": "Ribulose 5-phosphate 3-epimerase"
-      },
-      "edge": "RPE_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Ribulose 5-phosphate 3-epimerase"
-      },
-      "edge": "RPE"
-    },
-    {
-      "attrs": {
-        "name": "Glutamine synthetase"
-      },
-      "edge": "GLNS"
-    },
-    {
-      "attrs": {
-        "name": "Pyruvate formate lyase"
-      },
-      "edge": "PFL"
-    },
-    {
-      "attrs": {
-        "name": "2-Oxogluterate dehydrogenase"
-      },
-      "edge": "AKGDH"
-    },
-    {
-      "attrs": {
-        "name": "NAD transhydrogenase"
-      },
-      "edge": "NADTRHD"
-    },
-    {
-      "attrs": {
-        "name": "D lactate transport via proton symport"
-      },
-      "edge": "D_LACt2"
-    },
-    {
-      "attrs": {
-        "name": "Glucose 6-phosphate dehydrogenase"
-      },
-      "edge": "G6PDH2r_reverse"
-    },
-    {
-      "attrs": {
-        "name": "D-lactate dehydrogenase"
-      },
-      "edge": "LDH_D"
-    },
-    {
-      "attrs": {
-        "name": "Alcohol dehydrogenase (ethanol)"
-      },
-      "edge": "ALCD2x"
-    },
-    {
-      "attrs": {
-        "name": "Pyruvate dehydrogenase"
-      },
-      "edge": "PDH"
-    },
-    {
-      "attrs": {
-        "name": "Fumarate reductase"
-      },
-      "edge": "FRD7"
-    },
-    {
-      "attrs": {
-        "name": "L-Glutamine exchange"
-      },
-      "edge": "EX_gln__L_e"
-    },
-    {
-      "attrs": {
-        "name": "Malate synthase"
-      },
-      "edge": "MALS"
-    },
-    {
-      "attrs": {
-        "name": "Fumarate exchange"
-      },
-      "edge": "EX_fum_e"
-    },
-    {
-      "attrs": {
-        "name": "L glutamate transport via proton symport  reversible"
-      },
-      "edge": "GLUt2r_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Isocitrate lyase"
-      },
-      "edge": "ICL"
-    },
-    {
-      "attrs": {
-        "name": "Glucose-6-phosphate isomerase"
-      },
-      "edge": "PGI"
-    },
-    {
-      "attrs": {
-        "name": "Acetaldehyde reversible transport"
-      },
-      "edge": "ACALDt_reverse"
-    },
-    {
-      "attrs": {
-        "name": "L-glutamine transport via ABC system"
-      },
-      "edge": "GLNabc"
-    },
-    {
-      "attrs": {
-        "name": "D-lactate dehydrogenase"
-      },
-      "edge": "LDH_D_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Triose-phosphate isomerase"
-      },
-      "edge": "TPI_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Ribose-5-phosphate isomerase"
-      },
-      "edge": "RPI"
-    },
-    {
-      "attrs": {
-        "name": "Phosphoenolpyruvate carboxykinase"
-      },
-      "edge": "PPCK"
-    },
-    {
-      "attrs": {
-        "name": "CO2 exchange"
-      },
-      "edge": "EX_co2_e"
-    },
-    {
-      "attrs": {
-        "name": "Transketolase"
-      },
-      "edge": "TKT2_reverse"
-    },
-    {
-      "attrs": {
-        "name": "O2 exchange"
-      },
-      "edge": "EX_o2_e_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Pyruvate transport in via proton symport"
-      },
-      "edge": "PYRt2"
-    },
-    {
-      "attrs": {
-        "name": "Citrate synthase"
-      },
-      "edge": "CS"
-    },
-    {
-      "attrs": {
-        "name": "O2 transport  diffusion "
-      },
-      "edge": "O2t_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Fumarate transport via proton symport (2 H)"
-      },
-      "edge": "FUMt2_2"
-    },
-    {
-      "attrs": {
-        "name": "Aconitase (half-reaction B, Isocitrate hydro-lyase)"
-      },
-      "edge": "ACONTb"
-    },
-    {
-      "attrs": {
-        "name": "Glyceraldehyde-3-phosphate dehydrogenase"
-      },
-      "edge": "GAPD_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Succinate transport out via proton antiport"
-      },
-      "edge": "SUCCt3"
-    },
-    {
-      "attrs": {
-        "name": "Adenylate kinase"
-      },
-      "edge": "ADK1"
-    },
-    {
-      "attrs": {
-        "name": "Acetate kinase"
-      },
-      "edge": "ACKr"
-    },
-    {
-      "attrs": {
-        "name": "ATP synthase (four protons for one ATP)"
-      },
-      "edge": "ATPS4r_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Acetaldehyde dehydrogenase (acetylating)"
-      },
-      "edge": "ACALD"
-    },
-    {
-      "attrs": {
-        "name": "CO2 transporter via diffusion"
-      },
-      "edge": "CO2t_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Malate dehydrogenase"
-      },
-      "edge": "MDH_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Glyceraldehyde-3-phosphate dehydrogenase"
-      },
-      "edge": "GAPD"
-    },
-    {
-      "attrs": {
-        "name": "Ammonia reversible transport"
-      },
-      "edge": "NH4t_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Malate dehydrogenase"
-      },
-      "edge": "MDH"
-    },
-    {
-      "attrs": {
         "name": "L glutamate transport via proton symport  reversible"
       },
       "edge": "GLUt2r"
-    },
-    {
-      "attrs": {
-        "name": "Transketolase"
-      },
-      "edge": "TKT1_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Phosphogluconate dehydrogenase"
-      },
-      "edge": "GND"
-    },
-    {
-      "attrs": {
-        "name": "Malic enzyme (NAD)"
-      },
-      "edge": "ME1"
-    },
-    {
-      "attrs": {
-        "name": "Ammonia exchange"
-      },
-      "edge": "EX_nh4_e_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Succinyl-CoA synthetase (ADP-forming)"
-      },
-      "edge": "SUCOAS"
-    },
-    {
-      "attrs": {
-        "name": "2-Oxoglutarate exchange"
-      },
-      "edge": "EX_akg_e"
-    },
-    {
-      "attrs": {
-        "name": "Acetaldehyde dehydrogenase (acetylating)"
-      },
-      "edge": "ACALD_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Alcohol dehydrogenase (ethanol)"
-      },
-      "edge": "ALCD2x_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Succinate dehydrogenase (irreversible)"
-      },
-      "edge": "SUCDi"
-    },
-    {
-      "attrs": {
-        "name": "H2O exchange"
-      },
-      "edge": "EX_h2o_e_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Formate transport in via proton symport"
-      },
-      "edge": "FORt2"
-    },
-    {
-      "attrs": {
-        "name": "Aconitase (half-reaction B, Isocitrate hydro-lyase)"
-      },
-      "edge": "ACONTb_reverse"
-    },
-    {
-      "attrs": {
-        "name": "Acetate reversible transport via proton symport"
-      },
-      "edge": "ACt2r_reverse"
-    },
-    {
-      "attrs": {
-        "name": "H+ exchange"
-      },
-      "edge": "EX_h_e"
-    },
-    {
-      "attrs": {
-        "name": "Isocitrate dehydrogenase (NADP)"
-      },
-      "edge": "ICDHyr"
     },
     {
       "attrs": {
@@ -1251,21 +453,87 @@
     },
     {
       "attrs": {
-        "name": "Acetaldehyde reversible transport"
+        "name": "Glyceraldehyde-3-phosphate dehydrogenase"
       },
-      "edge": "ACALDt"
+      "edge": "GAPD"
     },
     {
       "attrs": {
-        "name": "L-Malate exchange"
+        "name": "Malate synthase"
       },
-      "edge": "EX_mal__L_e"
+      "edge": "MALS"
     },
     {
       "attrs": {
-        "name": "Phosphoglycerate kinase"
+        "name": "Malate dehydrogenase"
       },
-      "edge": "PGK_reverse"
+      "edge": "MDH_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Glucose 6-phosphate dehydrogenase"
+      },
+      "edge": "G6PDH2r_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Transketolase"
+      },
+      "edge": "TKT1_reverse"
+    },
+    {
+      "attrs": {
+        "name": "D-lactate dehydrogenase"
+      },
+      "edge": "LDH_D_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Succinate exchange"
+      },
+      "edge": "EX_succ_e"
+    },
+    {
+      "attrs": {
+        "name": "6-phosphogluconolactonase"
+      },
+      "edge": "PGL"
+    },
+    {
+      "attrs": {
+        "name": "Succinyl-CoA synthetase (ADP-forming)"
+      },
+      "edge": "SUCOAS_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Ethanol reversible transport via proton symport"
+      },
+      "edge": "ETOHt2r"
+    },
+    {
+      "attrs": {
+        "name": "Fumarate reductase"
+      },
+      "edge": "FRD7"
+    },
+    {
+      "attrs": {
+        "name": "Malate dehydrogenase"
+      },
+      "edge": "MDH"
+    },
+    {
+      "attrs": {
+        "name": "Glucose-6-phosphate isomerase"
+      },
+      "edge": "PGI"
+    },
+    {
+      "attrs": {
+        "name": "L-Glutamine exchange"
+      },
+      "edge": "EX_gln__L_e"
     },
     {
       "attrs": {
@@ -1275,15 +543,747 @@
     },
     {
       "attrs": {
-        "name": "Phosphotransacetylase"
+        "name": "H+ exchange"
       },
-      "edge": "PTAr_reverse"
+      "edge": "EX_h_e_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Alcohol dehydrogenase (ethanol)"
+      },
+      "edge": "ALCD2x_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Phosphogluconate dehydrogenase"
+      },
+      "edge": "GND"
+    },
+    {
+      "attrs": {
+        "name": "Fructose-bisphosphate aldolase"
+      },
+      "edge": "FBA_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Pyruvate dehydrogenase"
+      },
+      "edge": "PDH"
+    },
+    {
+      "attrs": {
+        "name": "Acetate exchange"
+      },
+      "edge": "EX_ac_e"
+    },
+    {
+      "attrs": {
+        "name": "Ammonia exchange"
+      },
+      "edge": "EX_nh4_e_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Glyceraldehyde-3-phosphate dehydrogenase"
+      },
+      "edge": "GAPD_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Acetaldehyde dehydrogenase (acetylating)"
+      },
+      "edge": "ACALD"
+    },
+    {
+      "attrs": {
+        "name": "D-Glucose exchange"
+      },
+      "edge": "EX_glc__D_e"
+    },
+    {
+      "attrs": {
+        "name": "Acetate kinase"
+      },
+      "edge": "ACKr_reverse"
+    },
+    {
+      "attrs": {
+        "name": "2-Oxoglutarate exchange"
+      },
+      "edge": "EX_akg_e"
+    },
+    {
+      "attrs": {
+        "name": "Fructose-bisphosphatase"
+      },
+      "edge": "FBP"
+    },
+    {
+      "attrs": {
+        "name": "O2 transport  diffusion "
+      },
+      "edge": "O2t_reverse"
+    },
+    {
+      "attrs": {
+        "name": "H+ exchange"
+      },
+      "edge": "EX_h_e"
+    },
+    {
+      "attrs": {
+        "name": "L-Glutamate exchange"
+      },
+      "edge": "EX_glu__L_e"
+    },
+    {
+      "attrs": {
+        "name": "Pyruvate transport in via proton symport"
+      },
+      "edge": "PYRt2_reverse"
+    },
+    {
+      "attrs": {
+        "name": "L glutamate transport via proton symport  reversible"
+      },
+      "edge": "GLUt2r_reverse"
+    },
+    {
+      "attrs": {
+        "name": "2-Oxogluterate dehydrogenase"
+      },
+      "edge": "AKGDH"
+    },
+    {
+      "attrs": {
+        "name": "Acetate kinase"
+      },
+      "edge": "ACKr"
+    },
+    {
+      "attrs": {
+        "name": "Ethanol reversible transport via proton symport"
+      },
+      "edge": "ETOHt2r_reverse"
+    },
+    {
+      "attrs": {
+        "name": "NADH dehydrogenase (ubiquinone-8 & 3 protons)"
+      },
+      "edge": "NADH16"
+    },
+    {
+      "attrs": {
+        "name": "Acetaldehyde exchange"
+      },
+      "edge": "EX_acald_e"
+    },
+    {
+      "attrs": {
+        "name": "Triose-phosphate isomerase"
+      },
+      "edge": "TPI"
+    },
+    {
+      "attrs": {
+        "name": "Acetaldehyde dehydrogenase (acetylating)"
+      },
+      "edge": "ACALD_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Aconitase (half-reaction A, Citrate hydro-lyase)"
+      },
+      "edge": "ACONTa_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Pyruvate exchange"
+      },
+      "edge": "EX_pyr_e"
+    },
+    {
+      "attrs": {
+        "name": "Acetate reversible transport via proton symport"
+      },
+      "edge": "ACt2r"
+    },
+    {
+      "attrs": {
+        "name": "O2 exchange"
+      },
+      "edge": "EX_o2_e"
+    },
+    {
+      "attrs": {
+        "name": "Pyruvate kinase"
+      },
+      "edge": "PYK"
+    },
+    {
+      "attrs": {
+        "name": "Pyruvate formate lyase"
+      },
+      "edge": "PFL"
+    },
+    {
+      "attrs": {
+        "name": "Cytochrome oxidase bd (ubiquinol-8: 2 protons)"
+      },
+      "edge": "CYTBD"
+    },
+    {
+      "attrs": {
+        "name": "Glutamine synthetase"
+      },
+      "edge": "GLNS"
+    },
+    {
+      "attrs": {
+        "name": "Malic enzyme (NADP)"
+      },
+      "edge": "ME2"
+    },
+    {
+      "attrs": {
+        "name": "Transaldolase"
+      },
+      "edge": "TALA_reverse"
+    },
+    {
+      "attrs": {
+        "name": "ATP synthase (four protons for one ATP)"
+      },
+      "edge": "ATPS4r"
+    },
+    {
+      "attrs": {
+        "name": "O2 exchange"
+      },
+      "edge": "EX_o2_e_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Phosphoenolpyruvate synthase"
+      },
+      "edge": "PPS"
+    },
+    {
+      "attrs": {
+        "name": "Fumarate exchange"
+      },
+      "edge": "EX_fum_e"
     },
     {
       "attrs": {
         "name": "Phosphotransacetylase"
       },
       "edge": "PTAr"
+    },
+    {
+      "attrs": {
+        "name": "Phosphate reversible transport via symport"
+      },
+      "edge": "PIt2r"
+    },
+    {
+      "attrs": {
+        "name": "Isocitrate dehydrogenase (NADP)"
+      },
+      "edge": "ICDHyr"
+    },
+    {
+      "attrs": {
+        "name": "ATP maintenance requirement"
+      },
+      "edge": "ATPM"
+    },
+    {
+      "attrs": {
+        "name": "CO2 exchange"
+      },
+      "edge": "EX_co2_e_reverse"
+    },
+    {
+      "attrs": {
+        "name": "O2 transport  diffusion "
+      },
+      "edge": "O2t"
+    },
+    {
+      "attrs": {
+        "name": "Aconitase (half-reaction B, Isocitrate hydro-lyase)"
+      },
+      "edge": "ACONTb_reverse"
+    },
+    {
+      "attrs": {
+        "name": "H2O exchange"
+      },
+      "edge": "EX_h2o_e_reverse"
+    },
+    {
+      "attrs": {
+        "name": "L-glutamine transport via ABC system"
+      },
+      "edge": "GLNabc"
+    },
+    {
+      "attrs": {
+        "name": "Glutamate dehydrogenase (NADP)"
+      },
+      "edge": "GLUDy"
+    },
+    {
+      "attrs": {
+        "name": "D-Fructose exchange"
+      },
+      "edge": "EX_fru_e"
+    },
+    {
+      "attrs": {
+        "name": "Malic enzyme (NAD)"
+      },
+      "edge": "ME1"
+    },
+    {
+      "attrs": {
+        "name": "Transaldolase"
+      },
+      "edge": "TALA"
+    },
+    {
+      "attrs": {
+        "name": "Phosphotransacetylase"
+      },
+      "edge": "PTAr_reverse"
+    },
+    {
+      "attrs": {
+        "name": "D-lactate dehydrogenase"
+      },
+      "edge": "LDH_D"
+    },
+    {
+      "attrs": {
+        "name": "Ammonia reversible transport"
+      },
+      "edge": "NH4t_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Phosphate exchange"
+      },
+      "edge": "EX_pi_e_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Ammonia exchange"
+      },
+      "edge": "EX_nh4_e"
+    },
+    {
+      "attrs": {
+        "name": "Phosphoglycerate kinase"
+      },
+      "edge": "PGK"
+    },
+    {
+      "attrs": {
+        "name": "Glucose-6-phosphate isomerase"
+      },
+      "edge": "PGI_reverse"
+    },
+    {
+      "attrs": {
+        "name": "H2O transport via diffusion"
+      },
+      "edge": "H2Ot_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Glutaminase"
+      },
+      "edge": "GLUN"
+    },
+    {
+      "attrs": {
+        "name": "Succinate transport via proton symport (2 H)"
+      },
+      "edge": "SUCCt2_2"
+    },
+    {
+      "attrs": {
+        "name": "Acetaldehyde reversible transport"
+      },
+      "edge": "ACALDt_reverse"
+    },
+    {
+      "attrs": {
+        "name": "D-Glucose exchange"
+      },
+      "edge": "EX_glc__D_e_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Glucose 6-phosphate dehydrogenase"
+      },
+      "edge": "G6PDH2r"
+    },
+    {
+      "attrs": {
+        "name": "Phosphoenolpyruvate carboxykinase"
+      },
+      "edge": "PPCK"
+    },
+    {
+      "attrs": {
+        "name": "Acetaldehyde reversible transport"
+      },
+      "edge": "ACALDt"
+    },
+    {
+      "attrs": {
+        "name": "Formate transport in via proton symport"
+      },
+      "edge": "FORt2"
+    },
+    {
+      "attrs": {
+        "name": "H2O transport via diffusion"
+      },
+      "edge": "H2Ot"
+    },
+    {
+      "attrs": {
+        "name": "Adenylate kinase"
+      },
+      "edge": "ADK1"
+    },
+    {
+      "attrs": {
+        "name": "Fumarase"
+      },
+      "edge": "FUM_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Transketolase"
+      },
+      "edge": "TKT1"
+    },
+    {
+      "attrs": {
+        "name": "Isocitrate lyase"
+      },
+      "edge": "ICL"
+    },
+    {
+      "attrs": {
+        "name": "Fumarate transport via proton symport (2 H)"
+      },
+      "edge": "FUMt2_2"
+    },
+    {
+      "attrs": {
+        "name": "CO2 exchange"
+      },
+      "edge": "EX_co2_e"
+    },
+    {
+      "attrs": {
+        "name": "Phosphoglycerate kinase"
+      },
+      "edge": "PGK_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Phosphofructokinase"
+      },
+      "edge": "PFK"
+    },
+    {
+      "attrs": {
+        "name": "2 oxoglutarate reversible transport via symport"
+      },
+      "edge": "AKGt2r"
+    },
+    {
+      "attrs": {
+        "name": "Phosphate reversible transport via symport"
+      },
+      "edge": "PIt2r_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Glutamate synthase (NADPH)"
+      },
+      "edge": "GLUSy"
+    },
+    {
+      "attrs": {
+        "name": "Phosphoglycerate mutase"
+      },
+      "edge": "PGM_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Adenylate kinase"
+      },
+      "edge": "ADK1_reverse"
+    },
+    {
+      "attrs": {
+        "name": "ATP synthase (four protons for one ATP)"
+      },
+      "edge": "ATPS4r_reverse"
+    },
+    {
+      "attrs": {
+        "name": "D lactate transport via proton symport"
+      },
+      "edge": "D_LACt2_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Enolase"
+      },
+      "edge": "ENO"
+    },
+    {
+      "attrs": {
+        "name": "Transketolase"
+      },
+      "edge": "TKT2"
+    },
+    {
+      "attrs": {
+        "name": "Alcohol dehydrogenase (ethanol)"
+      },
+      "edge": "ALCD2x"
+    },
+    {
+      "attrs": {
+        "name": "Ribulose 5-phosphate 3-epimerase"
+      },
+      "edge": "RPE"
+    },
+    {
+      "attrs": {
+        "name": "Triose-phosphate isomerase"
+      },
+      "edge": "TPI_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Malate transport via proton symport (2 H)"
+      },
+      "edge": "MALt2_2"
+    },
+    {
+      "attrs": {
+        "name": "Formate exchange"
+      },
+      "edge": "EX_for_e"
+    },
+    {
+      "attrs": {
+        "name": "D lactate transport via proton symport"
+      },
+      "edge": "D_LACt2"
+    },
+    {
+      "attrs": {
+        "name": "Phosphoglycerate mutase"
+      },
+      "edge": "PGM"
+    },
+    {
+      "attrs": {
+        "name": "L-Malate exchange"
+      },
+      "edge": "EX_mal__L_e"
+    },
+    {
+      "attrs": {
+        "name": "Formate transport via diffusion"
+      },
+      "edge": "FORt"
+    },
+    {
+      "attrs": {
+        "name": "Fructose transport via PEP:Pyr PTS (f6p generating)"
+      },
+      "edge": "FRUpts2"
+    },
+    {
+      "attrs": {
+        "name": "CO2 transporter via diffusion"
+      },
+      "edge": "CO2t"
+    },
+    {
+      "attrs": {
+        "name": "Ribose-5-phosphate isomerase"
+      },
+      "edge": "RPI"
+    },
+    {
+      "attrs": {
+        "name": "Fructose-bisphosphate aldolase"
+      },
+      "edge": "FBA"
+    },
+    {
+      "attrs": {
+        "name": "Ribulose 5-phosphate 3-epimerase"
+      },
+      "edge": "RPE_reverse"
+    },
+    {
+      "attrs": {
+        "name": "D-glucose transport via PEP:Pyr PTS"
+      },
+      "edge": "GLCpts"
+    },
+    {
+      "attrs": {
+        "name": "Fumarase"
+      },
+      "edge": "FUM"
+    },
+    {
+      "attrs": {
+        "name": "Ethanol exchange"
+      },
+      "edge": "EX_etoh_e"
+    },
+    {
+      "attrs": {
+        "name": "Succinate transport out via proton antiport"
+      },
+      "edge": "SUCCt3"
+    },
+    {
+      "attrs": {
+        "name": "Aconitase (half-reaction B, Isocitrate hydro-lyase)"
+      },
+      "edge": "ACONTb"
+    },
+    {
+      "attrs": {
+        "name": "Transketolase"
+      },
+      "edge": "TKT2_reverse"
+    },
+    {
+      "attrs": {
+        "name": "NAD(P) transhydrogenase"
+      },
+      "edge": "THD2"
+    },
+    {
+      "attrs": {
+        "name": "Glutamate dehydrogenase (NADP)"
+      },
+      "edge": "GLUDy_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Biomass Objective Function with GAM"
+      },
+      "edge": "BIOMASS_Ecoli_core_w_GAM"
+    },
+    {
+      "attrs": {
+        "name": "Ammonia reversible transport"
+      },
+      "edge": "NH4t"
+    },
+    {
+      "attrs": {
+        "name": "Ribose-5-phosphate isomerase"
+      },
+      "edge": "RPI_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Succinyl-CoA synthetase (ADP-forming)"
+      },
+      "edge": "SUCOAS"
+    },
+    {
+      "attrs": {
+        "name": "D-lactate exchange"
+      },
+      "edge": "EX_lac__D_e"
+    },
+    {
+      "attrs": {
+        "name": "Enolase"
+      },
+      "edge": "ENO_reverse"
+    },
+    {
+      "attrs": {
+        "name": "CO2 transporter via diffusion"
+      },
+      "edge": "CO2t_reverse"
+    },
+    {
+      "attrs": {
+        "name": "NAD transhydrogenase"
+      },
+      "edge": "NADTRHD"
+    },
+    {
+      "attrs": {
+        "name": "Phosphate exchange"
+      },
+      "edge": "EX_pi_e"
+    },
+    {
+      "attrs": {
+        "name": "2 oxoglutarate reversible transport via symport"
+      },
+      "edge": "AKGt2r_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Aconitase (half-reaction A, Citrate hydro-lyase)"
+      },
+      "edge": "ACONTa"
+    },
+    {
+      "attrs": {
+        "name": "H2O exchange"
+      },
+      "edge": "EX_h2o_e"
+    },
+    {
+      "attrs": {
+        "name": "Acetate reversible transport via proton symport"
+      },
+      "edge": "ACt2r_reverse"
+    },
+    {
+      "attrs": {
+        "name": "Pyruvate transport in via proton symport"
+      },
+      "edge": "PYRt2"
+    },
+    {
+      "attrs": {
+        "name": "Succinate dehydrogenase (irreversible)"
+      },
+      "edge": "SUCDi"
+    },
+    {
+      "attrs": {
+        "name": "Citrate synthase"
+      },
+      "edge": "CS"
     }
   ],
   "incidences": [
@@ -1299,7 +1299,7 @@
     },
     {
       "edge": "PFK",
-      "node": "fdp_c",
+      "node": "h_c",
       "direction": "head"
     },
     {
@@ -1309,7 +1309,7 @@
     },
     {
       "edge": "PFK",
-      "node": "h_c",
+      "node": "fdp_c",
       "direction": "head"
     },
     {
@@ -1394,13 +1394,18 @@
     },
     {
       "edge": "PGL",
+      "node": "h2o_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "PGL",
       "node": "6pgl_c",
       "direction": "tail"
     },
     {
       "edge": "PGL",
-      "node": "h2o_c",
-      "direction": "tail"
+      "node": "h_c",
+      "direction": "head"
     },
     {
       "edge": "PGL",
@@ -1408,11 +1413,6 @@
       "direction": "head"
     },
     {
-      "edge": "PGL",
-      "node": "h_c",
-      "direction": "head"
-    },
-    {
       "edge": "ACALD",
       "node": "coa_c",
       "direction": "tail"
@@ -1484,22 +1484,22 @@
     },
     {
       "edge": "AKGt2r",
-      "node": "akg_c",
+      "node": "h_c",
       "direction": "head"
     },
     {
       "edge": "AKGt2r",
-      "node": "h_c",
+      "node": "akg_c",
       "direction": "head"
     },
     {
       "edge": "AKGt2r_reverse",
-      "node": "akg_c",
+      "node": "h_c",
       "direction": "tail"
     },
     {
       "edge": "AKGt2r_reverse",
-      "node": "h_c",
+      "node": "akg_c",
       "direction": "tail"
     },
     {
@@ -1534,18 +1534,13 @@
     },
     {
       "edge": "PIt2r",
-      "node": "pi_e",
-      "direction": "tail"
-    },
-    {
-      "edge": "PIt2r",
       "node": "h_e",
       "direction": "tail"
     },
     {
       "edge": "PIt2r",
-      "node": "pi_c",
-      "direction": "head"
+      "node": "pi_e",
+      "direction": "tail"
     },
     {
       "edge": "PIt2r",
@@ -1553,9 +1548,9 @@
       "direction": "head"
     },
     {
-      "edge": "PIt2r_reverse",
+      "edge": "PIt2r",
       "node": "pi_c",
-      "direction": "tail"
+      "direction": "head"
     },
     {
       "edge": "PIt2r_reverse",
@@ -1564,12 +1559,17 @@
     },
     {
       "edge": "PIt2r_reverse",
-      "node": "pi_e",
-      "direction": "head"
+      "node": "pi_c",
+      "direction": "tail"
     },
     {
       "edge": "PIt2r_reverse",
       "node": "h_e",
+      "direction": "head"
+    },
+    {
+      "edge": "PIt2r_reverse",
+      "node": "pi_e",
       "direction": "head"
     },
     {
@@ -1584,7 +1584,7 @@
     },
     {
       "edge": "ALCD2x",
-      "node": "acald_c",
+      "node": "h_c",
       "direction": "head"
     },
     {
@@ -1594,12 +1594,12 @@
     },
     {
       "edge": "ALCD2x",
-      "node": "h_c",
+      "node": "acald_c",
       "direction": "head"
     },
     {
       "edge": "ALCD2x_reverse",
-      "node": "acald_c",
+      "node": "h_c",
       "direction": "tail"
     },
     {
@@ -1609,7 +1609,7 @@
     },
     {
       "edge": "ALCD2x_reverse",
-      "node": "h_c",
+      "node": "acald_c",
       "direction": "tail"
     },
     {
@@ -1704,12 +1704,12 @@
     },
     {
       "edge": "PPC",
-      "node": "pi_c",
+      "node": "h_c",
       "direction": "head"
     },
     {
       "edge": "PPC",
-      "node": "h_c",
+      "node": "pi_c",
       "direction": "head"
     },
     {
@@ -1784,7 +1784,7 @@
     },
     {
       "edge": "ATPM",
-      "node": "adp_c",
+      "node": "h_c",
       "direction": "head"
     },
     {
@@ -1794,7 +1794,7 @@
     },
     {
       "edge": "ATPM",
-      "node": "h_c",
+      "node": "adp_c",
       "direction": "head"
     },
     {
@@ -1809,7 +1809,7 @@
     },
     {
       "edge": "PPCK",
-      "node": "adp_c",
+      "node": "pep_c",
       "direction": "head"
     },
     {
@@ -1819,7 +1819,7 @@
     },
     {
       "edge": "PPCK",
-      "node": "pep_c",
+      "node": "adp_c",
       "direction": "head"
     },
     {
@@ -1834,22 +1834,22 @@
     },
     {
       "edge": "ACt2r",
-      "node": "ac_c",
+      "node": "h_c",
       "direction": "head"
     },
     {
       "edge": "ACt2r",
-      "node": "h_c",
+      "node": "ac_c",
       "direction": "head"
     },
     {
       "edge": "ACt2r_reverse",
-      "node": "ac_c",
+      "node": "h_c",
       "direction": "tail"
     },
     {
       "edge": "ACt2r_reverse",
-      "node": "h_c",
+      "node": "ac_c",
       "direction": "tail"
     },
     {
@@ -1865,11 +1865,6 @@
     {
       "edge": "PPS",
       "node": "h2o_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "PPS",
-      "node": "atp_c",
       "direction": "tail"
     },
     {
@@ -1879,12 +1874,12 @@
     },
     {
       "edge": "PPS",
-      "node": "h_c",
-      "direction": "head"
+      "node": "atp_c",
+      "direction": "tail"
     },
     {
       "edge": "PPS",
-      "node": "amp_c",
+      "node": "h_c",
       "direction": "head"
     },
     {
@@ -1898,6 +1893,11 @@
       "direction": "head"
     },
     {
+      "edge": "PPS",
+      "node": "amp_c",
+      "direction": "head"
+    },
+    {
       "edge": "ADK1",
       "node": "amp_c",
       "direction": "tail"
@@ -1926,15 +1926,15 @@
       "edge": "ADK1_reverse",
       "node": "atp_c",
       "direction": "head"
-    },
-    {
-      "edge": "AKGDH",
-      "node": "akg_c",
-      "direction": "tail"
     },
     {
       "edge": "AKGDH",
       "node": "coa_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "AKGDH",
+      "node": "akg_c",
       "direction": "tail"
     },
     {
@@ -1959,12 +1959,12 @@
     },
     {
       "edge": "ATPS4r",
-      "node": "adp_c",
+      "node": "pi_c",
       "direction": "tail"
     },
     {
       "edge": "ATPS4r",
-      "node": "pi_c",
+      "node": "adp_c",
       "direction": "tail"
     },
     {
@@ -1979,12 +1979,12 @@
     },
     {
       "edge": "ATPS4r",
-      "node": "atp_c",
+      "node": "h_c",
       "direction": "head"
     },
     {
       "edge": "ATPS4r",
-      "node": "h_c",
+      "node": "atp_c",
       "direction": "head"
     },
     {
@@ -1994,22 +1994,22 @@
     },
     {
       "edge": "ATPS4r_reverse",
-      "node": "atp_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "ATPS4r_reverse",
       "node": "h_c",
       "direction": "tail"
     },
     {
       "edge": "ATPS4r_reverse",
-      "node": "adp_c",
-      "direction": "head"
+      "node": "atp_c",
+      "direction": "tail"
     },
     {
       "edge": "ATPS4r_reverse",
       "node": "pi_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ATPS4r_reverse",
+      "node": "adp_c",
       "direction": "head"
     },
     {
@@ -2056,11 +2056,6 @@
       "edge": "PTAr_reverse",
       "node": "pi_c",
       "direction": "head"
-    },
-    {
-      "edge": "PYK",
-      "node": "adp_c",
-      "direction": "tail"
     },
     {
       "edge": "PYK",
@@ -2074,8 +2069,8 @@
     },
     {
       "edge": "PYK",
-      "node": "atp_c",
-      "direction": "head"
+      "node": "adp_c",
+      "direction": "tail"
     },
     {
       "edge": "PYK",
@@ -2083,8 +2078,43 @@
       "direction": "head"
     },
     {
+      "edge": "PYK",
+      "node": "atp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "gln__L_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "pyr_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "3pg_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "glu__L_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "nadph_c",
+      "direction": "tail"
+    },
+    {
       "edge": "BIOMASS_Ecoli_core_w_GAM",
       "node": "nad_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "atp_c",
       "direction": "tail"
     },
     {
@@ -2099,12 +2129,12 @@
     },
     {
       "edge": "BIOMASS_Ecoli_core_w_GAM",
-      "node": "h2o_c",
+      "node": "g3p_c",
       "direction": "tail"
     },
     {
       "edge": "BIOMASS_Ecoli_core_w_GAM",
-      "node": "glu__L_c",
+      "node": "h2o_c",
       "direction": "tail"
     },
     {
@@ -2114,47 +2144,7 @@
     },
     {
       "edge": "BIOMASS_Ecoli_core_w_GAM",
-      "node": "atp_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "BIOMASS_Ecoli_core_w_GAM",
-      "node": "oaa_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "BIOMASS_Ecoli_core_w_GAM",
       "node": "pep_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "BIOMASS_Ecoli_core_w_GAM",
-      "node": "pyr_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "BIOMASS_Ecoli_core_w_GAM",
-      "node": "g3p_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "BIOMASS_Ecoli_core_w_GAM",
-      "node": "3pg_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "BIOMASS_Ecoli_core_w_GAM",
-      "node": "nadph_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "BIOMASS_Ecoli_core_w_GAM",
-      "node": "gln__L_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "BIOMASS_Ecoli_core_w_GAM",
-      "node": "e4p_c",
       "direction": "tail"
     },
     {
@@ -2164,17 +2154,22 @@
     },
     {
       "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "oaa_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "e4p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "akg_c",
+      "direction": "head"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
       "node": "adp_c",
-      "direction": "head"
-    },
-    {
-      "edge": "BIOMASS_Ecoli_core_w_GAM",
-      "node": "coa_c",
-      "direction": "head"
-    },
-    {
-      "edge": "BIOMASS_Ecoli_core_w_GAM",
-      "node": "nadh_c",
       "direction": "head"
     },
     {
@@ -2184,17 +2179,22 @@
     },
     {
       "edge": "BIOMASS_Ecoli_core_w_GAM",
+      "node": "coa_c",
+      "direction": "head"
+    },
+    {
+      "edge": "BIOMASS_Ecoli_core_w_GAM",
       "node": "pi_c",
       "direction": "head"
     },
     {
       "edge": "BIOMASS_Ecoli_core_w_GAM",
-      "node": "h_c",
+      "node": "nadh_c",
       "direction": "head"
     },
     {
       "edge": "BIOMASS_Ecoli_core_w_GAM",
-      "node": "akg_c",
+      "node": "h_c",
       "direction": "head"
     },
     {
@@ -2276,6 +2276,11 @@
       "edge": "RPE_reverse",
       "node": "ru5p__D_c",
       "direction": "head"
+    },
+    {
+      "edge": "CS",
+      "node": "oaa_c",
+      "direction": "tail"
     },
     {
       "edge": "CS",
@@ -2285,11 +2290,6 @@
     {
       "edge": "CS",
       "node": "h2o_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "CS",
-      "node": "oaa_c",
       "direction": "tail"
     },
     {
@@ -2339,13 +2339,18 @@
     },
     {
       "edge": "SUCCt2_2",
-      "node": "succ_c",
+      "node": "h_c",
       "direction": "head"
     },
     {
       "edge": "SUCCt2_2",
-      "node": "h_c",
+      "node": "succ_c",
       "direction": "head"
+    },
+    {
+      "edge": "CYTBD",
+      "node": "h_c",
+      "direction": "tail"
     },
     {
       "edge": "CYTBD",
@@ -2359,11 +2364,6 @@
     },
     {
       "edge": "CYTBD",
-      "node": "h_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "CYTBD",
       "node": "h2o_c",
       "direction": "head"
     },
@@ -2379,18 +2379,13 @@
     },
     {
       "edge": "D_LACt2",
-      "node": "lac__D_e",
-      "direction": "tail"
-    },
-    {
-      "edge": "D_LACt2",
       "node": "h_e",
       "direction": "tail"
     },
     {
       "edge": "D_LACt2",
-      "node": "lac__D_c",
-      "direction": "head"
+      "node": "lac__D_e",
+      "direction": "tail"
     },
     {
       "edge": "D_LACt2",
@@ -2398,9 +2393,9 @@
       "direction": "head"
     },
     {
-      "edge": "D_LACt2_reverse",
+      "edge": "D_LACt2",
       "node": "lac__D_c",
-      "direction": "tail"
+      "direction": "head"
     },
     {
       "edge": "D_LACt2_reverse",
@@ -2409,12 +2404,17 @@
     },
     {
       "edge": "D_LACt2_reverse",
-      "node": "lac__D_e",
-      "direction": "head"
+      "node": "lac__D_c",
+      "direction": "tail"
     },
     {
       "edge": "D_LACt2_reverse",
       "node": "h_e",
+      "direction": "head"
+    },
+    {
+      "edge": "D_LACt2_reverse",
+      "node": "lac__D_e",
       "direction": "head"
     },
     {
@@ -2519,18 +2519,13 @@
     },
     {
       "edge": "SUCDi",
-      "node": "q8h2_c",
-      "direction": "head"
-    },
-    {
-      "edge": "SUCDi",
       "node": "fum_c",
       "direction": "head"
     },
     {
-      "edge": "SUCOAS",
-      "node": "atp_c",
-      "direction": "tail"
+      "edge": "SUCDi",
+      "node": "q8h2_c",
+      "direction": "head"
     },
     {
       "edge": "SUCOAS",
@@ -2544,38 +2539,38 @@
     },
     {
       "edge": "SUCOAS",
-      "node": "adp_c",
-      "direction": "head"
-    },
-    {
-      "edge": "SUCOAS",
-      "node": "pi_c",
-      "direction": "head"
-    },
-    {
-      "edge": "SUCOAS",
-      "node": "succoa_c",
-      "direction": "head"
-    },
-    {
-      "edge": "SUCOAS_reverse",
-      "node": "adp_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "SUCOAS_reverse",
-      "node": "pi_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "SUCOAS_reverse",
-      "node": "succoa_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "SUCOAS_reverse",
       "node": "atp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "SUCOAS",
+      "node": "pi_c",
       "direction": "head"
+    },
+    {
+      "edge": "SUCOAS",
+      "node": "adp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "SUCOAS",
+      "node": "succoa_c",
+      "direction": "head"
+    },
+    {
+      "edge": "SUCOAS_reverse",
+      "node": "pi_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "SUCOAS_reverse",
+      "node": "adp_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "SUCOAS_reverse",
+      "node": "succoa_c",
+      "direction": "tail"
     },
     {
       "edge": "SUCOAS_reverse",
@@ -2588,13 +2583,18 @@
       "direction": "head"
     },
     {
-      "edge": "TALA",
-      "node": "g3p_c",
-      "direction": "tail"
+      "edge": "SUCOAS_reverse",
+      "node": "atp_c",
+      "direction": "head"
     },
     {
       "edge": "TALA",
       "node": "s7p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "TALA",
+      "node": "g3p_c",
       "direction": "tail"
     },
     {
@@ -2619,18 +2619,13 @@
     },
     {
       "edge": "TALA_reverse",
-      "node": "g3p_c",
-      "direction": "head"
-    },
-    {
-      "edge": "TALA_reverse",
       "node": "s7p_c",
       "direction": "head"
     },
     {
-      "edge": "THD2",
-      "node": "nadp_c",
-      "direction": "tail"
+      "edge": "TALA_reverse",
+      "node": "g3p_c",
+      "direction": "head"
     },
     {
       "edge": "THD2",
@@ -2644,12 +2639,12 @@
     },
     {
       "edge": "THD2",
-      "node": "nadph_c",
-      "direction": "head"
+      "node": "nadp_c",
+      "direction": "tail"
     },
     {
       "edge": "THD2",
-      "node": "nad_c",
+      "node": "nadph_c",
       "direction": "head"
     },
     {
@@ -2658,6 +2653,11 @@
       "direction": "head"
     },
     {
+      "edge": "THD2",
+      "node": "nad_c",
+      "direction": "head"
+    },
+    {
       "edge": "TKT1",
       "node": "r5p_c",
       "direction": "tail"
@@ -2669,22 +2669,22 @@
     },
     {
       "edge": "TKT1",
-      "node": "g3p_c",
+      "node": "s7p_c",
       "direction": "head"
     },
     {
       "edge": "TKT1",
-      "node": "s7p_c",
+      "node": "g3p_c",
       "direction": "head"
     },
     {
       "edge": "TKT1_reverse",
-      "node": "g3p_c",
+      "node": "s7p_c",
       "direction": "tail"
     },
     {
       "edge": "TKT1_reverse",
-      "node": "s7p_c",
+      "node": "g3p_c",
       "direction": "tail"
     },
     {
@@ -2696,15 +2696,15 @@
       "edge": "TKT1_reverse",
       "node": "xu5p__D_c",
       "direction": "head"
-    },
-    {
-      "edge": "TKT2",
-      "node": "xu5p__D_c",
-      "direction": "tail"
     },
     {
       "edge": "TKT2",
       "node": "e4p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "TKT2",
+      "node": "xu5p__D_c",
       "direction": "tail"
     },
     {
@@ -2729,12 +2729,12 @@
     },
     {
       "edge": "TKT2_reverse",
-      "node": "xu5p__D_c",
+      "node": "e4p_c",
       "direction": "head"
     },
     {
       "edge": "TKT2_reverse",
-      "node": "e4p_c",
+      "node": "xu5p__D_c",
       "direction": "head"
     },
     {
@@ -2924,12 +2924,12 @@
     },
     {
       "edge": "FBP",
-      "node": "fdp_c",
+      "node": "h2o_c",
       "direction": "tail"
     },
     {
       "edge": "FBP",
-      "node": "h2o_c",
+      "node": "fdp_c",
       "direction": "tail"
     },
     {
@@ -2954,12 +2954,12 @@
     },
     {
       "edge": "FORt2",
-      "node": "for_c",
+      "node": "h_c",
       "direction": "head"
     },
     {
       "edge": "FORt2",
-      "node": "h_c",
+      "node": "for_c",
       "direction": "head"
     },
     {
@@ -2974,12 +2974,12 @@
     },
     {
       "edge": "FRD7",
-      "node": "q8h2_c",
+      "node": "fum_c",
       "direction": "tail"
     },
     {
       "edge": "FRD7",
-      "node": "fum_c",
+      "node": "q8h2_c",
       "direction": "tail"
     },
     {
@@ -3014,12 +3014,12 @@
     },
     {
       "edge": "FUM",
-      "node": "h2o_c",
+      "node": "fum_c",
       "direction": "tail"
     },
     {
       "edge": "FUM",
-      "node": "fum_c",
+      "node": "h2o_c",
       "direction": "tail"
     },
     {
@@ -3034,18 +3034,13 @@
     },
     {
       "edge": "FUM_reverse",
-      "node": "h2o_c",
-      "direction": "head"
-    },
-    {
-      "edge": "FUM_reverse",
       "node": "fum_c",
       "direction": "head"
     },
     {
-      "edge": "FUMt2_2",
-      "node": "fum_e",
-      "direction": "tail"
+      "edge": "FUM_reverse",
+      "node": "h2o_c",
+      "direction": "head"
     },
     {
       "edge": "FUMt2_2",
@@ -3054,6 +3049,11 @@
     },
     {
       "edge": "FUMt2_2",
+      "node": "fum_e",
+      "direction": "tail"
+    },
+    {
+      "edge": "FUMt2_2",
       "node": "fum_c",
       "direction": "head"
     },
@@ -3064,18 +3064,13 @@
     },
     {
       "edge": "G6PDH2r",
-      "node": "nadp_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "G6PDH2r",
       "node": "g6p_c",
       "direction": "tail"
     },
     {
       "edge": "G6PDH2r",
-      "node": "6pgl_c",
-      "direction": "head"
+      "node": "nadp_c",
+      "direction": "tail"
     },
     {
       "edge": "G6PDH2r",
@@ -3088,9 +3083,9 @@
       "direction": "head"
     },
     {
-      "edge": "G6PDH2r_reverse",
+      "edge": "G6PDH2r",
       "node": "6pgl_c",
-      "direction": "tail"
+      "direction": "head"
     },
     {
       "edge": "G6PDH2r_reverse",
@@ -3104,8 +3099,8 @@
     },
     {
       "edge": "G6PDH2r_reverse",
-      "node": "nadp_c",
-      "direction": "head"
+      "node": "6pgl_c",
+      "direction": "tail"
     },
     {
       "edge": "G6PDH2r_reverse",
@@ -3113,9 +3108,9 @@
       "direction": "head"
     },
     {
-      "edge": "GAPD",
-      "node": "g3p_c",
-      "direction": "tail"
+      "edge": "G6PDH2r_reverse",
+      "node": "nadp_c",
+      "direction": "head"
     },
     {
       "edge": "GAPD",
@@ -3129,38 +3124,38 @@
     },
     {
       "edge": "GAPD",
-      "node": "13dpg_c",
-      "direction": "head"
-    },
-    {
-      "edge": "GAPD",
-      "node": "nadh_c",
-      "direction": "head"
-    },
-    {
-      "edge": "GAPD",
-      "node": "h_c",
-      "direction": "head"
-    },
-    {
-      "edge": "GAPD_reverse",
-      "node": "13dpg_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "GAPD_reverse",
-      "node": "nadh_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "GAPD_reverse",
-      "node": "h_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "GAPD_reverse",
       "node": "g3p_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GAPD",
+      "node": "h_c",
       "direction": "head"
+    },
+    {
+      "edge": "GAPD",
+      "node": "nadh_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GAPD",
+      "node": "13dpg_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GAPD_reverse",
+      "node": "h_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GAPD_reverse",
+      "node": "nadh_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GAPD_reverse",
+      "node": "13dpg_c",
+      "direction": "tail"
     },
     {
       "edge": "GAPD_reverse",
@@ -3170,6 +3165,11 @@
     {
       "edge": "GAPD_reverse",
       "node": "nad_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GAPD_reverse",
+      "node": "g3p_c",
       "direction": "head"
     },
     {
@@ -3209,12 +3209,7 @@
     },
     {
       "edge": "GLNS",
-      "node": "adp_c",
-      "direction": "head"
-    },
-    {
-      "edge": "GLNS",
-      "node": "gln__L_c",
+      "node": "h_c",
       "direction": "head"
     },
     {
@@ -3224,17 +3219,17 @@
     },
     {
       "edge": "GLNS",
-      "node": "h_c",
+      "node": "adp_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLNS",
+      "node": "gln__L_c",
       "direction": "head"
     },
     {
       "edge": "GLNabc",
       "node": "h2o_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "GLNabc",
-      "node": "atp_c",
       "direction": "tail"
     },
     {
@@ -3244,12 +3239,12 @@
     },
     {
       "edge": "GLNabc",
-      "node": "adp_c",
-      "direction": "head"
+      "node": "atp_c",
+      "direction": "tail"
     },
     {
       "edge": "GLNabc",
-      "node": "gln__L_c",
+      "node": "h_c",
       "direction": "head"
     },
     {
@@ -3259,8 +3254,18 @@
     },
     {
       "edge": "GLNabc",
-      "node": "h_c",
+      "node": "adp_c",
       "direction": "head"
+    },
+    {
+      "edge": "GLNabc",
+      "node": "gln__L_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLUDy",
+      "node": "glu__L_c",
+      "direction": "tail"
     },
     {
       "edge": "GLUDy",
@@ -3274,48 +3279,48 @@
     },
     {
       "edge": "GLUDy",
+      "node": "nadph_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLUDy",
+      "node": "h_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLUDy",
+      "node": "akg_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLUDy",
+      "node": "nh4_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLUDy_reverse",
+      "node": "nadph_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLUDy_reverse",
+      "node": "h_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLUDy_reverse",
+      "node": "akg_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLUDy_reverse",
+      "node": "nh4_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLUDy_reverse",
       "node": "glu__L_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "GLUDy",
-      "node": "akg_c",
       "direction": "head"
-    },
-    {
-      "edge": "GLUDy",
-      "node": "nh4_c",
-      "direction": "head"
-    },
-    {
-      "edge": "GLUDy",
-      "node": "nadph_c",
-      "direction": "head"
-    },
-    {
-      "edge": "GLUDy",
-      "node": "h_c",
-      "direction": "head"
-    },
-    {
-      "edge": "GLUDy_reverse",
-      "node": "akg_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "GLUDy_reverse",
-      "node": "nh4_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "GLUDy_reverse",
-      "node": "nadph_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "GLUDy_reverse",
-      "node": "h_c",
-      "direction": "tail"
     },
     {
       "edge": "GLUDy_reverse",
@@ -3328,9 +3333,9 @@
       "direction": "head"
     },
     {
-      "edge": "GLUDy_reverse",
-      "node": "glu__L_c",
-      "direction": "head"
+      "edge": "GLUN",
+      "node": "h2o_c",
+      "direction": "tail"
     },
     {
       "edge": "GLUN",
@@ -3339,11 +3344,6 @@
     },
     {
       "edge": "GLUN",
-      "node": "h2o_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "GLUN",
       "node": "glu__L_c",
       "direction": "head"
     },
@@ -3351,16 +3351,6 @@
       "edge": "GLUN",
       "node": "nh4_c",
       "direction": "head"
-    },
-    {
-      "edge": "GLUSy",
-      "node": "akg_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "GLUSy",
-      "node": "gln__L_c",
-      "direction": "tail"
     },
     {
       "edge": "GLUSy",
@@ -3374,12 +3364,22 @@
     },
     {
       "edge": "GLUSy",
-      "node": "nadp_c",
-      "direction": "head"
+      "node": "akg_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "GLUSy",
+      "node": "gln__L_c",
+      "direction": "tail"
     },
     {
       "edge": "GLUSy",
       "node": "glu__L_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GLUSy",
+      "node": "nadp_c",
       "direction": "head"
     },
     {
@@ -3434,20 +3434,20 @@
     },
     {
       "edge": "GND",
+      "node": "nadph_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GND",
+      "node": "co2_c",
+      "direction": "head"
+    },
+    {
+      "edge": "GND",
       "node": "ru5p__D_c",
       "direction": "head"
     },
     {
-      "edge": "GND",
-      "node": "nadph_c",
-      "direction": "head"
-    },
-    {
-      "edge": "GND",
-      "node": "co2_c",
-      "direction": "head"
-    },
-    {
       "edge": "H2Ot",
       "node": "h2o_e",
       "direction": "tail"
@@ -3479,12 +3479,12 @@
     },
     {
       "edge": "ICDHyr",
-      "node": "akg_c",
+      "node": "nadph_c",
       "direction": "head"
     },
     {
       "edge": "ICDHyr",
-      "node": "nadph_c",
+      "node": "akg_c",
       "direction": "head"
     },
     {
@@ -3494,12 +3494,12 @@
     },
     {
       "edge": "ICDHyr_reverse",
-      "node": "akg_c",
+      "node": "nadph_c",
       "direction": "tail"
     },
     {
       "edge": "ICDHyr_reverse",
-      "node": "nadph_c",
+      "node": "akg_c",
       "direction": "tail"
     },
     {
@@ -3521,11 +3521,6 @@
       "edge": "ICL",
       "node": "icit_c",
       "direction": "tail"
-    },
-    {
-      "edge": "ICL",
-      "node": "glx_c",
-      "direction": "head"
     },
     {
       "edge": "ICL",
@@ -3533,13 +3528,18 @@
       "direction": "head"
     },
     {
-      "edge": "LDH_D",
-      "node": "lac__D_c",
-      "direction": "tail"
+      "edge": "ICL",
+      "node": "glx_c",
+      "direction": "head"
     },
     {
       "edge": "LDH_D",
       "node": "nad_c",
+      "direction": "tail"
+    },
+    {
+      "edge": "LDH_D",
+      "node": "lac__D_c",
       "direction": "tail"
     },
     {
@@ -3574,12 +3574,12 @@
     },
     {
       "edge": "LDH_D_reverse",
-      "node": "lac__D_c",
+      "node": "nad_c",
       "direction": "head"
     },
     {
       "edge": "LDH_D_reverse",
-      "node": "nad_c",
+      "node": "lac__D_c",
       "direction": "head"
     },
     {
@@ -3649,12 +3649,12 @@
     },
     {
       "edge": "MDH",
-      "node": "nadh_c",
+      "node": "h_c",
       "direction": "head"
     },
     {
       "edge": "MDH",
-      "node": "h_c",
+      "node": "nadh_c",
       "direction": "head"
     },
     {
@@ -3664,12 +3664,12 @@
     },
     {
       "edge": "MDH_reverse",
-      "node": "nadh_c",
+      "node": "h_c",
       "direction": "tail"
     },
     {
       "edge": "MDH_reverse",
-      "node": "h_c",
+      "node": "nadh_c",
       "direction": "tail"
     },
     {
@@ -3709,22 +3709,22 @@
     },
     {
       "edge": "ME2",
-      "node": "nadp_c",
-      "direction": "tail"
-    },
-    {
-      "edge": "ME2",
       "node": "mal__L_c",
       "direction": "tail"
     },
     {
       "edge": "ME2",
-      "node": "co2_c",
-      "direction": "head"
+      "node": "nadp_c",
+      "direction": "tail"
     },
     {
       "edge": "ME2",
       "node": "nadph_c",
+      "direction": "head"
+    },
+    {
+      "edge": "ME2",
+      "node": "co2_c",
       "direction": "head"
     },
     {
@@ -3749,17 +3749,17 @@
     },
     {
       "edge": "NADH16",
-      "node": "q8h2_c",
-      "direction": "head"
-    },
-    {
-      "edge": "NADH16",
       "node": "nad_c",
       "direction": "head"
     },
     {
       "edge": "NADH16",
       "node": "h_e",
+      "direction": "head"
+    },
+    {
+      "edge": "NADH16",
+      "node": "q8h2_c",
       "direction": "head"
     },
     {
@@ -3774,12 +3774,12 @@
     },
     {
       "edge": "NADTRHD",
-      "node": "nadp_c",
+      "node": "nadh_c",
       "direction": "head"
     },
     {
       "edge": "NADTRHD",
-      "node": "nadh_c",
+      "node": "nadp_c",
       "direction": "head"
     },
     {
@@ -3844,12 +3844,12 @@
     },
     {
       "edge": "PDH",
-      "node": "nadh_c",
+      "node": "co2_c",
       "direction": "head"
     },
     {
       "edge": "PDH",
-      "node": "co2_c",
+      "node": "nadh_c",
       "direction": "head"
     }
   ]
