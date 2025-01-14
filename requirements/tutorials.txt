@@ -1,4 +1,4 @@
-HypergraphAnalysisToolbox
+HypergraphAnalysisToolbox>=1.1.12
 hypergraphx
 hypernetx>=2.3.10
 networkx
@@ -7,4 +7,3 @@ requests
 jupyter>=1.0
 ipython<=8.12.0
 nx_hif
-rich
