@@ -1,3 +1,5 @@
+![Alt text](HIF_logo.svg)
+
 ## The Hypergraph Interchange Format (HIF) standard
 (Work-in-progress)
 
