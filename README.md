@@ -1,4 +1,6 @@
-![Alt text](HIF_logo.svg)
+<p align="center">
+  <img src="HIF_logo.svg" alt="Logo" width="200">
+</p>
 
 ## The Hypergraph Interchange Format (HIF) standard
 (Work-in-progress)
