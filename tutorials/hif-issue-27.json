@@ -1,0 +1,18 @@
+{
+    "incidences": [
+        {
+            "edge": 0,
+            "node": 1
+        },
+        {
+            "edge": 1,
+            "node": 0
+        },
+        {
+            "edge": 1,
+            "node": 1
+        }
+    ],
+    "nodes": [],
+    "edges": []
+}
