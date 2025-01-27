@@ -20,7 +20,6 @@ def validator():
 def empty():
     return json.load(open(f"{bad_json_dir}/empty.json", "r"))
 
-
 # test top-level
 @pytest.fixture
 def bad_top_level_field():
@@ -40,6 +39,10 @@ def metadata_as_list():
 @pytest.fixture
 def metadata_with_nested_attributes():
     return json.load(open(f"{good_json_dir}/metadata_with_nested_attributes.json", "r"))
+
+@pytest.fixture
+def metadata_with_deeply_nested_attributes():
+    return json.load(open(f"{good_json_dir}/metadata_with_deeply_nested_attributes.json", "r"))
 
 
 # test nodes
@@ -83,6 +86,9 @@ def single_incidence_with_weight_as_string():
 def empty_hypergraph():
     return json.load(open(f"{good_json_dir}/empty_hypergraph.json", "r"))
 
+@pytest.fixture
+def empty_arrays():
+    return json.load(open(f"{good_json_dir}/empty_arrays.json", "r"))
 
 # test nodes
 @pytest.fixture
@@ -133,6 +139,12 @@ def missing_required_field_incidence():
 def bad_node_float():
     return json.load(open(f"{bad_json_dir}/bad_node_float.json", "r"))
 
+### Tests for duplicated items
+
+@pytest.fixture
+def duplicated_nodes_edges():
+    return json.load(open(f"{good_json_dir}/duplicated_nodes_edges.json", "r"))
+
 
 ### Tests for directionality
 
@@ -141,53 +153,31 @@ import pytest
 @pytest.fixture
 def valid_direction_head():
     """Fixture for a valid incidence with direction 'head'."""
-    return {
-        "network-type": "directed",
-        "metadata": {},
-        "incidences": [{"edge": 1, "node": 2, "direction": "head"}]
-    }
+    return json.load(open(f"{good_json_dir}/valid_incidence_head.json", "r"))
 
 @pytest.fixture
 def valid_direction_tail():
     """Fixture for a valid incidence with direction 'tail'."""
-    return {
-        "network-type": "directed",
-        "metadata": {},
-        "incidences": [{"edge": 1, "node": 2, "direction": "tail"}]
-    }
+    return json.load(open(f"{good_json_dir}/valid_incidence_tail.json", "r"))
 
 @pytest.fixture
 def missing_direction():
     """Fixture for a valid incidence without the direction field."""
-    return {
-        "network-type": "directed",
-        "metadata": {},
-        "incidences": [{"edge": 1, "node": 2}]
-    }
+
+    # This should be a valid incidence unless the schema is updated to enforce the direction field
+    return json.load(open(f"{good_json_dir}/missing_direction.json", "r"))
 
 @pytest.fixture
 def invalid_direction_value():
     """Fixture for an invalid direction value."""
-    return {
-        "network-type": "directed",
-        "metadata": {},
-        "incidences": [{"edge": 1, "node": 2, "direction": "invalid_value"}]
-    }
+    return json.load(open(f"{bad_json_dir}/invalid_direction_value.json", "r"))
 
 @pytest.fixture
 def missing_required_fields_with_direction():
     """Fixture for incidences with direction but missing required fields."""
-    return {
-        "network-type": "directed",
-        "metadata": {},
-        "incidences": [{"direction": "head"}]
-    }
+    return json.load(open(f"{bad_json_dir}/missing_required_fields_with_direction.json", "r"))
 
 @pytest.fixture
 def extra_fields_with_direction():
     """Fixture for incidences with extra fields."""
-    return {
-        "network-type": "directed",
-        "metadata": {},
-        "incidences": [{"edge": 1, "node": 2, "direction": "head", "extra_field": "value"}]
-    }
+    return json.load(open(f"{bad_json_dir}/extra_fields_with_direction.json", "r"))
