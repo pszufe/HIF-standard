@@ -1,0 +1,9 @@
+{
+    "network-type": "undirected",
+    "nodes": [
+        {
+            "node": 1.23
+        }
+    ],
+    "incidences": [{"edge": 1, "node": 2}]
+}

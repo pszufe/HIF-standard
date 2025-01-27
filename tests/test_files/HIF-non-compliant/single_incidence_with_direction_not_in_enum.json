@@ -1,0 +1,4 @@
+{
+    "network-type": "directed",
+    "incidences": [{"edge": 1, "node": 2, "direction": "side"}]
+}
