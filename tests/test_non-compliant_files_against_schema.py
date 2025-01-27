@@ -72,3 +72,18 @@ def test_missing_required_field_incidence(validator, missing_required_field_inci
 def test_bad_node_float(validator, bad_node_float):
     with pytest.raises(ValueError):
         validator(bad_node_float)
+
+def test_invalid_direction_value(validator, invalid_direction_value):
+    """Test an invalid direction value."""
+    with pytest.raises(Exception):
+        validator(invalid_direction_value)
+
+def test_missing_required_fields_with_direction(validator, missing_required_fields_with_direction):
+    """Test incidences with direction but missing required fields."""
+    with pytest.raises(Exception): 
+        validator(missing_required_fields_with_direction)
+
+def test_extra_fields_with_direction(validator, extra_fields_with_direction):
+    """Test incidences with extra fields."""
+    with pytest.raises(Exception): 
+        validator(extra_fields_with_direction)

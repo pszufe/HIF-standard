@@ -133,3 +133,61 @@ def missing_required_field_incidence():
 def bad_node_float():
     return json.load(open(f"{bad_json_dir}/bad_node_float.json", "r"))
 
+
+### Tests for directionality
+
+import pytest
+
+@pytest.fixture
+def valid_direction_head():
+    """Fixture for a valid incidence with direction 'head'."""
+    return {
+        "network-type": "directed",
+        "metadata": {},
+        "incidences": [{"edge": 1, "node": 2, "direction": "head"}]
+    }
+
+@pytest.fixture
+def valid_direction_tail():
+    """Fixture for a valid incidence with direction 'tail'."""
+    return {
+        "network-type": "directed",
+        "metadata": {},
+        "incidences": [{"edge": 1, "node": 2, "direction": "tail"}]
+    }
+
+@pytest.fixture
+def missing_direction():
+    """Fixture for a valid incidence without the direction field."""
+    return {
+        "network-type": "directed",
+        "metadata": {},
+        "incidences": [{"edge": 1, "node": 2}]
+    }
+
+@pytest.fixture
+def invalid_direction_value():
+    """Fixture for an invalid direction value."""
+    return {
+        "network-type": "directed",
+        "metadata": {},
+        "incidences": [{"edge": 1, "node": 2, "direction": "invalid_value"}]
+    }
+
+@pytest.fixture
+def missing_required_fields_with_direction():
+    """Fixture for incidences with direction but missing required fields."""
+    return {
+        "network-type": "directed",
+        "metadata": {},
+        "incidences": [{"direction": "head"}]
+    }
+
+@pytest.fixture
+def extra_fields_with_direction():
+    """Fixture for incidences with extra fields."""
+    return {
+        "network-type": "directed",
+        "metadata": {},
+        "incidences": [{"edge": 1, "node": 2, "direction": "head", "extra_field": "value"}]
+    }

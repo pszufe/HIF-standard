@@ -40,3 +40,18 @@ def test_single_incidence_with_weights(validator, single_incidence_with_weights)
 
 def test_single_incidence_with_attrs(validator, single_incidence_with_attrs):
     validator(single_incidence_with_attrs)
+
+
+def test_valid_direction_head(validator, valid_direction_head):
+    """Test a valid incidence with direction 'head'."""
+    validator(valid_direction_head)
+
+
+def test_valid_direction_tail(validator, valid_direction_tail):
+    """Test a valid incidence with direction 'tail'."""
+    validator(valid_direction_tail)
+
+
+def test_missing_direction(validator, missing_direction):
+    """Test a valid incidence without the direction field."""
+    validator(missing_direction)
