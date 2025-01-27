@@ -116,3 +116,15 @@ def single_incidence_with_weights():
 @pytest.fixture
 def single_incidence_with_attrs():
     return json.load(open(f"{good_json_dir}/single_incidence_with_attrs.json", "r"))
+
+@pytest.fixture
+def single_incidence_with_direction_not_in_enum():
+    return json.load(open(f"{bad_json_dir}/single_incidence_with_direction_not_in_enum.json", "r"))
+
+@pytest.fixture
+def missing_required_field_incidence():
+    return json.load(open(f"{bad_json_dir}/missing_required_field_incidence.json", "r"))
+
+@pytest.fixture
+def bad_node_float():
+    return json.load(open(f"{bad_json_dir}/bad_node_float.json", "r"))

@@ -58,3 +58,17 @@ def test_single_incidence_with_weight_as_string(
 ):
     with pytest.raises(ValueError):
         validator(single_incidence_with_weight_as_string)
+
+def test_single_incidence_with_direction_not_in_enum(
+    validator, single_incidence_with_direction_not_in_enum
+):
+    with pytest.raises(ValueError):
+        validator(single_incidence_with_direction_not_in_enum)
+
+def test_missing_required_field_incidence(validator, missing_required_field_incidence):
+    with pytest.raises(ValueError):
+        validator(missing_required_field_incidence)
+
+def test_bad_node_float(validator, bad_node_float):
+    with pytest.raises(ValueError):
+        validator(bad_node_float)
