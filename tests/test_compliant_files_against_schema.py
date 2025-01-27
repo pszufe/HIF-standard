@@ -7,6 +7,8 @@ def test_empty_hypergraph(validator, empty_hypergraph):
 
 
 # test metadata
+def test_nested_attributes_validation(validator, metadata_with_nested_attributes):
+    validator(metadata_with_nested_attributes)
 
 
 # test nodes

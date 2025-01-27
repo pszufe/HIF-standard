@@ -37,6 +37,10 @@ def bad_network_type():
 def metadata_as_list():
     return json.load(open(f"{bad_json_dir}/metadata_as_list.json", "r"))
 
+@pytest.fixture
+def metadata_with_nested_attributes():
+    return json.load(open(f"{good_json_dir}/metadata_with_nested_attributes.json", "r"))
+
 
 # test nodes
 @pytest.fixture
@@ -128,3 +132,4 @@ def missing_required_field_incidence():
 @pytest.fixture
 def bad_node_float():
     return json.load(open(f"{bad_json_dir}/bad_node_float.json", "r"))
+
