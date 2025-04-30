@@ -22,20 +22,20 @@ This repository is organized into the following folders:
 ### Structure
 The HIF standard specifies the following JSON file structure:
 
-* `network-type` (optional): `asc`, `directed`, or `undirected`
-* `metadata` (optional): A dictionary-like set of network-level attributes
-* `incidences` (required): A list of records, where each record is an incidence. Each incidence is a dictionary-like oject which may contain the following fields:
-  * `node` (required): the node ID
-  * `edge` (required): the edge ID
-  * `weight` (optional): the incidence weight
-  * `direction` (optional): `head` or `tail` if the hyperedge is a directed hyperedge
-  * `attrs` (optional): a dictionary-like object of all the miscellaneous incidence properties
-* `nodes` (optional): A list of records, where each record is an node entry. Each entry is a dictionary-like object which may contain the following fields:
-  * `node` (required): the node ID
-  * `attrs` (optional): a dictionary-like object of all the miscellaneous nodal properties
-* `edges` (optional): A list of records, where each record is an edge entry. Each entry is a dictionary-like object which may contain the following fields:
-  * `edge` (required): the edge ID
-  * `attrs` (optional): a dictionary-like object of all the miscellaneous edge properties
+* `"network-type"` (optional): `"asc"`, `"directed"`, or `"undirected"`
+* `"metadata"` (optional): A dictionary-like set of network-level attributes
+* `"incidences"` (required): A list of records, where each record is an incidence. Each incidence is a dictionary-like oject which may contain the following fields:
+  * `"node"` (required): the node ID
+  * `"edge"` (required): the edge ID
+  * `"weight"` (optional): the incidence weight as an integer or floating point number
+  * `"direction"` (optional): `"head"` or `"tail"` if the hyperedge is a directed hyperedge
+  * `"attrs"` (optional): a dictionary-like object of all the miscellaneous incidence properties
+* `"nodes"` (optional): A list of records, where each record is an node entry. Each entry is a dictionary-like object which may contain the following fields:
+  * `"node"` (required): the node ID
+  * `"attrs"` (optional): a dictionary-like object of all the miscellaneous nodal properties
+* `"edges"` (optional): A list of records, where each record is an edge entry. Each entry is a dictionary-like object which may contain the following fields:
+  * `"edge"` (required): the edge ID
+  * `"attrs"` (optional): a dictionary-like object of all the miscellaneous edge properties
 
 ### Notes
 * All fields are optional except for "incidences". 
@@ -55,7 +55,11 @@ url = "https://raw.githubusercontent.com/pszufe/HIF-standard/main/schemas/hif_sc
 schema = requests.get(url).json()
 validator = fastjsonschema.compile(schema)
 hiftext = json.load(open(filename,'r'))
-validator(hiftext)
+try:
+  validator(hiftext)
+  print("HIF-Compliant JSON.")
+except Exception as e:
+   print(f"Invalid JSON: {e}")
 ```
 
 ### R
@@ -63,16 +67,15 @@ validator(hiftext)
 library(jsonvalidate)
 library(jsonlite)
 
-url <- "https://raw.githubusercontent.com/pszufe/HIF-standard/main/schemas/hif_schema_v0.1.0.json"
-schema <- paste(
-    readLines(url, warn = FALSE),
-    collapse = "\n"
-)
-validator <- json_validator(
-    schema,
-    engine="ajv"
-)
-validator(filename, verbose = TRUE)
+url = "https://raw.githubusercontent.com/pszufe/HIF-standard/main/schemas/hif_schema_v0.1.0.json"
+
+schema <- paste(readLines(url, warn = FALSE))
+validator <- json_validator(schema)
+if (validator(filepath)) {
+    print("HIF-Compliant JSON.")
+} else {
+    print("Invalid JSON.")
+}
 ```
 
 ### Julia
