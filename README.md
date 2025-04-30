@@ -22,13 +22,13 @@ This repository is organized into the following folders:
 ### Structure
 The HIF standard specifies the following JSON file structure:
 
-* `network-type` (optional): "asc, "directed", or "undirected""
+* `network-type` (optional): `asc`, `directed`, or `undirected`
 * `metadata` (optional): A dictionary-like set of network-level attributes
 * `incidences` (required): A list of records, where each record is an incidence. Each incidence is a dictionary-like oject which may contain the following fields:
   * `node` (required): the node ID
   * `edge` (required): the edge ID
   * `weight` (optional): the incidence weight
-  * `direction` (optional): if the hyperedge is a directed hyperedge
+  * `direction` (optional): `head` or `tail` if the hyperedge is a directed hyperedge
   * `attrs` (optional): a dictionary-like object of all the miscellaneous incidence properties
 * `nodes` (optional): A list of records, where each record is an node entry. Each entry is a dictionary-like object which may contain the following fields:
   * `node` (required): the node ID
@@ -41,7 +41,7 @@ The HIF standard specifies the following JSON file structure:
 * All fields are optional except for "incidences". 
 * If a hypergraph is directed, the edge direction will be contained in the incidences record with keyword "direction".
 * Isolated nodes and empty edges can be specified with entries in "nodes" and "edges" which are not present in the incidences.
-* This schema explicitly describes all items in the schema using json objects and typing. This is a verbose presentation making it faster to instantiate than list-based schemas requiring a parser.
+* This schema explicitly describes all items in the schema using JSON objects and typing. This is a verbose presentation making it faster to instantiate than list-based schemas requiring a parser.
 
 ## Validate files against HIF standard
 
@@ -104,7 +104,7 @@ The authors, co-authors, or contributors of the following software libraries are
 
 ## Contributors
 This project is an ongoing colaborative work of the following people (alphabetical order):
-* [Martín Coll](https://about.me/mcoll)  (University of Buenos Aires)
+* [Martín Coll](https://github.com/colltoaction)  (University of Buenos Aires)
 * [Cliff Joslyn](https://www.pnnl.gov/people/cliff-joslyn) (Pacific Northwest National Laboratory)
 * [Nicholas Landry](https://nwlandry.com/) (University of Virginia)
 * [Francesco Lotito](https://scholar.google.it/citations?user=_r_zQAwAAAAJ&hl=en) (University of Trento)
