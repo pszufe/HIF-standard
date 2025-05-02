@@ -3,7 +3,7 @@ import json
 import fastjsonschema
 import pytest
 
-schema = "schemas/schema.json"
+schema = "schemas/hif_schema.json"
 bad_json_dir = "tests/test_files/HIF-non-compliant"
 good_json_dir = "tests/test_files/HIF-compliant"
 
