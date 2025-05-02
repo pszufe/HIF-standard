@@ -1,4 +1,4 @@
 # Changelog
 
-## v0.1.0  
+## v0.0  
 Initial schema for the Hypergraph Interchange Format (HIF) standard.
