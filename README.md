@@ -12,7 +12,7 @@ The Hypergraph Interchange Format (HIF) is a standard for higher-order network d
 This repository is organized into the following folders:
 
 * `requirements`: This folder contains a list of all dependencies used in this project.
-* `schemas`: This folder contains all schemas used for specifying the HIF standard. For details of what has changed with each version, see the [CHANGELOG](/schemas/CHANGLEOG.md).
+* `schemas`: This folder contains all schemas used for specifying the HIF standard. For details of what has changed with each version, see the [CHANGELOG](/schemas/CHANGELOG.md).
 * `src`: This folder contains addition functionality for checking against the HIF specification.
 * `tests`: This folder contains all of the unit tests used for validating the schema against known compliant and non-compliant datasets.
 * `tutorials`: This folder contains tutorials detailing how each library uses the HIF standard and how the HIF standard allows seamless integration between libraries. For details of its contents, see the [README](/tutorials/TUTORIALS.md).
