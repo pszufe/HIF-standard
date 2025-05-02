@@ -51,7 +51,7 @@ import fastjsonschema
 import json
 import requests
 
-url = "https://raw.githubusercontent.com/pszufe/HIF-standard/main/schemas/hif_schema_v0.1.0.json"
+url = "https://raw.githubusercontent.com/pszufe/HIF-standard/main/schemas/schema.json"
 schema = requests.get(url).json()
 validator = fastjsonschema.compile(schema)
 hiftext = json.load(open(filename,'r'))
@@ -67,7 +67,7 @@ except Exception as e:
 library(jsonvalidate)
 library(jsonlite)
 
-url = "https://raw.githubusercontent.com/pszufe/HIF-standard/main/schemas/hif_schema_v0.1.0.json"
+url = "https://raw.githubusercontent.com/pszufe/HIF-standard/main/schemas/schema.json"
 
 schema <- paste(readLines(url, warn = FALSE))
 validator <- json_validator(schema)
@@ -84,7 +84,7 @@ using HTTP
 using JSON3
 using JSONSchema
 
-url = "https://raw.githubusercontent.com/pszufe/HIF-standard/main/schemas/hif_schema_v0.1.0.json"
+url = "https://raw.githubusercontent.com/pszufe/HIF-standard/main/schemas/schema.json"
 
 schema = String(HTTP.get(url).body)
 validator = Schema(schema)
