@@ -1,6 +1,6 @@
 # List of tutorials
 
-`integration.ipynb`: This tutorial demonstrates how to use the HIF standard to facilitate data exchange between different libraries.
+`HIF-demo.ipynb`: This tutorial demonstrates how to use the HIF standard to facilitate data exchange between different libraries. It is used to replicate the use case experiment in the paper.
 
 These tutorials demonstrate how to use the HIF functionality available in
 
