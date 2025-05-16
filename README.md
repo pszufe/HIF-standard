@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="HIF_logo.svg" alt="Logo" width="300">
+  <img src="logo/logo.svg" alt="Logo" width="300">
 </p>
 
 # The Hypergraph Interchange Format (HIF) standard
