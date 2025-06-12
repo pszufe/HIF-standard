@@ -1,10 +1,11 @@
 HypergraphAnalysisToolbox>=1.1.12
 hypergraphx
 hypernetx>=2.3.10
+julia
 networkx
-xgi>=0.9.1
 requests
 jupyter>=1.0
 ipython<=8.12.0
 nx_hif
 toponetx
+xgi>=0.9.1
