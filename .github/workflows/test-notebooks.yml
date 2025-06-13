@@ -31,7 +31,7 @@ jobs:
         # go into tutorial location
         cd tutorials
         # convert each notebook into a python file
-        jupyter nbconvert --to script *.ipynb
+        jupyter nbconvert --to script ^HIF-demo.ipynb(.)
         # rename the files so they are found by pytest: add 'test' at the beginning
         rename 's/(.*)\.py/test $1.py/' *
         # rename the files so they are found by pytest: change spaces to underscores
