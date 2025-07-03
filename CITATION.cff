@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Hypergraph Interchange Format (HIF)"
+authors:
+  - family-names: Coll
+    given-names: Martín
+  - family-names: Joslyn
+    given-names: Cliff A.
+  - family-names: Landry
+    given-names: Nicholas W.
+  - family-names: Lotito
+    given-names: Quintino Francesco
+  - family-names: Myers
+    given-names: Audun
+  - family-names: Pickard
+    given-names: Joshua
+  - family-names: Praggastis
+    given-names: Brenda
+  - family-names: Szufel
+    given-names: Przemyslaw
+date-released: 2025-07-07
+version: "0.1.0"
+license: "MIT"
+repository-code: "https://github.com/pszufe/HIF-standard"
