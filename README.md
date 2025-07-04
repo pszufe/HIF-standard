@@ -115,4 +115,4 @@ This project is an ongoing colaborative work of the following people (alphabetic
 * [Francesco Lotito](https://scholar.google.it/citations?user=_r_zQAwAAAAJ&hl=en) (University of Trento)
 * [Audun Myers](https://www.audunmyers.com/) (Pacific Northwest National Laboratory) 
 * [Brenda Praggastis](https://www.pnnl.gov/people/brenda-praggastis)  (Pacific Northwest National Laboratory)
-* [Przemyslaw Szufel](https://szufel.pl/) (SGH Warsaw School of Economics)
+* [Przemysław Szufel](https://szufel.pl/) (SGH Warsaw School of Economics)
