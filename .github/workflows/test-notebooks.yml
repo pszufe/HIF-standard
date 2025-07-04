@@ -32,7 +32,7 @@ jobs:
         cd tutorials
         # convert each notebook into a python file
         for f in *.ipynb; do
-          if [[ "$f" == "nx.ipynb" ]]; then
+          if [[ "$f" == "HAT.ipynb" ]]; then
             jupyter nbconvert --to script "$f"
           fi
         done
