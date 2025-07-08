@@ -104,6 +104,7 @@ println(
 The authors, co-authors, or contributors of the following software libraries are represented:
 * [HypergraphX](https://github.com/HGX-Team/hypergraphx) (Python)
 * [HyperNetX](https://github.com/pnnl/HyperNetX) (Python)
+* [HAT](https://github.com/Jpickard1/Hypergraph-Analysis-Toolbox) (Python) 
 * [SimpleHypergraphs.jl](https://github.com/pszufe/SimpleHypergraphs.jl) (Julia)
 * [XGI](https://github.com/xgi-org/xgi) (Python)
 
@@ -114,5 +115,6 @@ This project is an ongoing colaborative work of the following people (alphabetic
 * [Nicholas Landry](https://nwlandry.com/) (University of Virginia)
 * [Francesco Lotito](https://scholar.google.it/citations?user=_r_zQAwAAAAJ&hl=en) (University of Trento)
 * [Audun Myers](https://www.audunmyers.com/) (Pacific Northwest National Laboratory) 
+* [Joshua Pickard](https://github.com/Jpickard1) (University of Michigan) 
 * [Brenda Praggastis](https://www.pnnl.gov/people/brenda-praggastis)  (Pacific Northwest National Laboratory)
 * [Przemysław Szufel](https://szufel.pl/) (SGH Warsaw School of Economics)
