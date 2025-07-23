@@ -118,3 +118,17 @@ This project is an ongoing colaborative work of the following people (alphabetic
 * [Joshua Pickard](https://github.com/Jpickard1) (University of Michigan) 
 * [Brenda Praggastis](https://www.pnnl.gov/people/brenda-praggastis)  (Pacific Northwest National Laboratory)
 * [Przemysław Szufel](https://szufel.pl/) (SGH Warsaw School of Economics)
+
+## How to Cite
+You can cite the Hypergraph Interchange Format paper [arXiv:2507.11520](https://arxiv.org/abs/2507.11520) by copying the following BibTeX entry:
+```bibtex
+@misc{coll2025hifhypergraphinterchangeformat,
+      title={HIF: The hypergraph interchange format for higher-order networks}, 
+      author={Martín Coll and Cliff A. Joslyn and Nicholas W. Landry and Quintino Francesco Lotito and Audun Myers and Joshua Pickard and Brenda Praggastis and Przemysław Szufel},
+      year={2025},
+      eprint={2507.11520},
+      archivePrefix={arXiv},
+      primaryClass={physics.soc-ph},
+      url={https://arxiv.org/abs/2507.11520}, 
+}
+```
