@@ -32,9 +32,7 @@ jobs:
         cd tutorials
         # convert each notebook into a python file
         for f in *.ipynb; do
-          if [[ "$f" == "tnx.ipynb" ]]; then
-            jupyter nbconvert --to script "$f"
-          fi
+          jupyter nbconvert --to script "$f"
         done
         # rename the files so they are found by pytest: add 'test' at the beginning
         rename 's/(.*)\.py/test $1.py/' *
