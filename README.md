@@ -132,3 +132,7 @@ You can cite the Hypergraph Interchange Format paper [arXiv:2507.11520](https://
       url={https://arxiv.org/abs/2507.11520}, 
 }
 ```
+
+## Projects using HIF
+* [A Blue Start: A large-scale pairwise and higher-order social network dataset](https://arxiv.org/abs/2505.11608)
+* [Efficient Gillespie algorithms for spreading phenomena in large and heterogeneous higher-order networks](https://arxiv.org/abs/2509.20174)
