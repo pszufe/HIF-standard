@@ -6,6 +6,6 @@ networkx
 requests
 jupyter>=1.0
 ipython<=8.12.0
-nx_hif
+nx_hif==0.0.6
 toponetx
 xgi>=0.9.1
