@@ -107,6 +107,8 @@ The authors, co-authors, or contributors of the following software libraries are
 * [HAT](https://github.com/Jpickard1/Hypergraph-Analysis-Toolbox) (Python) 
 * [SimpleHypergraphs.jl](https://github.com/pszufe/SimpleHypergraphs.jl) (Julia)
 * [XGI](https://github.com/xgi-org/xgi) (Python)
+* [Hypergraph-DB](https://github.com/iMoonLab/Hypergraph-DB) (Python)
+* [HypergraphViewer](https://github.com/yuxizhe/HypergraphViewer) (Javascript)
 
 ## Contributors
 This project is an ongoing colaborative work of the following people (alphabetical order):
@@ -118,6 +120,7 @@ This project is an ongoing colaborative work of the following people (alphabetic
 * [Joshua Pickard](https://github.com/Jpickard1) (University of Michigan) 
 * [Brenda Praggastis](https://www.pnnl.gov/people/brenda-praggastis)  (Pacific Northwest National Laboratory)
 * [Przemysław Szufel](https://szufel.pl/) (SGH Warsaw School of Economics)
+* [Xizhe Yu](https://github.com/yuxizhe) (Tsinghua University)
 
 ## How to Cite
 You can cite the Hypergraph Interchange Format paper [arXiv:2507.11520](https://arxiv.org/abs/2507.11520) by copying the following BibTeX entry:

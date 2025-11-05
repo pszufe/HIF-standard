@@ -10,3 +10,4 @@ These tutorials demonstrate how to use the HIF functionality available in
 * `nx.ipynb`: nx_hif
 * `tnx.ipynb`: TopoNetX
 * `xgi.ipynb`: XGI
+* `Hypergraph-DB.ipynb`: Hypergraph-DB
