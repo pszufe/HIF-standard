@@ -25,3 +25,6 @@ jobs:
 
         # choose if the force pass or not
         force_pass : false
+
+        # there is a bug parsing the URL in ipynb so ignore
+        exclude_urls: https://github.com/AleksanderWWW/SimpleHypergraphs.jl.git\
