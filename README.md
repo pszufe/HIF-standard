@@ -7,6 +7,7 @@
 # The Hypergraph Interchange Format (HIF) standard
 
 The Hypergraph Interchange Format (HIF) is a standard for higher-order network data to facilitate seamless data exchange between higher-order network libraries. 
+For discussion see the *Network Science* paper [HIF: The hypergraph interchange format for higher-order networks](https://doi.org/10.1017/nws.2025.10018)
 
 ## Repository structure
 
@@ -120,19 +121,20 @@ This project is an ongoing colaborative work of the following people (alphabetic
 * [Przemysław Szufel](https://szufel.pl/) (SGH Warsaw School of Economics)
 
 ## How to Cite
-You can cite the Hypergraph Interchange Format paper [arXiv:2507.11520](https://arxiv.org/abs/2507.11520) by copying the following BibTeX entry:
+You can cite the Hypergraph Interchange Format, the *Network Science* paper [HIF: The hypergraph interchange format for higher-order networks](https://doi.org/10.1017/nws.2025.10018) by copying the following BibTeX entry:
 ```bibtex
-@misc{coll2025hifhypergraphinterchangeformat,
-      title={HIF: The hypergraph interchange format for higher-order networks}, 
-      author={Martín Coll and Cliff A. Joslyn and Nicholas W. Landry and Quintino Francesco Lotito and Audun Myers and Joshua Pickard and Brenda Praggastis and Przemysław Szufel},
-      year={2025},
-      eprint={2507.11520},
-      archivePrefix={arXiv},
-      primaryClass={physics.soc-ph},
-      url={https://arxiv.org/abs/2507.11520}, 
-}
+@article{Coll_Joslyn_Landry_Lotito_Myers_Pickard_Praggastis_Szufel_2025,
+    title={HIF: The hypergraph interchange format for higher-order networks},
+    volume={13},
+    DOI={10.1017/nws.2025.10018},
+    journal={Network Science},
+    author={Coll, Martín and Joslyn, Cliff A. and Landry, Nicholas W. and Lotito, Quintino Francesco and Myers, Audun and Pickard, Joshua and Praggastis, Brenda and Szufel, Przemysław},
+    year={2025},
+    pages={e21}
+} 
 ```
 
 ## Projects using HIF
 * [A Blue Start: A large-scale pairwise and higher-order social network dataset](https://arxiv.org/abs/2505.11608)
 * [Efficient Gillespie algorithms for spreading phenomena in large and heterogeneous higher-order networks](https://arxiv.org/abs/2509.20174)
+To add your project name and url to thr list just [click here](https://github.com/pszufe/HIF-standard/issues/new) and open a GitHub issue 
