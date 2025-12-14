@@ -7,7 +7,7 @@
 # The Hypergraph Interchange Format (HIF) standard
 
 The Hypergraph Interchange Format (HIF) is a standard for higher-order network data to facilitate seamless data exchange between higher-order network libraries. 
-For discussion see the *Network Science* paper [HIF: The hypergraph interchange format for higher-order networks](https://doi.org/10.1017/nws.2025.10018)
+For the reference see the *Network Science* paper [HIF: The hypergraph interchange format for higher-order networks](https://doi.org/10.1017/nws.2025.10018).
 
 ## Repository structure
 
@@ -138,4 +138,4 @@ You can cite the Hypergraph Interchange Format, the *Network Science* paper [HIF
 * [A Blue Start: A large-scale pairwise and higher-order social network dataset](https://arxiv.org/abs/2505.11608)
 * [Efficient Gillespie algorithms for spreading phenomena in large and heterogeneous higher-order networks](https://arxiv.org/abs/2509.20174)
   
-To add your project name and url to thr list just [click here](https://github.com/pszufe/HIF-standard/issues/new) and open a GitHub issue 
+To add your project name and url to the list just [click here](https://github.com/pszufe/HIF-standard/issues/new) and open a GitHub issue.
