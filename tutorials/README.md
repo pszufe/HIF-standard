@@ -6,6 +6,7 @@
 These tutorials demonstrate how to use the HIF functionality available:
 - EasyGraph  [`EG.ipynb`](EG.ipynb)
 - Hypergraph Analysis Toolbox (HAT)  [`HAT.ipynb`](HAT.ipynb)
+- HypergraphViewer (web app, no installation)  [`HypergraphViewer.md`](HypergraphViewer.md)
 - Hypergraphx  [`hgx.ipynb`](hgx.ipynb)
 - HyperNetX   [`hnx.ipynb`](hnx.ipynb)
 - SimpleHypergraphs.jl [`HIF-SimpleHypergraphs-demo.ipynb`](HIF-SimpleHypergraphs-demo.ipynb)
